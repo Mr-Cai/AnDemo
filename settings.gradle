@@ -1,0 +1,2 @@
+include ':app', ':camera', ':tencent_ads', ':GDTSDK.tbs.4.80.950'
+rootProject.name='AnDemo'

@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('GDTSDK.tbs.4.80.950.aar'))
