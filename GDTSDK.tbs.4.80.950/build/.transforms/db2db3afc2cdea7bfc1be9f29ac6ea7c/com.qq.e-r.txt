@@ -1,0 +1,23 @@
+com.qq.e
+drawable gdt_ic_back
+drawable gdt_ic_browse
+drawable gdt_ic_download
+drawable gdt_ic_enter_fullscreen
+drawable gdt_ic_exit_fullscreen
+drawable gdt_ic_express_back_to_port
+drawable gdt_ic_express_close
+drawable gdt_ic_express_enter_fullscreen
+drawable gdt_ic_express_pause
+drawable gdt_ic_express_play
+drawable gdt_ic_express_volume_off
+drawable gdt_ic_express_volume_on
+drawable gdt_ic_pause
+drawable gdt_ic_play
+drawable gdt_ic_progress_thumb_normal
+drawable gdt_ic_replay
+drawable gdt_ic_seekbar_background
+drawable gdt_ic_seekbar_progress
+drawable gdt_ic_volume_off
+drawable gdt_ic_volume_on
+string app_name
+xml gdt_file_path
