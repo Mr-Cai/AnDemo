@@ -1,0 +1,41 @@
+-keep class com.qq.e.** {
+    public protected *;
+}
+-keep class android.support.v4.**{
+    public *;
+}
+
+-keep class androidx.**{
+    public *;
+}
+-keep class androidx.appcompat.**{
+    public *;
+}
+
+-keep class androidx.mediarouter.**{
+    public *;
+}
+
+-keep class androidx.cardview.**{
+    public *;
+}
+
+-keep class androidx.palette.**{
+    public *;
+}
+
+-keep class androidx.gridlayout.**{
+    public *;
+}
+
+-keep class androidx.preference.**{
+    public *;
+}
+-keep class MTT.ThirdAppInfoNew {
+    *;
+}
+-keep class com.tencent.** {
+    *;
+}
+-dontwarn dalvik.**
+-dontwarn com.tencent.smtt.**
