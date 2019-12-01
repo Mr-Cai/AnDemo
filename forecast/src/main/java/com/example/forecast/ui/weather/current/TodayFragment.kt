@@ -2,13 +2,16 @@ package com.example.forecast.ui.weather.current
 
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.forecast.R
+import com.example.forecast.R.string.*
+import com.example.forecast.internal.GlideApp
 import com.example.forecast.ui.base.ScopeFragment
-import kotlinx.android.synthetic.main.week_fragment.*
-import kotlinx.coroutines.GlobalScope
+import kotlinx.android.synthetic.main.today_fragment.*
 import kotlinx.coroutines.launch
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.closestKodein
@@ -35,8 +38,56 @@ class TodayFragment : ScopeFragment(), KodeinAware {
         val nowWeather = viewModel.weather.await()
         nowWeather.observe(this@TodayFragment, Observer {
             if (it == null) return@Observer
-            textView.text = it.toString()
+            loadingBar.visibility = View.GONE
+            loadingTxT.visibility = View.GONE
+            updateLocationTitle("深圳")
+            updateDateSubTitle()
+            updateTemperatures(it.temperature, it.feelTemp)
+            updateCondition(it.conditionDesc)
+            updatePrecipitation(it.precipitation)
+            updateWind(it.windSpeed, it.windDir)
+            updateVisibility(it.visibility)
+            GlideApp.with(this@TodayFragment)
+                .load("https://cdn.heweather.com/cond_icon/${it.conditionCode}.png")
+                .into(condIconPic)
         })
     }
 
+    private fun chooseUnitAbbreviation(metric: String, imperial: String) =
+        if (viewModel.isMetric) metric else imperial
+
+    private fun formatString(resID: Int, vararg args: Any?) =
+        String.format(getString(resID), *args)
+
+    private fun updateLocationTitle(location: String) {
+        (activity as AppCompatActivity).supportActionBar!!.title = location
+    }
+
+    private fun updateDateSubTitle() {
+        (activity as AppCompatActivity).supportActionBar!!.subtitle = "今日"
+    }
+
+    private fun updateTemperatures(temp: String, feel: String) {
+        val unit = chooseUnitAbbreviation("℃", "℉")
+        nowTempTxT.text = formatString(temperature, temp, unit)
+        feelTempTxT.text = formatString(fell_temperature, feel, unit)
+    }
+
+    private fun updateCondition(condition: String) {
+        condTxT.text = condition
+    }
+
+    private fun updateWind(windSpeed: String, windDir: String) {
+        val unit = chooseUnitAbbreviation("km/h", "mile/h")
+        windDesc.text = formatString(wind_desc, windSpeed, unit, windDir)
+    }
+
+    private fun updatePrecipitation(precipitation: String) {
+        precipitationTxT.text = formatString(precipitation_txt, precipitation, "mm")
+    }
+
+    private fun updateVisibility(visibility: String) {
+        val unit = chooseUnitAbbreviation("km", "mile")
+        visibilityTxT.text = formatString(visibility_txt, visibility, unit)
+    }
 }

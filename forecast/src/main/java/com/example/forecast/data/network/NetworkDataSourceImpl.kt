@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import com.example.forecast.data.TAG
 import com.example.forecast.data.WeatherResponse.WeatherSet.Now
 import com.example.forecast.data.WeatherService
-import com.example.forecast.data.internal.NoConnectivityException
+import com.example.forecast.internal.NoConnectivityException
 
 class NetworkDataSourceImpl(
     private val weatherService: WeatherService

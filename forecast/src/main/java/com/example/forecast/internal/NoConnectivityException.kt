@@ -1,4 +1,4 @@
-package com.example.forecast.data.internal
+package com.example.forecast.internal
 
 import java.io.IOException
 

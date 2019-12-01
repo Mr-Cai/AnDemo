@@ -6,7 +6,7 @@ import android.net.NetworkCapabilities.NET_CAPABILITY_INTERNET
 import android.os.Build.VERSION.SDK_INT
 import android.os.Build.VERSION_CODES.M
 import androidx.annotation.RequiresApi
-import com.example.forecast.data.internal.NoConnectivityException
+import com.example.forecast.internal.NoConnectivityException
 import okhttp3.Interceptor
 import okhttp3.Response
 
