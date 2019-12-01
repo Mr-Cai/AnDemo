@@ -28,9 +28,7 @@ interface WeatherService {
     ): Deferred<WeatherResponse>
 
     companion object {
-        operator fun invoke(
-            connectivityInterceptor: NetworkInterceptor
-        ): WeatherService {
+        operator fun invoke(networkInterceptor: NetworkInterceptor): WeatherService {
             val requestInterceptor = Interceptor { chain ->
                 val url = chain.request()
                     .url()
@@ -45,7 +43,7 @@ interface WeatherService {
             }
             val okHttpClient = OkHttpClient.Builder()
                 .addInterceptor(requestInterceptor)
-                .addInterceptor(connectivityInterceptor)
+                .addInterceptor(networkInterceptor)
                 .build()
             return Retrofit.Builder()
                 .client(okHttpClient)

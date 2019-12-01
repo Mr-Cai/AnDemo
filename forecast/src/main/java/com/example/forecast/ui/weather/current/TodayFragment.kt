@@ -1,6 +1,5 @@
 package com.example.forecast.ui.weather.current
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -32,7 +31,6 @@ class TodayFragment : Fragment() {
         return inflater.inflate(R.layout.today_fragment, container, false)
     }
 
-    @SuppressLint("SetTextI18n")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(TodayViewModel::class.java)
