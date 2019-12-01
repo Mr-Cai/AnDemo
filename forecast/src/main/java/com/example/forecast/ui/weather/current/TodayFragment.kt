@@ -6,9 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.forecast.R
 import com.example.forecast.data.WeatherService
+import com.example.forecast.data.network.NetworkDataSourceImpl
+import com.example.forecast.data.network.NetworkInterceptorImpl
 import kotlinx.android.synthetic.main.week_fragment.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -33,11 +36,13 @@ class TodayFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(TodayViewModel::class.java)
-        val weatherService = WeatherService()
+        val weatherService = WeatherService(NetworkInterceptorImpl(this.context!!))
+        val weatherDataSource = NetworkDataSourceImpl(weatherService)
+        weatherDataSource.downloaderNowWeather.observe(this, Observer {
+            textView.text = it.toString()
+        })
         GlobalScope.launch(Dispatchers.Main) {
-            val todayWeather = weatherService.getTodayWeatherAsync("深圳").await()
-//            textView.text = "今日温度:${todayWeather.weatherSet[0].now.feelTemp}"
-            textView.text = todayWeather.toString()
+            weatherDataSource.getTodayWeatherAsync("深圳")
         }
     }
 

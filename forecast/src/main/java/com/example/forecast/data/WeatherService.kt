@@ -1,5 +1,6 @@
 package com.example.forecast.data
 
+import com.example.forecast.data.network.NetworkInterceptor
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
@@ -14,7 +15,7 @@ import retrofit2.http.Query
 interface WeatherService {
     @GET("now.json")
     fun getTodayWeatherAsync(
-        @Query("location") location: String, // 查询城市
+        @Query("location") cityName: String, // 查询城市
         @Query("lang") langCode: String = "zh", // 语言(默认中文)
         @Query("unit") unit: String = "m" // 单位(m:公制(默认) i:英制)
     ): Deferred<WeatherResponse>   // 天气数据类
@@ -27,7 +28,9 @@ interface WeatherService {
     ): Deferred<WeatherResponse>
 
     companion object {
-        operator fun invoke(): WeatherService {
+        operator fun invoke(
+            connectivityInterceptor: NetworkInterceptor
+        ): WeatherService {
             val requestInterceptor = Interceptor { chain ->
                 val url = chain.request()
                     .url()
@@ -42,6 +45,7 @@ interface WeatherService {
             }
             val okHttpClient = OkHttpClient.Builder()
                 .addInterceptor(requestInterceptor)
+                .addInterceptor(connectivityInterceptor)
                 .build()
             return Retrofit.Builder()
                 .client(okHttpClient)
