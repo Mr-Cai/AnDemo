@@ -1,35 +1,26 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <PreferenceCategory app:title="@string/messages_header">
-
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/weather_setting">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="@string/location"
+            android:summary="@string/location_summary"
+            android:title="@string/open_location" />
         <EditTextPreference
-            app:key="signature"
-            app:title="@string/signature_title"
-            app:useSimpleSummaryProvider="true" />
-
+            android:defaultValue="深圳"
+            android:dependency="@string/location"
+            android:key="@string/custom_location"
+            android:summary="显示哪里的天气"
+            android:title="当前所在城市" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/select_unit">
         <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
-            app:useSimpleSummaryProvider="true" />
-
+            android:defaultValue="@string/metric"
+            android:entries="@array/unit_systems"
+            android:entryValues="@array/unit_values"
+            android:key="@string/unit_system"
+            android:summary="%s"
+            android:title="@string/unit" />
     </PreferenceCategory>
-
-    <PreferenceCategory app:title="@string/sync_header">
-
-        <SwitchPreferenceCompat
-            app:key="sync"
-            app:title="@string/sync_title" />
-
-        <SwitchPreferenceCompat
-            app:dependency="sync"
-            app:key="attachment"
-            app:summaryOff="@string/attachment_summary_off"
-            app:summaryOn="@string/attachment_summary_on"
-            app:title="@string/attachment_title" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>

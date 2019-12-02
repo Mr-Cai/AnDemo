@@ -3,6 +3,7 @@ package com.example.forecast.data.repository
 import com.example.forecast.data.NowWeatherDAO
 import com.example.forecast.data.WeatherResponse.WeatherSet.Now
 import com.example.forecast.data.network.NetworkDataSource
+import com.example.forecast.data.provider.UnitProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -12,7 +13,8 @@ import java.util.*
 
 class WeatherRepositoryImpl(
     private val weatherDAO: NowWeatherDAO,
-    private val networkDataSource: NetworkDataSource
+    private val networkDataSource: NetworkDataSource,
+    private val unitProvider: UnitProvider
 ) : WeatherRepository {
     init {
         networkDataSource.downloaderNowWeather.observeForever { newWeather ->
@@ -32,7 +34,9 @@ class WeatherRepositoryImpl(
     }
 
     private suspend fun fetchNow() {
-        networkDataSource.getTodayWeatherAsync("深圳", Locale.getDefault().language)
+        val unit = unitProvider.getUnitSystem().name.substring(0, 1)
+            .toLowerCase(Locale.getDefault())
+        networkDataSource.getTodayWeatherAsync("深圳", Locale.getDefault().language, unit)
     }
 
     private fun isFetchedDataTime(lastFetchTime: ZonedDateTime): Boolean {
@@ -45,6 +49,4 @@ class WeatherRepositoryImpl(
             weatherDAO.upsert(response)
         }
     }
-
-
 }
