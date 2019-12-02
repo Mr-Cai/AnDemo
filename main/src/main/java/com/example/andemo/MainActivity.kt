@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
 @Composable
 fun NewsStory() {
-    val image = +imageResource(R.drawable.header)
+    val image = +imageResource(R.mipmap.ic_launcher)
     MaterialTheme {
         Column(
             crossAxisSize = LayoutSize.Expand,

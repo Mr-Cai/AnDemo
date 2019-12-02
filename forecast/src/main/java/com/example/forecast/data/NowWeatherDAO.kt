@@ -6,17 +6,13 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.forecast.data.WeatherResponse.WeatherSet.Now
-import com.example.forecast.data.unit.ImperialNowEntry
-import com.example.forecast.data.unit.MetricNowEntry
+import com.example.forecast.data.unit.NowEntry
 
 @Dao
 interface NowWeatherDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun upsert(nowEntry: Now)
+    fun insertData(nowEntry: Now)
 
     @Query("SELECT * FROM today_weather WHERE id = $TODAY_WEATHER_ID")
-    fun getWeatherMetric(): LiveData<MetricNowEntry>
-
-    @Query("SELECT * FROM today_weather WHERE id = $TODAY_WEATHER_ID")
-    fun getWeatherImperial(): LiveData<ImperialNowEntry>
+    fun fetchNowWeather(): LiveData<NowEntry>
 }

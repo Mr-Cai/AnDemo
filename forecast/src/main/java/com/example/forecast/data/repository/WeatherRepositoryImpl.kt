@@ -24,12 +24,12 @@ class WeatherRepositoryImpl(
 
     override suspend fun fetchTodayWeather(metric: Boolean) = withContext(Dispatchers.IO) {
         initWeatherData()
-        return@withContext if (metric) weatherDAO.getWeatherMetric()
-        else weatherDAO.getWeatherImperial()
+        return@withContext if (metric) weatherDAO.fetchNowWeather()
+        else weatherDAO.fetchNowWeather()
     }
 
     private suspend fun initWeatherData() {
-        if (isFetchedDataTime(ZonedDateTime.now().minusDays(1)))
+        if (isFetchedDataTime(ZonedDateTime.now().minusHours(1)))
             fetchNow()
     }
 
@@ -46,7 +46,7 @@ class WeatherRepositoryImpl(
 
     private fun persistFetchedTodayWeather(response: Now) {
         GlobalScope.launch(Dispatchers.IO) {
-            weatherDAO.upsert(response)
+            weatherDAO.insertData(response)
         }
     }
 }
