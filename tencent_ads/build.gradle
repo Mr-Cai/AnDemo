@@ -35,5 +35,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(path: ':GDTSDK.tbs.4.80.950')
+    implementation project(path: ':gdt_ads_lib')
 }

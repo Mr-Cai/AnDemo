@@ -7,6 +7,11 @@ import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.IgnoredOnParcel
 import kotlinx.android.parcel.Parcelize
+import org.threeten.bp.Instant
+import org.threeten.bp.ZoneId
+import org.threeten.bp.ZonedDateTime
+import java.text.SimpleDateFormat
+import java.util.*
 
 // 开发文档: https://dev.heweather.com/docs/api/weather
 @Suppress("SpellCheckingInspection")
@@ -56,9 +61,25 @@ data class WeatherResponse(
         }
 
         @Parcelize
+        @Entity(tableName = "weather_time")
         data class Update(
             val loc: String, // 当地时间24H(2019-11-30 16:39)
             val utc: String  // 世界标准时间UTC(2019-11-30 08:39)
-        ) : Parcelable
+        ) : Parcelable {
+            @IgnoredOnParcel
+            @PrimaryKey(autoGenerate = false)
+            var id: Int = WEATHER_TIME_ID
+            val zonedDateTime: ZonedDateTime
+                get() {
+                    /* val timeZone = Basic::timeZone.name
+                     timeZone.replace(".", "").replace("+", "+0").replace("-", "-0")*/
+                    val timeZone = "+0800"
+                    val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm Z", Locale.getDefault())
+                    val timeStamp = dateFormat.parse("$loc $timeZone")!!.time
+                    val instant = Instant.ofEpochSecond(timeStamp)
+                    val zoneId = ZoneId.of(timeZone)
+                    return ZonedDateTime.ofInstant(instant, zoneId)
+                }
+        }
     }
 }
