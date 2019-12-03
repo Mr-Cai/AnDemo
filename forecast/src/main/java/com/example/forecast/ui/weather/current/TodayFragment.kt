@@ -11,7 +11,7 @@ import com.example.forecast.R
 import com.example.forecast.R.string.*
 import com.example.forecast.internal.GlideApp
 import com.example.forecast.ui.base.ScopeFragment
-import kotlinx.android.synthetic.main.today_fragment.*
+import kotlinx.android.synthetic.main.now_fragment.*
 import kotlinx.coroutines.launch
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.closestKodein
@@ -26,7 +26,7 @@ class TodayFragment : ScopeFragment(), KodeinAware {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ) = inflater.inflate(R.layout.today_fragment, container, false)!!
+    ) = inflater.inflate(R.layout.now_fragment, container, false)!!
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)

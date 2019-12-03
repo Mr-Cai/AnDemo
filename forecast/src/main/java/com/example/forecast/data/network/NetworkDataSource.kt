@@ -1,7 +1,7 @@
 package com.example.forecast.data.network
 
 import androidx.lifecycle.LiveData
-import com.example.forecast.data.WeatherResponse.WeatherSet.Now
+import com.example.forecast.data.network.WeatherResponse.WeatherSet.Now
 
 interface NetworkDataSource {
     val downloaderNowWeather: LiveData<Now>

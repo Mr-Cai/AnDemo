@@ -1,9 +1,12 @@
-package com.example.forecast.data
+package com.example.forecast.data.network
 
 import android.os.Parcelable
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.example.forecast.data.TODAY_WEATHER_ID
+import com.example.forecast.data.WEATHER_BASIC_ID
+import com.example.forecast.data.WEATHER_TIME_ID
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.IgnoredOnParcel
 import kotlinx.android.parcel.Parcelize
@@ -27,6 +30,7 @@ data class WeatherResponse(
         val update: Update  // 接口更新时间
     ) : Parcelable {
         @Parcelize
+        @Entity(tableName = "weather_basic")
         data class Basic(
             @SerializedName("cid") val cityID: String, // 城市编号
             @SerializedName("location") val cityName: String, // 城市名称
@@ -36,7 +40,11 @@ data class WeatherResponse(
             @SerializedName("admin_area") val adminArea: String, // 行政区域
             @SerializedName("cnty") val region: String, // 所属国家
             @SerializedName("tz") val timeZone: String // 所在时区
-        ) : Parcelable
+        ) : Parcelable {
+            @IgnoredOnParcel
+            @PrimaryKey(autoGenerate = false)
+            var id: Int = WEATHER_BASIC_ID
+        }
 
         @Parcelize
         @Entity(tableName = "today_weather")
@@ -71,13 +79,11 @@ data class WeatherResponse(
             var id: Int = WEATHER_TIME_ID
             val zonedDateTime: ZonedDateTime
                 get() {
-                    /* val timeZone = Basic::timeZone.name
-                     timeZone.replace(".", "").replace("+", "+0").replace("-", "-0")*/
-                    val timeZone = "+0800"
                     val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm Z", Locale.getDefault())
-                    val timeStamp = dateFormat.parse("$loc $timeZone")!!.time
+                    val timeStamp =
+                        dateFormat.parse("$loc ${TimeZone.getDefault().id}")!!.time
                     val instant = Instant.ofEpochSecond(timeStamp)
-                    val zoneId = ZoneId.of(timeZone)
+                    val zoneId = ZoneId.of(TimeZone.getDefault().id)
                     return ZonedDateTime.ofInstant(instant, zoneId)
                 }
         }

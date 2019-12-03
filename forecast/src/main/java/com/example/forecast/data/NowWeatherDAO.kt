@@ -5,7 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.forecast.data.WeatherResponse.WeatherSet.Now
+import com.example.forecast.data.network.WeatherResponse.WeatherSet.Now
 import com.example.forecast.data.unit.NowEntry
 
 @Dao
