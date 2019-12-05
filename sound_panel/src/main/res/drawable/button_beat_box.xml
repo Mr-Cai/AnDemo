@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/drum_pad_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/drum_pad_normal" android:state_pressed="false"/>
+</selector>
