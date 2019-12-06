@@ -1,4 +1,3 @@
-rootProject.name='AnDemo'
-include ':main', ':camera', ':tencent_ads', ':gdt_ads_lib'
-include ':sunny_weather', ':cool_weather', ':http_server'
-include ':forecast', ":sound_panel"
+rootProject.name = 'AnDemo'
+include ':main', ':camera', ':tencent_ads', ':gdt_ads_lib', ':like_anim', ':sunny_weather'
+include ':cool_weather', ':http_server', ':forecast', ":sound_panel"
