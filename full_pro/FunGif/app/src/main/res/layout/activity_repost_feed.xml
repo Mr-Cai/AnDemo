@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.quxianggif.feeds.ui.RepostFeedActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.quxianggif.feeds.view.PostFeedEditText
+        android:id="@+id/contentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/say_something"
+        android:imeOptions="actionSend"
+        android:maxLength="100"
+        android:minLines="3"
+        android:padding="5dp"
+        android:textColor="@color/primary_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/refeed_bg">
+
+        <ImageView
+            android:id="@+id/feedCover"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            tools:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/feedUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                tools:text="梦醒人间" />
+
+            <TextView
+                android:id="@+id/feedContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/secondary_text"
+                android:textSize="14sp"
+                tools:text="梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间梦醒人间" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.PreferenceCategory android:title="@string/title_gif_settings">
+
+        <androidx.preference.Preference
+            android:key="@string/key_gif_play_control"
+            android:title="@string/title_gif_play_control" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/key_alert_for_big_gif"
+            android:summary="@string/summary_alert_when_play_big_gif_using_roaming"
+            android:title="@string/title_alert_when_play_big_gif_using_roaming" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/key_auto_refresh"
+            android:summary="@string/summary_refresh_feeds_when_app_started"
+            android:title="@string/title_refresh_feeds_when_app_started" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory android:title="@string/title_general">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/key_check_update"
+            android:summary="@string/summary_check_update"
+            android:title="@string/title_check_update" />
+
+        <androidx.preference.Preference
+            android:key="@string/key_clean_cache"
+            android:summary="@string/summary_clean_cache"
+            android:title="@string/title_clean_cache" />
+
+        <androidx.preference.Preference
+            android:key="@string/key_about"
+            android:title="@string/title_about" />
+
+        <androidx.preference.Preference
+            android:key="@string/key_user_terms"
+            android:title="@string/title_user_terms" />
+
+        <androidx.preference.Preference
+            android:key="@string/key_app_info"
+            android:title="@string/title_app_info" />
+
+        <androidx.preference.Preference
+            android:key="@string/key_logout"
+            android:title="@string/title_logout" />
+
+
+    </androidx.preference.PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>
