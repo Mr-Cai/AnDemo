@@ -17,7 +17,6 @@ import androidx.ui.material.withOpacity
 import androidx.ui.res.imageResource
 import androidx.ui.text.style.TextOverflow
 import androidx.ui.tooling.preview.Preview
-import com.bumptech.glide.annotation.GlideModule
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -42,10 +42,10 @@ dependencies {
     implementation "androidx.legacy:legacy-support-v4:1.0.0"    // 安卓v4包迁移
     implementation 'com.jakewharton.threetenabp:threetenabp:1.2.1'  // ThreeTen(反向端口) 世界时间
     // 布局导航面板
-    implementation "android.arch.navigation:navigation-fragment:$navigation"
-    implementation "android.arch.navigation:navigation-ui:$navigation"
-    implementation "android.arch.navigation:navigation-fragment-ktx:$navigation"
-    implementation "android.arch.navigation:navigation-ui-ktx:$navigation"
+    implementation 'androidx.navigation:navigation-fragment:2.2.0-rc03'
+    implementation 'androidx.navigation:navigation-ui:2.2.0-rc03'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.0-rc03'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.2.0-rc03'
     // Room(房间) 数据库
     implementation "androidx.room:room-runtime:$room"
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
