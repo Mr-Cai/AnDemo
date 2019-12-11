@@ -36,7 +36,7 @@ class TodayFragment : ScopeFragment(), KodeinAware {
 
     private fun bindUI() = launch {
         val nowWeather = viewModel.weather.await()
-        nowWeather.observe(this@TodayFragment, Observer {
+        nowWeather.observe(viewLifecycleOwner, Observer {
             if (it == null) return@Observer
             loadingBar.visibility = View.GONE
             loadingTxT.visibility = View.GONE

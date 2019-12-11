@@ -4,9 +4,9 @@ import android.os.Parcelable
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.forecast.data.TODAY_WEATHER_ID
-import com.example.forecast.data.WEATHER_BASIC_ID
-import com.example.forecast.data.WEATHER_TIME_ID
+import com.example.forecast.data.unit.TODAY_WEATHER_ID
+import com.example.forecast.data.unit.WEATHER_BASIC_ID
+import com.example.forecast.data.unit.WEATHER_TIME_ID
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.IgnoredOnParcel
 import kotlinx.android.parcel.Parcelize

@@ -121,7 +121,7 @@ public class UnifiedBannerActivity extends Activity implements OnClickListener,
 
     private String getPosID() {
         String posId = ((EditText) findViewById(R.id.posId)).getText().toString();
-        return TextUtils.isEmpty(posId) ? PositionId.BANNER_POS_ID : posId;
+        return TextUtils.isEmpty(posId) ? PositionId.UNIFIED_BANNER_POS_ID : posId;
     }
 
     @Override

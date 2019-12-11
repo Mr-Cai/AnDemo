@@ -1,10 +1,11 @@
-package com.example.forecast.data
+package com.example.forecast.data.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.example.forecast.data.unit.TODAY_WEATHER_ID
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.Now
 import com.example.forecast.data.unit.NowEntry
 

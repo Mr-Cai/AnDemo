@@ -2,8 +2,8 @@ package com.example.forecast
 
 import android.app.Application
 import androidx.preference.PreferenceManager
-import com.example.forecast.data.WeatherDatabase
-import com.example.forecast.data.WeatherService
+import com.example.forecast.data.database.WeatherDatabase
+import com.example.forecast.data.network.WeatherService
 import com.example.forecast.data.network.NetworkDataSource
 import com.example.forecast.data.network.NetworkDataSourceImpl
 import com.example.forecast.data.network.NetworkInterceptor
@@ -26,10 +26,18 @@ import org.kodein.di.generic.singleton
 class WeatherApplication : Application(), KodeinAware {
     override val kodein = Kodein.lazy {
         import(androidXModule(this@WeatherApplication))
-        bind() from singleton { WeatherDatabase(instance()) }
+        bind() from singleton {
+            WeatherDatabase(
+                instance()
+            )
+        }
         bind() from singleton { instance<WeatherDatabase>().nowWeatherDAO() }
         bind<NetworkInterceptor>() with singleton { NetworkInterceptorImpl(instance()) }
-        bind() from singleton { WeatherService(instance()) }
+        bind() from singleton {
+            WeatherService(
+                instance()
+            )
+        }
         bind<NetworkDataSource>() with singleton { NetworkDataSourceImpl(instance()) }
         bind<UnitProvider>() with singleton { UnitProviderImpl(instance()) }
         bind() from provider { TodayFactory(instance(), instance()) }

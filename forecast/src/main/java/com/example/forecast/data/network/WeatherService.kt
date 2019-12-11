@@ -1,7 +1,7 @@
-package com.example.forecast.data
+package com.example.forecast.data.network
 
-import com.example.forecast.data.network.NetworkInterceptor
-import com.example.forecast.data.network.WeatherResponse
+import com.example.forecast.data.unit.API_KEY
+import com.example.forecast.data.unit.BASE_URL
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
@@ -34,7 +34,9 @@ interface WeatherService {
                 val url = chain.request()
                     .url()
                     .newBuilder()
-                    .addQueryParameter("key", API_KEY)
+                    .addQueryParameter("key",
+                        API_KEY
+                    )
                     .build()
                 val request = chain.request()
                     .newBuilder()

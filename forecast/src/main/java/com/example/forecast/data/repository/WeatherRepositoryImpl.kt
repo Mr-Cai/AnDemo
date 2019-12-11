@@ -1,6 +1,6 @@
 package com.example.forecast.data.repository
 
-import com.example.forecast.data.NowWeatherDAO
+import com.example.forecast.data.database.NowWeatherDAO
 import com.example.forecast.data.network.NetworkDataSource
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.Now
 import com.example.forecast.data.provider.UnitProvider

@@ -5,9 +5,7 @@ package com.example.tencent_ads;
  * Created by chaotao on 2019-06-20 .
  **/
 public class PositionId {
-    public static final String BANNER_POS_ID = "9040882216019714"; //debug:9079537218417626401 me:9040882216019714
     public static final String SPLASH_POS_ID = "7020785136977336"; // debug:8863364436303842593 me:7020785136977336
-    public static final String NATIVE_POS_ID = "5010320697302671";
     public static final String NATIVE_VIDEO_POS_ID = "5090421627704602";
     public static final String NATIVE_EXPRESS_POS_ID = "8010792363031667"; // debug 7030020348049331 me:8010792363031667
     //如果选择支持视频的模版样式，请使用NativeExpressSupportVideoPosID测试广告位拉取

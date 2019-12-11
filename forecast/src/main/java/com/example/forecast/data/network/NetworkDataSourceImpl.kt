@@ -3,8 +3,7 @@ package com.example.forecast.data.network
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.forecast.data.TAG
-import com.example.forecast.data.WeatherService
+import com.example.forecast.data.unit.TAG
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.Now
 import com.example.forecast.internal.NoConnectivityException
 
