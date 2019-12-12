@@ -3,11 +3,7 @@ package com.example.forecast
 import android.app.Application
 import androidx.preference.PreferenceManager
 import com.example.forecast.data.database.WeatherDatabase
-import com.example.forecast.data.network.WeatherService
-import com.example.forecast.data.network.NetworkDataSource
-import com.example.forecast.data.network.NetworkDataSourceImpl
-import com.example.forecast.data.network.NetworkInterceptor
-import com.example.forecast.data.network.NetworkInterceptorImpl
+import com.example.forecast.data.network.*
 import com.example.forecast.data.provider.UnitProvider
 import com.example.forecast.data.provider.UnitProviderImpl
 import com.example.forecast.data.repository.WeatherRepository

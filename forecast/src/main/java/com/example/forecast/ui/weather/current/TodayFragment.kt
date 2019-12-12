@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
 import com.example.forecast.R
 import com.example.forecast.R.string.*
 import com.example.forecast.internal.GlideApp
@@ -30,7 +30,7 @@ class TodayFragment : ScopeFragment(), KodeinAware {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this, todayFactory).get(TodayViewModel::class.java)
+        viewModel = ViewModelProvider(this, todayFactory).get(TodayViewModel::class.java)
         bindUI()
     }
 
