@@ -1,6 +1,7 @@
 package com.example.forecast
 
 import android.app.Application
+import android.content.Context
 import androidx.preference.PreferenceManager
 import com.example.forecast.data.database.WeatherDatabase
 import com.example.forecast.data.network.*
@@ -11,6 +12,7 @@ import com.example.forecast.data.provider.UnitProviderImpl
 import com.example.forecast.data.repository.WeatherRepository
 import com.example.forecast.data.repository.WeatherRepositoryImpl
 import com.example.forecast.ui.weather.current.TodayFactory
+import com.google.android.gms.location.LocationServices.getFusedLocationProviderClient
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
@@ -33,11 +35,12 @@ class WeatherApplication : Application(), KodeinAware {
         bind() from singleton { instance<WeatherDatabase>().timeZoneDAO() }
 
         bind() from provider { TodayFactory(instance(), instance()) }
+        bind() from provider { getFusedLocationProviderClient(instance<Context>()) }
 
         bind<NetworkInterceptor>() with singleton { NetworkInterceptorImpl(instance()) }
         bind<NetworkDataSource>() with singleton { NetworkDataSourceImpl(instance()) }
         bind<UnitProvider>() with singleton { UnitProviderImpl(instance()) }
-        bind<LocationProvider>() with singleton { LocationProviderImpl() }
+        bind<LocationProvider>() with singleton { LocationProviderImpl(instance(), instance()) }
         bind<WeatherRepository>() with singleton {
             WeatherRepositoryImpl(
                 instance(),

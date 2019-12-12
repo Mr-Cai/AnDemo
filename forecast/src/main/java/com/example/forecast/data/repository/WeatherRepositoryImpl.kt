@@ -54,7 +54,7 @@ class WeatherRepositoryImpl(
         val lastLocation = locationDAO.getLocation().value
         val lastTimeZone = timeDAO.getTimeZone().value
         when {
-            lastTimeZone == null || locationProvider.hasLocationChanged(lastLocation) -> {
+            lastTimeZone == null || locationProvider.hasLocationChanged(lastLocation!!) -> {
                 fetchNow()
                 return
             }

@@ -4,12 +4,12 @@
         <SwitchPreference
             android:defaultValue="true"
             android:disableDependentsState="true"
-            android:key="@string/location"
+            android:key="@string/use_device_location"
             android:summary="@string/location_summary"
             android:title="@string/open_location" />
         <EditTextPreference
-            android:defaultValue="深圳"
-            android:dependency="@string/location"
+            android:defaultValue="@string/default_city"
+            android:dependency="@string/use_device_location"
             android:key="@string/custom_location"
             android:summary="显示哪里的天气"
             android:title="当前所在城市" />

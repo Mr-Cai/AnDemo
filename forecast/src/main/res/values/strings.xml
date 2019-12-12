@@ -12,10 +12,11 @@
     <string name="unit_system">unit_system</string>
     <string name="metric">METRIC</string>
     <string name="custom_location">custom_location</string>
-    <string name="location">location</string>
+    <string name="use_device_location">use_device_location</string>
     <string name="location_summary">同意获取当前位置</string>
     <string name="open_location">开启定位权限</string>
     <string name="weather_setting">天气设置</string>
     <string name="select_unit">选择单位</string>
     <string name="unit">单位制</string>
+    <string name="default_city">北京</string>
 </resources>
