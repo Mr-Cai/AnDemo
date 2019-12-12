@@ -1,10 +1,12 @@
 package com.example.forecast.data.network
 
 import androidx.lifecycle.LiveData
+import com.example.forecast.data.network.WeatherResponse.WeatherSet.Basic
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.Now
 
 interface NetworkDataSource {
     val downloaderNowWeather: LiveData<Now>
+    val downloaderBasic: LiveData<Basic>
     suspend fun getTodayWeatherAsync(
         cityName: String, // 查询城市
         langCode: String = "zh", // 语言(默认中文)

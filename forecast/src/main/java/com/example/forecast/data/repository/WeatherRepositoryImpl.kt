@@ -24,8 +24,11 @@ class WeatherRepositoryImpl(
     private val locationProvider: LocationProvider
 ) : WeatherRepository {
     init {
-        networkDataSource.downloaderNowWeather.observeForever { newWeather ->
-            persistFetchedTodayWeather(newWeather)
+        networkDataSource.downloaderNowWeather.observeForever {
+            persistFetchedTodayWeather(it)
+        }
+        networkDataSource.downloaderBasic.observeForever {
+            persistFetchedTodayWeather(it)
         }
     }
 
