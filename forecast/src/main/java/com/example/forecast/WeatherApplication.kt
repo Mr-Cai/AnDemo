@@ -4,6 +4,8 @@ import android.app.Application
 import androidx.preference.PreferenceManager
 import com.example.forecast.data.database.WeatherDatabase
 import com.example.forecast.data.network.*
+import com.example.forecast.data.provider.LocationProvider
+import com.example.forecast.data.provider.LocationProviderImpl
 import com.example.forecast.data.provider.UnitProvider
 import com.example.forecast.data.provider.UnitProviderImpl
 import com.example.forecast.data.repository.WeatherRepository
@@ -22,23 +24,25 @@ import org.kodein.di.generic.singleton
 class WeatherApplication : Application(), KodeinAware {
     override val kodein = Kodein.lazy {
         import(androidXModule(this@WeatherApplication))
-        bind() from singleton {
-            WeatherDatabase(
-                instance()
-            )
-        }
+
+        bind() from singleton { WeatherDatabase(instance()) }
+        bind() from singleton { WeatherService(instance()) }
+
         bind() from singleton { instance<WeatherDatabase>().nowWeatherDAO() }
+        bind() from singleton { instance<WeatherDatabase>().locationDAO() }
+        bind() from singleton { instance<WeatherDatabase>().timeZoneDAO() }
+
+        bind() from provider { TodayFactory(instance(), instance()) }
+
         bind<NetworkInterceptor>() with singleton { NetworkInterceptorImpl(instance()) }
-        bind() from singleton {
-            WeatherService(
-                instance()
-            )
-        }
         bind<NetworkDataSource>() with singleton { NetworkDataSourceImpl(instance()) }
         bind<UnitProvider>() with singleton { UnitProviderImpl(instance()) }
-        bind() from provider { TodayFactory(instance(), instance()) }
+        bind<LocationProvider>() with singleton { LocationProviderImpl() }
         bind<WeatherRepository>() with singleton {
             WeatherRepositoryImpl(
+                instance(),
+                instance(),
+                instance(),
                 instance(),
                 instance(),
                 instance()

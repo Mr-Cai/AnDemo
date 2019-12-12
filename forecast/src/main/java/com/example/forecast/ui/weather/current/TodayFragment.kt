@@ -36,11 +36,11 @@ class TodayFragment : ScopeFragment(), KodeinAware {
 
     private fun bindUI() = launch {
         val nowWeather = viewModel.weather.await()
+        val weatherLocation = viewModel.weatherLocation.await()
         nowWeather.observe(viewLifecycleOwner, Observer {
             if (it == null) return@Observer
             loadingBar.visibility = View.GONE
             loadingTxT.visibility = View.GONE
-            updateLocationTitle("深圳")
             updateDateSubTitle()
             updateTemperatures(it.temperature, it.feelTemp)
             updateCondition(it.conditionDesc)
@@ -50,6 +50,10 @@ class TodayFragment : ScopeFragment(), KodeinAware {
             GlideApp.with(this@TodayFragment)
                 .load("https://cdn.heweather.com/cond_icon/${it.conditionCode}.png")
                 .into(condIconPic)
+        })
+        weatherLocation.observe(viewLifecycleOwner, Observer {
+            if (it == null) return@Observer
+            updateLocationTitle(it.cityName)
         })
     }
 
