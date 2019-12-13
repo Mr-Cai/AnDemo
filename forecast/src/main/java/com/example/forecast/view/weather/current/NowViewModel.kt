@@ -5,7 +5,7 @@ import com.example.forecast.data.repository.WeatherRepository
 import com.example.forecast.internal.lazyDeferred
 import com.example.forecast.view.base.WeatherViewModel
 
-class TodayViewModel(
+class NowViewModel(
     private val repository: WeatherRepository,
     unitProvider: UnitProvider
 ) : WeatherViewModel(repository, unitProvider) {

@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">科学天气🔬️</string>
-    <string name="today">今日</string>
+    <string name="now">今日</string>
     <string name="future">未来</string>
     <string name="setting">设置</string>
     <string name="loading">加载中…</string>
-    <string name="fell_temperature">体感温度: %1$s %2$s</string>
-    <string name="wind_desc">风速: %1$s %2$s  风向: %3$s</string>
+    <string name="fell_temperature">🌡️体感温度: %1$s %2$s</string>
+    <string name="wind_desc">风速: %1$s %2$s\t\t\t风向: %3$s</string>
     <string name="precipitation_txt">降水量: %1$s %2$s</string>
     <string name="visibility_txt">能见度: %1$s %2$s</string>
     <string name="temperature">%1$s %2$s</string>

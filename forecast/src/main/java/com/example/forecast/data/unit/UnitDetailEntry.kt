@@ -15,8 +15,6 @@ interface UnitDetailEntry {
     val tmpMax: String // 最高温度(26°C)
     val tmpMin: String // 最低温度(20°C)
     val uvIndex: String // 紫外线强度指数(ultraviolet ray: 4)
-    val condCodeDay: String // 白天天气状况代码(305: 小雨)
-    val condCodeNight: String // 夜间天气状况代码(101: 多云)
     val condTxTDay: String // 白天天气状况描述(小雨)
     val condTxTNight: String // 晚间天气状况描述(小雨)
     val visibility: String // 能见度(24)

@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/todayFragment"
-        android:icon="@drawable/ic_today"
-        android:title="@string/today" />
+        android:id="@+id/nowFragment"
+        android:icon="@drawable/ic_now"
+        android:title="@string/now" />
     <item
-        android:id="@+id/weekFragment"
+        android:id="@+id/futureFragment"
         android:icon="@drawable/ic_week"
         android:title="@string/future" />
     <item

@@ -52,7 +52,7 @@ data class WeatherResponse(
         }
 
         @Parcelize
-        @Entity(tableName = "today_weather")
+        @Entity(tableName = "now_weather")
         data class Now(
             @SerializedName("fl") val feelTemp: String, // 体感温度
             @SerializedName("tmp") val temperature: String, // 温度°C 🌡 ️°F

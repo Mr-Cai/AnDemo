@@ -18,10 +18,10 @@ import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.closestKodein
 import org.kodein.di.generic.instance
 
-class TodayFragment : ScopeFragment(), KodeinAware {
+class NowFragment : ScopeFragment(), KodeinAware {
     override val kodein by closestKodein()
-    private val todayFactory by instance<TodayFactory>()
-    private lateinit var viewModel: TodayViewModel
+    private val nowFactory by instance<NowFactory>()
+    private lateinit var viewModel: NowViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,7 +31,7 @@ class TodayFragment : ScopeFragment(), KodeinAware {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this, todayFactory).get(TodayViewModel::class.java)
+        viewModel = ViewModelProvider(this, nowFactory).get(NowViewModel::class.java)
         bindUI()
     }
 
@@ -48,7 +48,7 @@ class TodayFragment : ScopeFragment(), KodeinAware {
             updatePrecipitation(it.precipitation)
             updateWind(it.windSpeed, it.windDir)
             updateVisibility(it.visibility)
-            GlideApp.with(this@TodayFragment)
+            GlideApp.with(this@NowFragment)
                 .load("$ICON/${it.conditionCode}.png")
                 .into(condIconPic)
         })

@@ -14,6 +14,6 @@ interface NowWeatherDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertData(nowEntry: Now)
 
-    @Query("SELECT * FROM today_weather WHERE id = $TODAY_WEATHER_ID")
+    @Query("SELECT * FROM now_weather WHERE id = $TODAY_WEATHER_ID")
     fun fetchNowWeather(): LiveData<UnitNowEntryImpl>
 }

@@ -9,6 +9,7 @@ import com.example.forecast.data.network.NetworkDataSource
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.*
 import com.example.forecast.data.provider.LocationProvider
 import com.example.forecast.data.provider.UnitProvider
+import com.example.forecast.data.unit.UnitDetailEntry
 import com.example.forecast.data.unit.UnitFutureEntry
 import com.example.forecast.data.unit.UnitNowEntry
 import kotlinx.coroutines.Dispatchers
@@ -50,14 +51,25 @@ class WeatherRepositoryImpl(
     ): LiveData<out List<UnitFutureEntry>> {
         return withContext(Dispatchers.IO) {
             initWeatherData()
-            return@withContext if (metric) futureDAO.getFuture(startDate)
-            else futureDAO.getFuture(startDate)
+            return@withContext if (metric) futureDAO.queryFuture(startDate)
+            else futureDAO.queryFuture(startDate)
+        }
+    }
+
+    override suspend fun fetchDetailWeather(
+        startDate: LocalDate,
+        metric: Boolean
+    ): LiveData<out List<UnitDetailEntry>> {
+        return withContext(Dispatchers.IO) {
+            initWeatherData()
+            return@withContext if (metric) futureDAO.queryDetail(startDate)
+            else futureDAO.queryDetail(startDate)
         }
     }
 
     override suspend fun getWeatherLocation(): LiveData<Basic> {
         return withContext(Dispatchers.IO) {
-            return@withContext locationDAO.getLocation()
+            return@withContext locationDAO.queryLocation()
         }
     }
 
@@ -68,7 +80,7 @@ class WeatherRepositoryImpl(
     }
 
     private suspend fun initWeatherData() {
-        val lastLocation = locationDAO.getLocationNonLive()
+        val lastLocation = locationDAO.queryLocationNonLive()
         val lastTimeZone = timeDAO.getTimeZone().value
         when {
             lastTimeZone == null || locationProvider.hasLocationChanged(lastLocation!!) -> {

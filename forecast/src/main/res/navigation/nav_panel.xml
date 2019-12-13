@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_panel"
-    app:startDestination="@id/todayFragment">
+    app:startDestination="@id/nowFragment">
     <fragment
-        android:id="@+id/todayFragment"
-        android:name="com.example.forecast.view.weather.current.TodayFragment"
-        android:label="today_fragment"
+        android:id="@+id/nowFragment"
+        android:name="com.example.forecast.view.weather.current.NowFragment"
+        android:label="now_fragment"
         tools:layout="@layout/now_fragment" />
     <fragment
-        android:id="@+id/weekFragment"
+        android:id="@+id/futureFragment"
         android:name="com.example.forecast.view.weather.future.list.FutureFragment"
-        android:label="week_fragment"
+        android:label="future_fragment"
         tools:layout="@layout/future_fragment" />
     <fragment
         android:id="@+id/detailFragment"

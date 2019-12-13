@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_constraintGuide_percent="0.5"
-    tools:context=".view.weather.current.TodayFragment">
+    tools:context=".view.weather.current.NowFragment">
 
     <TextView
         android:id="@+id/condTxT"
@@ -24,7 +24,7 @@
         tools:text="零星小雨" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
+        android:id="@+id/guidelineV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -59,12 +59,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@null"
-        android:src="@drawable/ic_today"
+        android:src="@drawable/ic_now"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guidelineV"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"
         app:layout_constraintWidth_percent="0.25" />
@@ -78,8 +78,10 @@
         android:layout_marginBottom="8dp"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+        android:textColor="#0091EA"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/condIconPic"
-        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineV"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/condIconPic"

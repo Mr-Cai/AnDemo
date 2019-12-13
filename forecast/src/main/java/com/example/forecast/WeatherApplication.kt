@@ -11,17 +11,16 @@ import com.example.forecast.data.provider.UnitProvider
 import com.example.forecast.data.provider.UnitProviderImpl
 import com.example.forecast.data.repository.WeatherRepository
 import com.example.forecast.data.repository.WeatherRepositoryImpl
-import com.example.forecast.view.weather.current.TodayFactory
+import com.example.forecast.view.weather.current.NowFactory
+import com.example.forecast.view.weather.future.detail.DetailFactory
 import com.example.forecast.view.weather.future.list.FutureFactory
 import com.google.android.gms.location.LocationServices.getFusedLocationProviderClient
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.androidXModule
-import org.kodein.di.generic.bind
-import org.kodein.di.generic.instance
-import org.kodein.di.generic.provider
-import org.kodein.di.generic.singleton
+import org.kodein.di.generic.*
+import org.threeten.bp.LocalDate
 
 @Suppress("unused")
 class WeatherApplication : Application(), KodeinAware {
@@ -36,9 +35,16 @@ class WeatherApplication : Application(), KodeinAware {
         bind() from singleton { instance<WeatherDatabase>().timeZoneDAO() }
         bind() from singleton { instance<WeatherDatabase>().futureDAO() }
 
-        bind() from provider { TodayFactory(instance(), instance()) }
+        bind() from provider { NowFactory(instance(), instance()) }
         bind() from provider { FutureFactory(instance(), instance()) }
         bind() from provider { getFusedLocationProviderClient(instance<Context>()) }
+        bind() from factory { detailDate: LocalDate ->
+            DetailFactory(
+                detailDate,
+                instance(),
+                instance()
+            )
+        }
 
         bind<NetworkInterceptor>() with singleton { NetworkInterceptorImpl(instance()) }
         bind<NetworkDataSource>() with singleton { NetworkDataSourceImpl(instance()) }

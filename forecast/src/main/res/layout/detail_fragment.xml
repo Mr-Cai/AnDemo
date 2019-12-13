@@ -1,6 +1,320 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.weather.future.detail.DetailFragment"/>
+    app:layout_constraintGuide_percent="0.5"
+    tools:context=".view.weather.future.detail.DetailFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/condTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/nowTempTxT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="零星小雨" />
+
+    <ProgressBar
+        android:id="@+id/loadingBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loadingTxT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loadingBar" />
+
+    <ImageView
+        android:id="@+id/condIconPic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guidelineV"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <TextView
+        android:id="@+id/nowTempTxT"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+        android:textColor="#0091EA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/condIconPic"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineV"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/condIconPic"
+        tools:text="26℃" />
+
+    <TextView
+        android:id="@+id/tempSpanTxT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/nowTempTxT"
+        app:layout_constraintStart_toStartOf="@+id/nowTempTxT"
+        app:layout_constraintTop_toBottomOf="@+id/nowTempTxT"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="🌡️18℃ ~ 25℃" />
+
+    <TextView
+        android:id="@+id/windSpeedTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loadingBar"
+        tools:text="风速 : 3km/h" />
+
+    <TextView
+        android:id="@+id/windDirTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/windSpeedTxT"
+        tools:text="风向 : N" />
+
+    <TextView
+        android:id="@+id/precipitationTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/windDirTxT"
+        tools:text="降水量 ：50mm" />
+
+    <TextView
+        android:id="@+id/visibilityTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/precipitationTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/precipitationTxT"
+        app:layout_constraintTop_toBottomOf="@+id/precipitationTxT"
+        tools:text="能见度 ：16km" />
+
+    <TextView
+        android:id="@+id/humidityTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/precipitationTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/precipitationTxT"
+        app:layout_constraintTop_toBottomOf="@+id/visibilityTxT"
+        tools:text="相对湿度 : 83" />
+
+    <TextView
+        android:id="@+id/popTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/precipitationTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/precipitationTxT"
+        app:layout_constraintTop_toBottomOf="@+id/humidityTxT"
+        tools:text="降水概率 : 8" />
+
+    <TextView
+        android:id="@+id/pressureTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/precipitationTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/precipitationTxT"
+        app:layout_constraintTop_toBottomOf="@+id/popTxT"
+        tools:text="大气压强 : 1001" />
+
+    <TextView
+        android:id="@+id/uvIndexTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/precipitationTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/precipitationTxT"
+        app:layout_constraintTop_toBottomOf="@+id/pressureTxT"
+        tools:text="紫外线指数 : 6" />
+
+    <TextView
+        android:id="@+id/moonRiseTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/sunRiseTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guidelineV"
+        app:layout_constraintTop_toBottomOf="@+id/sunSetTxT"
+        tools:text="月升时间 : 23:49" />
+
+    <TextView
+        android:id="@+id/moonSetTxT"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/moonRiseTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/moonRiseTxT"
+        tools:text="月落时间 : 11:58" />
+
+    <TextView
+        android:id="@+id/condDayTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/moonRiseTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/moonSetTxT"
+        tools:text="白天天气 : 多云" />
+
+    <TextView
+        android:id="@+id/condNightTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/moonRiseTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/condDayTxT"
+        tools:text="夜间天气 : 晴" />
+
+    <TextView
+        android:id="@+id/windDegTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/moonRiseTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/condNightTxT"
+        tools:text="风向角度 : 43º" />
+
+    <TextView
+        android:id="@+id/windPowerTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="@+id/moonRiseTxT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/windDegTxT"
+        tools:text="风力 : 3" />
+
+    <TextView
+        android:id="@+id/sunRiseTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineV"
+        app:layout_constraintTop_toTopOf="@+id/windSpeedTxT"
+        tools:text="日出时间 : 06:30" />
+
+    <TextView
+        android:id="@+id/sunSetTxT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/windSpeedTxT"
+        app:layout_constraintTop_toBottomOf="@+id/sunRiseTxT"
+        tools:text="日落时间 : 17:57" />
+
+    <TextView
+        android:id="@+id/dateTxT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintBottom_toBottomOf="@+id/condTxT"
+        app:layout_constraintEnd_toEndOf="@+id/condIconPic"
+        app:layout_constraintTop_toTopOf="@+id/condTxT"
+        tools:text="2020-1-1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

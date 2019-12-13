@@ -14,8 +14,8 @@ interface LocationDAO {
     fun insertData(location: Basic)
 
     @Query("SELECT * FROM weather_basic WHERE id = $WEATHER_BASIC_ID")
-    fun getLocation(): LiveData<Basic>
+    fun queryLocation(): LiveData<Basic>
 
     @Query("SELECT * FROM weather_basic WHERE id = $WEATHER_BASIC_ID")
-    fun getLocationNonLive(): Basic?
+    fun queryLocationNonLive(): Basic?
 }
