@@ -73,8 +73,13 @@ data class WeatherResponse(
         }
 
         @Parcelize
-        @Entity(tableName = "future_weather", indices = [Index(value = ["date"], unique = true)])
+        @Entity(
+            tableName = "future_weather",
+            indices = [Index(value = ["forecastDate"], unique = true)]
+        )
         data class DailyForecast(
+            @PrimaryKey(autoGenerate = true)
+            val id: Int? = null,
             @SerializedName("date") val forecastDate: String, // 预报日期(2019-12-18)
             @SerializedName("hum") val humidity: String, // 相对湿度(83)
             @SerializedName("mr") val moonRise: String, // 月升时间(23:49)

@@ -33,6 +33,7 @@ class WeatherApplication : Application(), KodeinAware {
         bind() from singleton { instance<WeatherDatabase>().nowWeatherDAO() }
         bind() from singleton { instance<WeatherDatabase>().locationDAO() }
         bind() from singleton { instance<WeatherDatabase>().timeZoneDAO() }
+        bind() from singleton { instance<WeatherDatabase>().futureDAO() }
 
         bind() from provider { TodayFactory(instance(), instance()) }
         bind() from provider { getFusedLocationProviderClient(instance<Context>()) }

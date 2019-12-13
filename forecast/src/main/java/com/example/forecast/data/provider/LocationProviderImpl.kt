@@ -29,7 +29,15 @@ class LocationProviderImpl(
         } catch (e: NoLocPermission) {
             false
         }
-        return deviceLocation || getCustomLoc() != location.cityName
+        return deviceLocation || hasCustomChanged(location)
+    }
+
+    private fun hasCustomChanged(location: Basic): Boolean {
+        if (!isUseDeviceLoc()) {
+            val customLocation = getCustomLoc()
+            return customLocation != location.cityName
+        }
+        return false
     }
 
     override suspend fun getPrefLocation(): String {
