@@ -3,7 +3,6 @@ package com.example.forecast.ui
 import android.Manifest.permission.ACCESS_COARSE_LOCATION
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -12,11 +11,9 @@ import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.example.forecast.R
-import com.example.forecast.data.unit.TAG
 import com.example.forecast.data.unit.toast
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationCallback
-import com.google.android.gms.location.LocationResult
 import kotlinx.android.synthetic.main.activity_main.*
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
@@ -27,12 +24,6 @@ class MainActivity : AppCompatActivity(), KodeinAware {
     private lateinit var navController: NavController   // 导航菜单控制器
     private val locClient: FusedLocationProviderClient by instance()
     private val locationID = 0xc
-    private val locationCallback = object : LocationCallback() {
-        override fun onLocationResult(result: LocationResult) {
-            super.onLocationResult(result)
-            Log.i(TAG, "onLocationResult: ${result.lastLocation}")
-        }
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,30 +44,30 @@ class MainActivity : AppCompatActivity(), KodeinAware {
         }
     }
 
-    private fun requestLocPermission() {
-        ActivityCompat.requestPermissions(
-            this,
-            arrayOf(ACCESS_COARSE_LOCATION),
-            locationID
-        )
-    }
+    private fun requestLocPermission() = ActivityCompat.requestPermissions(
+        this,
+        arrayOf(ACCESS_COARSE_LOCATION),
+        locationID
+    )
 
     override fun onRequestPermissionsResult(
         requestCode: Int,
         permissions: Array<out String>,
         grantResults: IntArray
     ) {
-        if (requestCode == locationID) {
-            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                bindLocManager()
-            } else {
-                toast(this, "请到应用设置开启相应权限")
+        when (requestCode) {
+            locationID -> {
+                when {
+                    grantResults.isNotEmpty() && grantResults[0] ==
+                            PackageManager.PERMISSION_GRANTED -> bindLocManager()
+                    else -> toast(this, "请到应用设置开启相应权限")
+                }
             }
         }
     }
 
     private fun bindLocManager() {
-        BindLocManager(this, locClient, locationCallback)
+        BindLocManager(this, locClient, object : LocationCallback() {})
     }
 
     // 顶部导航箭头回调(无抽屉)
