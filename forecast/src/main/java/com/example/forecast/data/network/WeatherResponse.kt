@@ -3,6 +3,7 @@ package com.example.forecast.data.network
 import android.os.Parcelable
 import androidx.room.Embedded
 import androidx.room.Entity
+import androidx.room.Index
 import androidx.room.PrimaryKey
 import com.example.forecast.data.unit.TODAY_WEATHER_ID
 import com.example.forecast.data.unit.WEATHER_BASIC_ID
@@ -72,6 +73,7 @@ data class WeatherResponse(
         }
 
         @Parcelize
+        @Entity(tableName = "future_weather", indices = [Index(value = ["date"], unique = true)])
         data class DailyForecast(
             @SerializedName("date") val forecastDate: String, // 预报日期(2019-12-18)
             @SerializedName("hum") val humidity: String, // 相对湿度(83)

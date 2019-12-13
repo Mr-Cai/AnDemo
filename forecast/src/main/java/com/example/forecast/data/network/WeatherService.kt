@@ -14,14 +14,14 @@ import retrofit2.http.Query
 // 开发文档 https://dev.heweather.com/docs/api/weather
 // 示例 https://free-api.heweather.net/s6/weather/now?location=shenzhen&key=985cb464f7ae4866a1fc35fd63e17e42
 interface WeatherService {
-    @GET("now.json")
-    fun getTodayWeatherAsync(
+    @GET("now.json")    // 今日天气
+    fun getCurrentAsync(
         @Query("location") cityName: String, // 查询城市
         @Query("lang") langCode: String = "zh", // 语言(默认中文)
         @Query("unit") unit: String = "m" // 单位(m:公制(默认) i:英制)
     ): Deferred<WeatherResponse>   // 天气数据类
 
-    @GET("forecast.json")
+    @GET("forecast.json")   // 未来一周
     fun getForecastAsync(
         @Query("location") location: String, // 查询城市
         @Query("lang") langCode: String = "zh", // 语言(默认中文)
@@ -34,9 +34,7 @@ interface WeatherService {
                 val url = chain.request()
                     .url()
                     .newBuilder()
-                    .addQueryParameter("key",
-                        API_KEY
-                    )
+                    .addQueryParameter("key", API_KEY)
                     .build()
                 val request = chain.request()
                     .newBuilder()

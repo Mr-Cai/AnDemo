@@ -65,7 +65,7 @@ class WeatherRepositoryImpl(
     private suspend fun fetchNow() {
         val unit = unitProvider.getUnitSystem().name.substring(0, 1)
             .toLowerCase(Locale.getDefault())
-        networkDataSource.getTodayWeatherAsync(
+        networkDataSource.getWeatherResponse(
             locationProvider.getPrefLocation(),
             Locale.getDefault().language,
             unit
