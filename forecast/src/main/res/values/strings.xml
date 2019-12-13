@@ -9,6 +9,8 @@
     <string name="precipitation_txt">降水量: %1$s %2$s</string>
     <string name="visibility_txt">能见度: %1$s %2$s</string>
     <string name="temperature">%1$s %2$s</string>
+    <string name="avg_temp">%1$d %2$s</string>
+    <string name="temp_span">%1$s%2$s ~ %3$s%4$s</string>
     <string name="unit_system">unit_system</string>
     <string name="metric">METRIC</string>
     <string name="custom_location">custom_location</string>

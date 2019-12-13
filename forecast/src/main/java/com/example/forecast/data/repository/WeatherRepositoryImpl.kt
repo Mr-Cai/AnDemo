@@ -1,6 +1,7 @@
 package com.example.forecast.data.repository
 
 import androidx.lifecycle.LiveData
+import com.example.forecast.data.database.FutureDAO
 import com.example.forecast.data.database.LocationDAO
 import com.example.forecast.data.database.NowWeatherDAO
 import com.example.forecast.data.database.TimeDAO
@@ -8,10 +9,13 @@ import com.example.forecast.data.network.NetworkDataSource
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.*
 import com.example.forecast.data.provider.LocationProvider
 import com.example.forecast.data.provider.UnitProvider
+import com.example.forecast.data.unit.UnitFutureEntry
+import com.example.forecast.data.unit.UnitNowEntry
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import org.threeten.bp.LocalDate
 import org.threeten.bp.ZonedDateTime
 import java.util.*
 
@@ -19,23 +23,36 @@ class WeatherRepositoryImpl(
     private val weatherDAO: NowWeatherDAO,
     private val locationDAO: LocationDAO,
     private val timeDAO: TimeDAO,
+    private val futureDAO: FutureDAO,
     private val networkDataSource: NetworkDataSource,
     private val unitProvider: UnitProvider,
     private val locationProvider: LocationProvider
 ) : WeatherRepository {
     init {
-        networkDataSource.downloaderNowWeather.observeForever {
-            persistFetchedTodayWeather(it)
-        }
-        networkDataSource.downloaderBasic.observeForever {
-            persistFetchedTodayWeather(it)
+        networkDataSource.apply {
+            downloaderNowWeather.observeForever { persistFetchCurrent(it) }
+            downloaderBasic.observeForever { persistFetchCurrent(it) }
+            downloaderForecast.observeForever { persistFetchFuture(it) }
         }
     }
 
-    override suspend fun fetchTodayWeather(metric: Boolean) = withContext(Dispatchers.IO) {
-        initWeatherData()
-        return@withContext if (metric) weatherDAO.fetchNowWeather()
-        else weatherDAO.fetchNowWeather()
+    override suspend fun fetchTodayWeather(metric: Boolean): LiveData<out UnitNowEntry> {
+        return withContext(Dispatchers.IO) {
+            initWeatherData()
+            return@withContext if (metric) weatherDAO.fetchNowWeather()
+            else weatherDAO.fetchNowWeather()
+        }
+    }
+
+    override suspend fun fetchFutureWeather(
+        startDate: LocalDate,
+        metric: Boolean
+    ): LiveData<out List<UnitFutureEntry>> {
+        return withContext(Dispatchers.IO) {
+            initWeatherData()
+            return@withContext if (metric) futureDAO.getFuture(startDate)
+            else futureDAO.getFuture(startDate)
+        }
     }
 
     override suspend fun getWeatherLocation(): LiveData<Basic> {
@@ -55,14 +72,21 @@ class WeatherRepositoryImpl(
         val lastTimeZone = timeDAO.getTimeZone().value
         when {
             lastTimeZone == null || locationProvider.hasLocationChanged(lastLocation!!) -> {
-                fetchNow()
+                fetchAllWeather()
                 return
             }
-            isFetchedDataTime(lastTimeZone.zonedDateTime) -> fetchNow()
+            isFetchedDataTime(lastTimeZone.zonedDateTime) -> fetchAllWeather()
+            isFetchedFutureNeeded() -> fetchAllWeather()
         }
     }
 
-    private suspend fun fetchNow() {
+    private fun isFetchedFutureNeeded(): Boolean {
+        val futureCount = futureDAO.countFuture(LocalDate.now())
+        return futureCount < 7
+    }
+
+
+    private suspend fun fetchAllWeather() {
         val unit = unitProvider.getUnitSystem().name.substring(0, 1)
             .toLowerCase(Locale.getDefault())
         networkDataSource.getWeatherResponse(
@@ -72,26 +96,28 @@ class WeatherRepositoryImpl(
         )
     }
 
+
     private fun isFetchedDataTime(lastFetchTime: ZonedDateTime): Boolean {
         val time30MinAgo = ZonedDateTime.now().minusMinutes(30)
         return lastFetchTime.isBefore(time30MinAgo)
     }
 
-    private fun persistFetchedTodayWeather(response: Now) {
+    private fun persistFetchCurrent(response: Now) {
         GlobalScope.launch(Dispatchers.IO) {
             weatherDAO.insertData(response)
         }
     }
 
-    private fun persistFetchedTodayWeather(response: Basic) {
+    private fun persistFetchCurrent(response: Basic) {
         GlobalScope.launch(Dispatchers.IO) {
             locationDAO.insertData(response)
         }
     }
 
-    private fun persistFetchedTodayWeather(response: Update) {
+    private fun persistFetchFuture(response: List<DailyForecast>) {
         GlobalScope.launch(Dispatchers.IO) {
-            timeDAO.insertData(response)
+            futureDAO.deleteFuture(LocalDate.now())
+            futureDAO.insertData(response)
         }
     }
 }

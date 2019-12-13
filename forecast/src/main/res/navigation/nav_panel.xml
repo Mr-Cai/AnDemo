@@ -11,9 +11,9 @@
         tools:layout="@layout/now_fragment" />
     <fragment
         android:id="@+id/weekFragment"
-        android:name="com.example.forecast.ui.weather.future.list.WeekFragment"
+        android:name="com.example.forecast.ui.weather.future.list.FutureFragment"
         android:label="week_fragment"
-        tools:layout="@layout/week_fragment" />
+        tools:layout="@layout/future_fragment" />
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.forecast.ui.weather.future.detail.DetailFragment"

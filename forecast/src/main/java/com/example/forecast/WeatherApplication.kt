@@ -12,6 +12,7 @@ import com.example.forecast.data.provider.UnitProviderImpl
 import com.example.forecast.data.repository.WeatherRepository
 import com.example.forecast.data.repository.WeatherRepositoryImpl
 import com.example.forecast.ui.weather.current.TodayFactory
+import com.example.forecast.ui.weather.future.list.FutureFactory
 import com.google.android.gms.location.LocationServices.getFusedLocationProviderClient
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.kodein.di.Kodein
@@ -36,6 +37,7 @@ class WeatherApplication : Application(), KodeinAware {
         bind() from singleton { instance<WeatherDatabase>().futureDAO() }
 
         bind() from provider { TodayFactory(instance(), instance()) }
+        bind() from provider { FutureFactory(instance(), instance()) }
         bind() from provider { getFusedLocationProviderClient(instance<Context>()) }
 
         bind<NetworkInterceptor>() with singleton { NetworkInterceptorImpl(instance()) }
@@ -44,6 +46,7 @@ class WeatherApplication : Application(), KodeinAware {
         bind<LocationProvider>() with singleton { LocationProviderImpl(instance(), instance()) }
         bind<WeatherRepository>() with singleton {
             WeatherRepositoryImpl(
+                instance(),
                 instance(),
                 instance(),
                 instance(),
