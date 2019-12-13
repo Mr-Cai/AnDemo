@@ -1,15 +1,16 @@
-package com.example.forecast.ui.weather.current
+package com.example.forecast.view.weather.future.list
 
 import com.example.forecast.data.provider.UnitProvider
 import com.example.forecast.data.repository.WeatherRepository
 import com.example.forecast.internal.lazyDeferred
-import com.example.forecast.ui.base.WeatherViewModel
+import com.example.forecast.view.base.WeatherViewModel
+import org.threeten.bp.LocalDate
 
-class TodayViewModel(
+class FutureViewModel(
     private val repository: WeatherRepository,
     unitProvider: UnitProvider
 ) : WeatherViewModel(repository, unitProvider) {
-    val weather by lazyDeferred {
-        repository.fetchTodayWeather(super.isMetric)
+    val future by lazyDeferred {
+        repository.fetchFutureWeather(LocalDate.now(), super.isMetric)
     }
 }

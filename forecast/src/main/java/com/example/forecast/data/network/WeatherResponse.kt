@@ -12,6 +12,7 @@ import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.IgnoredOnParcel
 import kotlinx.android.parcel.Parcelize
 import org.threeten.bp.Instant
+import org.threeten.bp.LocalDate
 import org.threeten.bp.ZoneId
 import org.threeten.bp.ZonedDateTime
 import java.text.SimpleDateFormat
@@ -93,7 +94,7 @@ data class WeatherResponse(
             @SerializedName("tmp_min") val tmpMin: String, // 最低温度(20°C)
             @SerializedName("uv_index") val uvIndex: String, // 紫外线强度指数(ultraviolet ray: 4)
             @SerializedName("cond_code_d") val condCodeDay: String, // 白天天气状况代码(305: 小雨)
-            @SerializedName("cond_code_n") val condCodeNignt: String, // 夜间天气状况代码(101: 多云)
+            @SerializedName("cond_code_n") val condCodeNight: String, // 夜间天气状况代码(101: 多云)
             @SerializedName("cond_txt_d") val condTxTDay: String, // 白天天气状况描述(小雨)
             @SerializedName("cond_txt_n") val condTxTNight: String, // 晚间天气状况描述(小雨)
             @SerializedName("vis") val visibility: String, // 能见度(24)

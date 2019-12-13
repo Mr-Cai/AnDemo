@@ -1,4 +1,4 @@
-package com.example.forecast.ui.weather.future.list
+package com.example.forecast.view.weather.future.list
 
 import com.example.forecast.R
 import com.example.forecast.data.unit.ICON
@@ -18,6 +18,7 @@ class FutureItem(private val weatherEntry: UnitFutureEntry) : Item() {
             updateTemperature()
             updateIcon()
         }
+
     }
 
     override fun getLayout() = R.layout.item_future_weather
@@ -37,14 +38,14 @@ class FutureItem(private val weatherEntry: UnitFutureEntry) : Item() {
                 unit
             )
         tempSpanTxT.text = String.format(
-            itemView.context.getString(R.string.custom_location),
+            itemView.context.getString(R.string.temp_span),
             weatherEntry.tmpMax, unit,
             weatherEntry.tmpMin, unit
         )
     }
 
     private fun ViewHolder.updateIcon() {
-        GlideApp.with(this.containerView).load("$ICON${weatherEntry.condCodeDay}.png")
+        GlideApp.with(this.containerView).load("$ICON/${weatherEntry.condCodeDay}.png")
             .into(weatherIcon)
     }
 }

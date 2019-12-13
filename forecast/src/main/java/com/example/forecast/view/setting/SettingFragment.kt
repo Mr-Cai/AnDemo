@@ -1,4 +1,4 @@
-package com.example.forecast.ui.setting
+package com.example.forecast.view.setting
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

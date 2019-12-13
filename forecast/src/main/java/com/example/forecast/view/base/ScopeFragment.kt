@@ -1,4 +1,4 @@
-package com.example.forecast.ui.base
+package com.example.forecast.view.base
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

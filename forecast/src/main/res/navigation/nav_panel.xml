@@ -6,21 +6,21 @@
     app:startDestination="@id/todayFragment">
     <fragment
         android:id="@+id/todayFragment"
-        android:name="com.example.forecast.ui.weather.current.TodayFragment"
+        android:name="com.example.forecast.view.weather.current.TodayFragment"
         android:label="today_fragment"
         tools:layout="@layout/now_fragment" />
     <fragment
         android:id="@+id/weekFragment"
-        android:name="com.example.forecast.ui.weather.future.list.FutureFragment"
+        android:name="com.example.forecast.view.weather.future.list.FutureFragment"
         android:label="week_fragment"
         tools:layout="@layout/future_fragment" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.forecast.ui.weather.future.detail.DetailFragment"
+        android:name="com.example.forecast.view.weather.future.detail.DetailFragment"
         android:label="detail_fragment"
         tools:layout="@layout/detail_fragment" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.example.forecast.ui.setting.SettingFragment"
+        android:name="com.example.forecast.view.setting.SettingFragment"
         android:label="setting_fragment" />
 </navigation>

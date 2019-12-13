@@ -1,4 +1,4 @@
-package com.example.forecast.ui.base
+package com.example.forecast.view.base
 
 import androidx.lifecycle.ViewModel
 import com.example.forecast.data.provider.UnitProvider

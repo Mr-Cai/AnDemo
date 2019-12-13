@@ -1,4 +1,4 @@
-package com.example.forecast.ui
+package com.example.forecast.view
 
 import android.Manifest.permission.ACCESS_COARSE_LOCATION
 import android.content.pm.PackageManager

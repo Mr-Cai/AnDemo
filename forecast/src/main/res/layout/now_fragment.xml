@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_constraintGuide_percent="0.5"
-    tools:context=".ui.weather.current.TodayFragment">
+    tools:context=".view.weather.current.TodayFragment">
 
     <TextView
         android:id="@+id/condTxT"
@@ -59,7 +59,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@null"
-        android:src="@drawable/ic_android"
+        android:src="@drawable/ic_today"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"

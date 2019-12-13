@@ -3,7 +3,7 @@ package com.example.forecast.data.unit
 import androidx.room.ColumnInfo
 
 // 今日天气入口实体类
-data class NowEntry(
+data class UnitNowEntryImpl(
     @ColumnInfo(name = "feelTemp") override val feelTemp: String, // 体感温度
     @ColumnInfo(name = "temperature") override val temperature: String, // 温度°C 🌡 ️
     @ColumnInfo(name = "cloudCover") override val cloudCover: String, // 云量 ☁️

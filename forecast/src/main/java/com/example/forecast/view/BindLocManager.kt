@@ -1,4 +1,4 @@
-package com.example.forecast.ui
+package com.example.forecast.view
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.Lifecycle

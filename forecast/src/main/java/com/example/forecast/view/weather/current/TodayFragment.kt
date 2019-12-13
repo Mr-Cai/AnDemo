@@ -1,10 +1,9 @@
-package com.example.forecast.ui.weather.current
+package com.example.forecast.view.weather.current
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -12,7 +11,7 @@ import com.example.forecast.R
 import com.example.forecast.R.string.*
 import com.example.forecast.data.unit.ICON
 import com.example.forecast.internal.GlideApp
-import com.example.forecast.ui.base.ScopeFragment
+import com.example.forecast.view.base.ScopeFragment
 import kotlinx.android.synthetic.main.now_fragment.*
 import kotlinx.coroutines.launch
 import org.kodein.di.KodeinAware

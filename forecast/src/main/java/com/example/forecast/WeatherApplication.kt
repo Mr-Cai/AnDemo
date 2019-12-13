@@ -11,8 +11,8 @@ import com.example.forecast.data.provider.UnitProvider
 import com.example.forecast.data.provider.UnitProviderImpl
 import com.example.forecast.data.repository.WeatherRepository
 import com.example.forecast.data.repository.WeatherRepositoryImpl
-import com.example.forecast.ui.weather.current.TodayFactory
-import com.example.forecast.ui.weather.future.list.FutureFactory
+import com.example.forecast.view.weather.current.TodayFactory
+import com.example.forecast.view.weather.future.list.FutureFactory
 import com.google.android.gms.location.LocationServices.getFusedLocationProviderClient
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.kodein.di.Kodein
