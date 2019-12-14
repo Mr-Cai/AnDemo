@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.item_future_weather.*
 import org.threeten.bp.format.DateTimeFormatter
 import org.threeten.bp.format.FormatStyle
 
-class FutureItem(private val weatherEntry: UnitFutureEntry) : Item() {
+class FutureItem(val weatherEntry: UnitFutureEntry) : Item() {
     override fun bind(viewHolder: ViewHolder, position: Int) {
         viewHolder.apply {
             condTxT.text = weatherEntry.condTxTDay

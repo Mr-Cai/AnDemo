@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.*
 import com.example.forecast.data.unit.TAG
-import com.example.forecast.internal.NoConnectivityException
+import com.example.forecast.internal.NoConnectivity
 
 class NetworkDataSourceImpl(
     private val weatherService: WeatherService
@@ -27,7 +27,7 @@ class NetworkDataSourceImpl(
 
             val forecast = weatherService.getForecastAsync(cityName, langCode, unit).await()
             _downloaderForecast.postValue(forecast.weatherSet[0].forecast)
-        } catch (e: NoConnectivityException) {
+        } catch (e: NoConnectivity) {
             Log.i(TAG, "getWeatherResponse 网络连接状态:已断开", e)
         }
     }

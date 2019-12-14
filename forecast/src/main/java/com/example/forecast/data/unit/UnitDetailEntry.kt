@@ -17,6 +17,8 @@ interface UnitDetailEntry {
     val uvIndex: String // 紫外线强度指数(ultraviolet ray: 4)
     val condTxTDay: String // 白天天气状况描述(小雨)
     val condTxTNight: String // 晚间天气状况描述(小雨)
+    val condCodeDay: String // 白天天气状况代码(305: 小雨)
+    val condCodeNight: String // 夜间天气状况代码(101: 多云)
     val visibility: String // 能见度(24)
     val windDeg: String // 风向角度(46°)
     val windDir: String // 风向(东北风)

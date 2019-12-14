@@ -11,6 +11,6 @@ class FutureViewModel(
     unitProvider: UnitProvider
 ) : WeatherViewModel(repository, unitProvider) {
     val future by lazyDeferred {
-        repository.fetchFutureWeather(LocalDate.now(), super.isMetric)
+        repository.fetchFuture(LocalDate.now(), super.isMetric)
     }
 }

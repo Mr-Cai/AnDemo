@@ -9,18 +9,13 @@ import com.example.forecast.data.unit.UnitNowEntry
 import org.threeten.bp.LocalDate
 
 interface WeatherRepository {
-    suspend fun fetchTodayWeather(metric: Boolean): LiveData<out UnitNowEntry>
-    suspend fun fetchFutureWeather(
+    suspend fun fetchNow(metric: Boolean): LiveData<out UnitNowEntry>
+    suspend fun fetchFuture(
         startDate: LocalDate,
         metric: Boolean
     ): LiveData<out List<UnitFutureEntry>>
 
-    suspend fun fetchDetailWeather(
-        startDate: LocalDate,
-        metric: Boolean
-    ): LiveData<out List<UnitDetailEntry>>
-
+    suspend fun fetchDetail(startDate: LocalDate, metric: Boolean): LiveData<out UnitDetailEntry>
     suspend fun getWeatherLocation(): LiveData<Basic>
     suspend fun getTimeZone(): LiveData<Update>
-
 }

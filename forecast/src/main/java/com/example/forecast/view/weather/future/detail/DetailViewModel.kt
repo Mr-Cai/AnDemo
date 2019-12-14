@@ -12,6 +12,6 @@ class DetailViewModel(
     unitProvider: UnitProvider
 ) : WeatherViewModel(repository, unitProvider) {
     val weather by lazyDeferred {
-        repository.fetchDetailWeather(startDate, super.isMetric)
+        repository.fetchDetail(startDate, super.isMetric)
     }
 }

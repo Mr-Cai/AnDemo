@@ -6,7 +6,7 @@ import android.net.NetworkCapabilities.NET_CAPABILITY_INTERNET
 import android.os.Build.VERSION.SDK_INT
 import android.os.Build.VERSION_CODES.M
 import androidx.annotation.RequiresApi
-import com.example.forecast.internal.NoConnectivityException
+import com.example.forecast.internal.NoConnectivity
 import okhttp3.Interceptor
 import okhttp3.Response
 
@@ -17,10 +17,10 @@ class NetworkInterceptorImpl(context: Context) : NetworkInterceptor {
 
     override fun intercept(chain: Interceptor.Chain): Response {
         when {
-            SDK_INT >= M -> if (!isActive()) throw NoConnectivityException()
-            SDK_INT < M -> if (!isOnline()) throw NoConnectivityException()
+            SDK_INT >= M -> if (!isActive()) throw NoConnectivity()
+            SDK_INT < M -> if (!isOnline()) throw NoConnectivity()
         }
-        if (!isOnline()) throw NoConnectivityException()
+        if (!isOnline()) throw NoConnectivity()
         return chain.proceed(chain.request())
     }
 

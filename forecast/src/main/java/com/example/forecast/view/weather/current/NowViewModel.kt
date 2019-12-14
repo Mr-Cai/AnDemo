@@ -10,6 +10,6 @@ class NowViewModel(
     unitProvider: UnitProvider
 ) : WeatherViewModel(repository, unitProvider) {
     val weather by lazyDeferred {
-        repository.fetchTodayWeather(super.isMetric)
+        repository.fetchNow(super.isMetric)
     }
 }

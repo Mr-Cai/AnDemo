@@ -13,12 +13,20 @@
         android:id="@+id/futureFragment"
         android:name="com.example.forecast.view.weather.future.list.FutureFragment"
         android:label="future_fragment"
-        tools:layout="@layout/future_fragment" />
+        tools:layout="@layout/future_fragment">
+        <action
+            android:id="@+id/action_future_to_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.forecast.view.weather.future.detail.DetailFragment"
         android:label="detail_fragment"
-        tools:layout="@layout/detail_fragment" />
+        tools:layout="@layout/detail_fragment">
+        <argument
+            android:name="dateString"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/settingFragment"
         android:name="com.example.forecast.view.setting.SettingFragment"

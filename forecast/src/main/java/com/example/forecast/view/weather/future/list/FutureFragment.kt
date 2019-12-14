@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.forecast.R
+import com.example.forecast.data.unit.LocalDateConverter
 import com.example.forecast.data.unit.UnitFutureEntry
 import com.example.forecast.data.unit.toast
 import com.example.forecast.view.base.ScopeFragment
@@ -20,6 +22,7 @@ import kotlinx.coroutines.launch
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.closestKodein
 import org.kodein.di.generic.instance
+import org.threeten.bp.LocalDate
 
 class FutureFragment : ScopeFragment(), KodeinAware {
     private lateinit var viewModel: FutureViewModel
@@ -73,8 +76,18 @@ class FutureFragment : ScopeFragment(), KodeinAware {
             layoutManager = LinearLayoutManager(this@FutureFragment.context)
             adapter = groupAdapter
         }
-        groupAdapter.setOnItemClickListener { _, _ ->
+        groupAdapter.setOnItemClickListener { item, view ->
             toast(context!!, "⛅️")
+            (item as? FutureItem)?.let {
+                showWeatherDetail(it.weatherEntry.forecastDate, view)
+            }
         }
     }
+
+    private fun showWeatherDetail(date: LocalDate, view: View) {
+        val dateString = LocalDateConverter.dateToStr(date)
+        val actionDetail = FutureFragmentDirections.actionFutureToDetail(dateString!!)
+        Navigation.findNavController(view).navigate(actionDetail)
+    }
+
 }

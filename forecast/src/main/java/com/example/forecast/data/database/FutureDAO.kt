@@ -19,7 +19,7 @@ interface FutureDAO {
     fun queryFuture(startDate: LocalDate): LiveData<List<UnitFutureEntryImpl>> // 查询自今日的未来天气
 
     @Query("SELECT * FROM future_weather WHERE date(forecastDate) = date(:startDate)")
-    fun queryDetail(startDate: LocalDate): LiveData<List<UnitDetailEntryImpl>> // 查询指定日期天气详情
+    fun queryDetail(startDate: LocalDate): LiveData<UnitDetailEntryImpl> // 查询指定日期天气详情
 
     @Query("SELECT count(id) FROM future_weather WHERE date(forecastDate) >= date(:startDate)")
     fun countFuture(startDate: LocalDate): Int  // 计算未来天气记录条数

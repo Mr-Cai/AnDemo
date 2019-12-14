@@ -101,7 +101,7 @@ data class WeatherResponse(
             @SerializedName("wind_deg") val windDeg: String, // 风向角度(46°)
             @SerializedName("wind_dir") val windDir: String, // 风向(东北风)
             @SerializedName("wind_sc") val windPower: String, // 风力(3)
-            @SerializedName("wind_spd") val windSpeed: String // 风速
+            @SerializedName("wind_spd") val windSpeed: String // 风速(4)
         ) : Parcelable
 
         @Parcelize

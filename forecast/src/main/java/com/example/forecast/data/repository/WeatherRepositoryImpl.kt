@@ -37,7 +37,7 @@ class WeatherRepositoryImpl(
         }
     }
 
-    override suspend fun fetchTodayWeather(metric: Boolean): LiveData<out UnitNowEntry> {
+    override suspend fun fetchNow(metric: Boolean): LiveData<out UnitNowEntry> {
         return withContext(Dispatchers.IO) {
             initWeatherData()
             return@withContext if (metric) weatherDAO.fetchNowWeather()
@@ -45,7 +45,7 @@ class WeatherRepositoryImpl(
         }
     }
 
-    override suspend fun fetchFutureWeather(
+    override suspend fun fetchFuture(
         startDate: LocalDate,
         metric: Boolean
     ): LiveData<out List<UnitFutureEntry>> {
@@ -56,10 +56,10 @@ class WeatherRepositoryImpl(
         }
     }
 
-    override suspend fun fetchDetailWeather(
+    override suspend fun fetchDetail(
         startDate: LocalDate,
         metric: Boolean
-    ): LiveData<out List<UnitDetailEntry>> {
+    ): LiveData<out UnitDetailEntry> {
         return withContext(Dispatchers.IO) {
             initWeatherData()
             return@withContext if (metric) futureDAO.queryDetail(startDate)
