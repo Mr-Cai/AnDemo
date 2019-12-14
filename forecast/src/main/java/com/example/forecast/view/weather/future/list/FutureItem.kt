@@ -9,8 +9,11 @@ import com.xwray.groupie.kotlinandroidextensions.ViewHolder
 import kotlinx.android.synthetic.main.item_future_weather.*
 import org.threeten.bp.format.DateTimeFormatter
 import org.threeten.bp.format.FormatStyle
+import kotlin.math.roundToInt
 
 class FutureItem(val weatherEntry: UnitFutureEntry) : Item() {
+    var avgTemp = ""
+    private val futureFragment = FutureFragment()
     override fun bind(viewHolder: ViewHolder, position: Int) {
         viewHolder.apply {
             condTxT.text = weatherEntry.condTxTDay
@@ -18,7 +21,6 @@ class FutureItem(val weatherEntry: UnitFutureEntry) : Item() {
             updateTemperature()
             updateIcon()
         }
-
     }
 
     override fun getLayout() = R.layout.item_future_weather
@@ -29,8 +31,11 @@ class FutureItem(val weatherEntry: UnitFutureEntry) : Item() {
     }
 
     private fun ViewHolder.updateTemperature() {
-        val unit = "°C" // °F
-        val avgTemp = (weatherEntry.tmpMax.toInt() + weatherEntry.tmpMin.toInt()) / 2
+        //  "℃" else "℉"
+        val unit = if (futureFragment.isMetricUnit) "℃" else "℉"
+        avgTemp =
+            "${(weatherEntry.tmpMax.toDouble().roundToInt() +
+                    weatherEntry.tmpMin.toDouble().roundToInt()) / 2}"
         tempTxT.text =
             String.format(
                 itemView.context.getString(R.string.avg_temp),

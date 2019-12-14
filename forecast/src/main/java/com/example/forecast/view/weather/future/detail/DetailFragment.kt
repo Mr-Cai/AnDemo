@@ -57,8 +57,36 @@ class DetailFragment : ScopeFragment(), KodeinAware {
         })
     }
 
+    private fun chooseUnit(metric: String, imperial: String) =
+        if (viewModel.isMetric) metric else imperial
+
     private fun updateAllCondTxT(it: UnitDetailEntry) {
-        nowTempTxT.text = it.tmpMax
+        val unit = chooseUnit("℃", "℉")
+        val safeArgs = arguments?.let((fun(it: Bundle) = DetailFragmentArgs.fromBundle(it)))!!
+        nowTempTxT.text = "${safeArgs.avgTemp}$unit"
+        condTxT.text = it.condTxTDay
+        tempSpanTxT.text = String.format(
+            getString(R.string.temp_span),
+            it.tmpMax, unit,
+            it.tmpMin, unit
+        )
+        windSpeedTxT.text = it.windSpeed
+        windDirTxT.text = it.windDir
+        precipitationTxT.text = it.precipitation
+        visibilityTxT.text = it.visibility
+        humidityTxT.text = it.humidity
+        popTxT.text = it.pop
+        pressureTxT.text = it.pressure
+        uvIndexTxT.text = it.uvIndex
+        moonRiseTxT.text = it.moonRise
+        moonSetTxT.text = it.moonSet
+        condDayTxT.text = it.condTxTDay
+        condNightTxT.text = it.condTxTNight
+        windDegTxT.text = it.windDeg
+        windPowerTxT.text = it.windPower
+        sunRiseTxT.text = it.sunRise
+        sunSetTxT.text = it.sunSet
+        dateTxT.text = it.forecastDate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL))
     }
 
     private fun updateDate(date: LocalDate) {

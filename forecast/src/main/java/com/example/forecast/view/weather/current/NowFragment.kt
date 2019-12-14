@@ -58,7 +58,7 @@ class NowFragment : ScopeFragment(), KodeinAware {
         })
     }
 
-    private fun chooseUnitAbbreviation(metric: String, imperial: String) =
+    private fun chooseUnit(metric: String, imperial: String) =
         if (viewModel.isMetric) metric else imperial
 
     private fun formatString(resID: Int, vararg args: Any?) =
@@ -73,7 +73,7 @@ class NowFragment : ScopeFragment(), KodeinAware {
     }
 
     private fun updateTemperatures(temp: String, feel: String) {
-        val unit = chooseUnitAbbreviation("℃", "℉")
+        val unit = chooseUnit("℃", "℉")
         nowTempTxT.text = formatString(temperature, temp, unit)
         feelTempTxT.text = formatString(fell_temperature, feel, unit)
     }
@@ -83,7 +83,7 @@ class NowFragment : ScopeFragment(), KodeinAware {
     }
 
     private fun updateWind(windSpeed: String, windDir: String) {
-        val unit = chooseUnitAbbreviation("km/h", "mile/h")
+        val unit = chooseUnit("km/h", "mile/h")
         windDesc.text = formatString(wind_desc, windSpeed, unit, windDir)
     }
 
@@ -92,7 +92,7 @@ class NowFragment : ScopeFragment(), KodeinAware {
     }
 
     private fun updateVisibility(visibility: String) {
-        val unit = chooseUnitAbbreviation("km", "mile")
+        val unit = chooseUnit("km", "mile")
         visibilityTxT.text = formatString(visibility_txt, visibility, unit)
     }
 }

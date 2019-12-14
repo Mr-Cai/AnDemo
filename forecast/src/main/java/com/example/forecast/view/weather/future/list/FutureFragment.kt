@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.forecast.R
 import com.example.forecast.data.unit.LocalDateConverter
 import com.example.forecast.data.unit.UnitFutureEntry
-import com.example.forecast.data.unit.toast
 import com.example.forecast.view.base.ScopeFragment
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.ViewHolder
@@ -27,7 +26,7 @@ import org.threeten.bp.LocalDate
 class FutureFragment : ScopeFragment(), KodeinAware {
     private lateinit var viewModel: FutureViewModel
     private val futureFactory: FutureFactory by instance()
-
+    internal var isMetricUnit = true
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -37,6 +36,7 @@ class FutureFragment : ScopeFragment(), KodeinAware {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this, futureFactory).get(FutureViewModel::class.java)
         bindUI()
+        isMetricUnit = viewModel.isMetric
     }
 
     override val kodein by closestKodein()
@@ -55,6 +55,7 @@ class FutureFragment : ScopeFragment(), KodeinAware {
             initRecyclerView(it.toFutureItem())
         })
     }
+
 
     private fun updateLocation(location: String) {
         (activity as? AppCompatActivity)?.supportActionBar?.title = location
@@ -77,7 +78,6 @@ class FutureFragment : ScopeFragment(), KodeinAware {
             adapter = groupAdapter
         }
         groupAdapter.setOnItemClickListener { item, view ->
-            toast(context!!, "⛅️")
             (item as? FutureItem)?.let {
                 showWeatherDetail(it.weatherEntry.forecastDate, view)
             }
@@ -86,7 +86,7 @@ class FutureFragment : ScopeFragment(), KodeinAware {
 
     private fun showWeatherDetail(date: LocalDate, view: View) {
         val dateString = LocalDateConverter.dateToStr(date)
-        val actionDetail = FutureFragmentDirections.actionFutureToDetail(dateString!!)
+        val actionDetail = FutureFragmentDirections.actionFutureToDetail(dateString!!, 10)
         Navigation.findNavController(view).navigate(actionDetail)
     }
 
