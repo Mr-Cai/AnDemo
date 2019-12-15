@@ -26,7 +26,7 @@ import org.threeten.bp.LocalDate
 class FutureFragment : ScopeFragment(), KodeinAware {
     private lateinit var viewModel: FutureViewModel
     private val futureFactory: FutureFactory by instance()
-    internal var isMetricUnit = true
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -36,7 +36,6 @@ class FutureFragment : ScopeFragment(), KodeinAware {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this, futureFactory).get(FutureViewModel::class.java)
         bindUI()
-        isMetricUnit = viewModel.isMetric
     }
 
     override val kodein by closestKodein()
@@ -85,8 +84,8 @@ class FutureFragment : ScopeFragment(), KodeinAware {
     }
 
     private fun showWeatherDetail(date: LocalDate, view: View) {
-        val dateString = LocalDateConverter.dateToStr(date)
-        val actionDetail = FutureFragmentDirections.actionFutureToDetail(dateString!!, 10)
+        val dateString = LocalDateConverter.dateToStr(date)!!
+        val actionDetail = FutureFragmentDirections.actionFutureToDetail(dateString)
         Navigation.findNavController(view).navigate(actionDetail)
     }
 

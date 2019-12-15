@@ -2,6 +2,7 @@ package com.example.forecast.view.weather.future.list
 
 import com.example.forecast.R
 import com.example.forecast.data.unit.ICON
+import com.example.forecast.data.unit.MetricFutureEntry
 import com.example.forecast.data.unit.UnitFutureEntry
 import com.example.forecast.internal.GlideApp
 import com.xwray.groupie.kotlinandroidextensions.Item
@@ -12,8 +13,6 @@ import org.threeten.bp.format.FormatStyle
 import kotlin.math.roundToInt
 
 class FutureItem(val weatherEntry: UnitFutureEntry) : Item() {
-    var avgTemp = ""
-    private val futureFragment = FutureFragment()
     override fun bind(viewHolder: ViewHolder, position: Int) {
         viewHolder.apply {
             condTxT.text = weatherEntry.condTxTDay
@@ -31,9 +30,8 @@ class FutureItem(val weatherEntry: UnitFutureEntry) : Item() {
     }
 
     private fun ViewHolder.updateTemperature() {
-        //  "℃" else "℉"
-        val unit = if (futureFragment.isMetricUnit) "℃" else "℉"
-        avgTemp =
+        val unit = if (weatherEntry is MetricFutureEntry) "℃" else "℉"
+        val avgTemp =
             "${(weatherEntry.tmpMax.toDouble().roundToInt() +
                     weatherEntry.tmpMin.toDouble().roundToInt()) / 2}"
         tempTxT.text =

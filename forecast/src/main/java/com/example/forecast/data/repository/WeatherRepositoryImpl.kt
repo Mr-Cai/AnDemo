@@ -51,8 +51,8 @@ class WeatherRepositoryImpl(
     ): LiveData<out List<UnitFutureEntry>> {
         return withContext(Dispatchers.IO) {
             initWeatherData()
-            return@withContext if (metric) futureDAO.queryFuture(startDate)
-            else futureDAO.queryFuture(startDate)
+            return@withContext if (metric) futureDAO.queryFutureMetric(startDate)
+            else futureDAO.queryFutureImperial(startDate)
         }
     }
 
@@ -102,7 +102,10 @@ class WeatherRepositoryImpl(
         val unit = unitProvider.getUnitSystem().name.substring(0, 1)
             .toLowerCase(Locale.getDefault())
         networkDataSource.getWeatherResponse(
-            locationProvider.getPrefLocation(),
+            when {
+                locationProvider.getPrefLocation().isEmpty() -> "北京"
+                else -> locationProvider.getPrefLocation()
+            },
             Locale.getDefault().language,
             unit
         )
@@ -125,6 +128,7 @@ class WeatherRepositoryImpl(
             locationDAO.insertData(response)
         }
     }
+
 
     private fun persistFetchFuture(response: List<DailyForecast>) {
         GlobalScope.launch(Dispatchers.IO) {

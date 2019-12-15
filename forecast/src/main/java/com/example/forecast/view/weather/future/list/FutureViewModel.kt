@@ -13,4 +13,5 @@ class FutureViewModel(
     val future by lazyDeferred {
         repository.fetchFuture(LocalDate.now(), super.isMetric)
     }
+
 }

@@ -26,9 +26,6 @@
         <argument
             android:name="dateString"
             app:argType="string" />
-        <argument
-            android:name="avgTemp"
-            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/settingFragment"

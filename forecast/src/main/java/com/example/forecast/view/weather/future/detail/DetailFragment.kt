@@ -23,6 +23,7 @@ import org.kodein.di.generic.factory
 import org.threeten.bp.LocalDate
 import org.threeten.bp.format.DateTimeFormatter
 import org.threeten.bp.format.FormatStyle
+import kotlin.math.roundToInt
 
 class DetailFragment : ScopeFragment(), KodeinAware {
     private lateinit var viewModel: DetailViewModel
@@ -57,13 +58,11 @@ class DetailFragment : ScopeFragment(), KodeinAware {
         })
     }
 
-    private fun chooseUnit(metric: String, imperial: String) =
-        if (viewModel.isMetric) metric else imperial
-
     private fun updateAllCondTxT(it: UnitDetailEntry) {
-        val unit = chooseUnit("℃", "℉")
-        val safeArgs = arguments?.let((fun(it: Bundle) = DetailFragmentArgs.fromBundle(it)))!!
-        nowTempTxT.text = "${safeArgs.avgTemp}$unit"
+        val unit = if (viewModel.isMetric) "℃" else "℉"
+        val avgTemp =
+            "${(it.tmpMax.toDouble().roundToInt() + it.tmpMin.toDouble().roundToInt()) / 2}"
+        nowTempTxT.text = String.format(getString(R.string.avg_temp), avgTemp, unit)
         condTxT.text = it.condTxTDay
         tempSpanTxT.text = String.format(
             getString(R.string.temp_span),

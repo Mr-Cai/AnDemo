@@ -2,14 +2,16 @@ package com.example.forecast.data.provider
 
 import android.Manifest.permission.ACCESS_COARSE_LOCATION
 import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.content.Context
 import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.location.Location
+import android.util.Log
 import androidx.core.content.ContextCompat
 import com.example.forecast.R
 import com.example.forecast.data.network.WeatherResponse.WeatherSet.Basic
+import com.example.forecast.data.unit.TAG
 import com.example.forecast.internal.NoLocPermission
-
 import com.example.forecast.internal.asDeferredAsync
 import com.google.android.gms.location.FusedLocationProviderClient
 import kotlinx.coroutines.Deferred
