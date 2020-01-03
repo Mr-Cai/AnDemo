@@ -2,7 +2,7 @@ package com.example.tencent_ads;
 
 public class Constants {
     public static final String BuglyAppID = "28d030a2bf";
-    public static final String APPID = "1101152570"; // debug:1109716769  me:1101152570
+    public static final String APPID = "1109716769"; // debug:1101152570  me:1109716769
     public static final String POS_ID = "pos_id";
     public static final String MIN_VIDEO_DURATION = "minVideoDuration";
     public static final String MAX_VIDEO_DURATION = "maxVideoDuration";
