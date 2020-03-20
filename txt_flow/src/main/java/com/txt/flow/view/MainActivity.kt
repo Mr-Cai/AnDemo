@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        keywordsFlowView.setTextShowSize(25)   // 设置每次随机飞入文字的个数
+        keywordsFlowView.setTextShowSize(12)   // 设置每次随机飞入文字的个数
         keywordsFlowView.shouldScrollFlow(true)  // 设置是否允许滑动屏幕切换文字
         keywordsFlowView.show(keywords, KeywordsFlow.ANIMATION_IN)  // 开始展示
 
@@ -42,13 +42,52 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
+        @Suppress("SpellCheckingInspection")
         val keywords = arrayOf(
-            "Apple", "Android", "呵呵",
-            "高富帅", "女神", "拥抱", "旅行", "爱情", "屌丝", "搞笑", "暴走漫画", "重邮", "信科",
-            "唯美", "汪星人", "秋天", "雨天", "科幻", "黑夜",
-            "孤独", "星空", "东京食尸鬼", "金正恩", "张全蛋", "东京热", "陈希妍",
-            "明星", "NBA", "马云", "码农", "动漫", "时尚", "熊孩子", "地理", "伤感",
-            "二次元"
+            "微信",
+            "QQ",
+            "支付宝",
+            "天气",
+            "小番茄",
+            "美团",
+            "万能计算器",
+            "百度地图",
+            "京东",
+            "寻常生活",
+            "手机淘宝",
+            "蜻蜓FM",
+            "度小满金融",
+            "中国银行",
+            "有道词典",
+            "下厨房",
+            "水果忍者",
+            "梦幻小镇",
+            "植物大战僵尸2",
+            "饥饿鲨",
+            "比特小队",
+            "2048世界",
+            "愤怒的小鸟2",
+            "谷歌商店",
+            "谷歌翻译",
+            "脸书",
+            "影梭",
+            "V2ray",
+            "Play游戏",
+            "WhatsApp",
+            "推特",
+            "Gmail",
+            "Tumblr",
+            "Instagram",
+            "APKPure",
+            "Goolge",
+            "Tinder",
+            "Youtube",
+            "Paypal",
+            "极简汇率",
+            "Snapmod",
+            "OneNote",
+            "小睡眠",
+            "掌阅"
         )
     }
 }
