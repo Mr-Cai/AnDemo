@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mintegral.msdk:mtgjscommon:10.1.31@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f4ffb5fc665086dd00705e826411e3b/mtgjscommon-10.1.31/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f4ffb5fc665086dd00705e826411e3b/mtgjscommon-10.1.31/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f4ffb5fc665086dd00705e826411e3b/mtgjscommon-10.1.31/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f4ffb5fc665086dd00705e826411e3b/mtgjscommon-10.1.31/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mintegral.msdk/mtgjscommon/10.1.31/2fb2319aadf3ab905c203b43b21bafc51ea2e3ce/mtgjscommon-10.1.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

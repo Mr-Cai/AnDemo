@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.qq.e.union.demo.NativeVideoADActivity">
+
+    <LinearLayout
+        android:id="@+id/posIdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonContainer"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="广告位id："
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/posId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/id_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonContainer"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbMinVideoDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频最小时长(闭区间): "
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/etMinVideoDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonContainer"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbMaxVideoDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频最大时长(闭区间): "
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/etMaxVideoDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onNormalViewClicked"
+        android:text="基本使用方法(先看这个)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onPreMovieAdClicked"
+        android:text="前贴片广告" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onListViewClicked"
+        android:text="消息流(ListView+自动播放)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRecyclerViewClicked"
+        android:text="消息流(RecyclerView+手动播放)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onScrollViewClicked"
+        android:text="ScrollView场景" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="请仔细阅读接入文档第2.7节"
+        android:textColor="#80000000"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

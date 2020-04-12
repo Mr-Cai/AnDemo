@@ -1,0 +1,7 @@
+#Sun Apr 12 16:41:25 CST 2020
+base.1=/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+path.1=classes.dex
+base.0=/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
