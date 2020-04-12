@@ -29,15 +29,15 @@ class TypeAdapter(private val list: ArrayList<Item>) :
                         context.startActivity(
                             Intent(
                                 context,
-                                UnifiedInterstitialADActivity::class.java
+                                MainActivity::class.java
                             )
                         )
                     }
                     "Banner广告" -> {
-                        context.startActivity(Intent(context, UnifiedBannerActivity::class.java))
+                        context.startActivity(Intent(context, MainActivity::class.java))
                     }
                     "原生广告" -> {
-                        context.startActivity(Intent(context, NativeExpressADActivity::class.java))
+                        context.startActivity(Intent(context, MainActivity::class.java))
                     }
                 }
             }

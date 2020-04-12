@@ -12,7 +12,6 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 // 开发文档 https://dev.heweather.com/docs/api/weather
-// 示例 https://free-api.heweather.net/s6/weather/now?location=shenzhen&key=985cb464f7ae4866a1fc35fd63e17e42
 interface WeatherService {
     @GET("now.json")    // 今日天气
     fun getCurrentAsync(
