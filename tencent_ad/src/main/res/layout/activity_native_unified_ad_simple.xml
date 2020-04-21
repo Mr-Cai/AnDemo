@@ -19,6 +19,7 @@
                 android:id="@+id/nativeShowBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:text="@string/native_render" />
         </LinearLayout>
 
@@ -52,7 +53,7 @@
                     <!-- 原生广告的点击按钮 -->
                     <Button
                         android:id="@+id/btn_download"
-                        android:layout_width="60dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignTop="@id/img_logo"
                         android:layout_alignParentRight="true"

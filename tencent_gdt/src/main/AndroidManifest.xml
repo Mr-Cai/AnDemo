@@ -432,7 +432,7 @@
             android:configChanges="keyboard|orientation"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <!--国内流量版本必需，海外版本可以不添加-->
         <receiver android:name="com.mintegral.msdk.click.AppReceiver">
             <intent-filter>

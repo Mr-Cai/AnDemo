@@ -1,13 +1,13 @@
 package demo.tencent.ad
 
-import android.content.Intent
+import android.annotation.SuppressLint
+import android.content.Context
 import android.os.Bundle
 import android.os.Handler
 import android.os.Message
 import android.util.Log
 import android.view.View
 import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
@@ -23,18 +23,46 @@ import java.util.*
 
 class NativeADUnifiedSampleActivity : AppCompatActivity(),
     NativeADUnifiedListener {
-    private var mAdData: NativeUnifiedADData? = null
+    private var adData: NativeUnifiedADData? = null // 广告数据
+    private val adHandler: Handler = getHandler()  // 广告接收处理
+    private lateinit var nativeUnifiedAD: NativeUnifiedAD // 广告UI
 
-    private val adHandler = Handler(Handler.Callback { msg ->
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_native_unified_ad_simple)
+        loadAd()
+        nativeShowBTN.setOnClickListener {
+            adData?.destroy()
+            nativeUnifiedAD.loadData(1)
+        }
+    }
+
+    override fun onADLoaded(ads: List<NativeUnifiedADData>) {
+        if (ads.isNotEmpty()) {
+            val msg = Message.obtain()
+            msg.what = MSG_INIT_AD
+            adData = ads[0]
+            msg.obj = adData
+            adHandler.sendMessage(msg)
+        }
+    }
+
+    private fun loadAd() {
+        nativeUnifiedAD = NativeUnifiedAD(this, O.appID, O.nativeID, this)
+        nativeUnifiedAD.run {
+            setMinVideoDuration(0)
+            setMaxVideoDuration(0)
+            setVideoPlayPolicy(AUTO)
+            setVideoADContainerRender(SDK)
+            loadData(1)
+        }
+    }
+
+    private fun getHandler() = Handler(Handler.Callback { msg ->
         when (msg.what) {
             MSG_INIT_AD -> {
                 val ad = msg.obj as NativeUnifiedADData
-                Log.i(TAG, "handleMessage:图片宽高: ${ad.pictureWidth} ${ad.pictureHeight}")
                 initAd(ad)
-                Log.i(
-                    TAG,
-                    "eCPM: ${ad.ecpm} eCPM等级: ${ad.ecpmLevel} eCPM延迟: ${ad.videoDuration}"
-                )
             }
             MSG_VIDEO_START -> {
                 img_poster.visibility = View.GONE
@@ -44,91 +72,34 @@ class NativeADUnifiedSampleActivity : AppCompatActivity(),
         true
     })
 
-    // 与广告有关的变量，用来显示广告素材的UI
-    private lateinit var mAdManager: NativeUnifiedAD
-    private var mPlayMute = true
-    private var mPreloadVideo = false
-    private var mLoadingAd = false
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_native_unified_ad_simple)
-        mPlayMute = true
-        mAdManager = NativeUnifiedAD(this, O.appID, O.nativeID, this)
-        mAdManager.setMinVideoDuration(0)
-        mAdManager.setMaxVideoDuration(0)
-        // 海外流量
-        mAdManager.setVastClassName("com.qq.e.union.demo.adapter.vast.unified.ImaNativeDataAdapter")
-        mAdManager.setVideoPlayPolicy(AUTO)
-        mAdManager.setVideoADContainerRender(SDK)
-        nativeShowBTN.setOnClickListener {
-            loadAd(true)
-        }
-    }
-
-    override fun onADLoaded(ads: List<NativeUnifiedADData>) {
-        mLoadingAd = false
-        if (ads.isNotEmpty()) {
-            val msg = Message.obtain()
-            msg.what = MSG_INIT_AD
-            mAdData = ads[0]
-            msg.obj = mAdData
-            adHandler.sendMessage(msg)
-        }
-    }
-
-    private fun loadAd(preloadVideo: Boolean) {
-        mLoadingAd = true
-        if (mAdData != null) {
-            mAdData?.destroy()
-            mAdData = null
-        }
-        mPreloadVideo = preloadVideo
-        mAdManager.loadData(AD_COUNT)
-    }
-
     private fun initAd(ad: NativeUnifiedADData) {
         if (ad.adPatternType == AdPatternType.NATIVE_VIDEO) {
-            if (mPreloadVideo) {
-                // 如果是视频广告，可以调用preloadVideo预加载视频素材
-                Toast.makeText(this, "正在加载视频素材", Toast.LENGTH_SHORT).show()
-                ad.preloadVideo(object : VideoPreloadListener {
-                    override fun onVideoCached() {
-                        Log.i(TAG, "onVideoCached: ")
-                        // 视频素材加载完成，此时展示广告不会有进度条。
-                        showAd(ad)
-                    }
+            Toast.makeText(this, "正在加载视频素材", Toast.LENGTH_SHORT).show()
+            ad.preloadVideo(object : VideoPreloadListener {
+                override fun onVideoCached() {
+                    Log.i(TAG, "onVideoCached: ")
+                    showAd(ad, baseContext)
+                }
 
-                    override fun onVideoCacheFailed(
-                        errorNo: Int,
-                        msg: String
-                    ) {
-                        Log.i(TAG, "onVideoCacheFailed: ")
-                    }
-                })
-            } else {
-                showAd(ad)
-            }
-        } else {
-            showAd(ad)
+                override fun onVideoCacheFailed(errorNo: Int, msg: String) {
+                    Log.i(TAG, "onVideoCacheFailed: ")
+                }
+            })
+            showAd(ad, baseContext)
         }
+        showAd(ad, baseContext)
     }
 
-    private fun showAd(ad: NativeUnifiedADData) {
-        renderAdUi(ad)
-        val clickableViews: MutableList<View?> =
-            ArrayList()
-        // 所有广告类型，注册mDownloadButton的点击事件
+    private fun showAd(adData: NativeUnifiedADData, context: Context) {
+        renderAdUi(adData)
+        val clickableViews: MutableList<View> = ArrayList()
         clickableViews.add(btn_download)
-        ad.bindAdToView(this, native_ad_container, null, clickableViews)
-        if (ad.adPatternType == AdPatternType.NATIVE_VIDEO) {
-            // 视频广告，注册mMediaView的点击事件
+        adData.bindAdToView(this, native_ad_container, null, clickableViews)
+        if (adData.adPatternType == AdPatternType.NATIVE_VIDEO) {
             adHandler.sendEmptyMessage(MSG_VIDEO_START)
-            val videoOption =
-                getVideoOption(intent)
-            ad.bindMediaView(
+            adData.bindMediaView(
                 gdt_media_view,
-                videoOption,
+                getVideoOption(),
                 object : NativeADMediaListener {
                     override fun onVideoInit() {
                         Log.i(TAG, "onVideoInit: ")
@@ -143,7 +114,7 @@ class NativeADUnifiedSampleActivity : AppCompatActivity(),
                     }
 
                     override fun onVideoLoaded(videoDuration: Int) {
-                        Log.i(TAG, "onVideoLoaded: ")
+                        Log.i(TAG, "onVideoLoaded: $videoDuration")
                     }
 
                     override fun onVideoStart() {
@@ -174,16 +145,12 @@ class NativeADUnifiedSampleActivity : AppCompatActivity(),
                         Log.i(TAG, "onVideoClicked: ")
                     }
                 })
-        } else if (ad.adPatternType == AdPatternType.NATIVE_2IMAGE_2TEXT ||
-            ad.adPatternType == AdPatternType.NATIVE_1IMAGE_2TEXT
+        } else if (adData.adPatternType == AdPatternType.NATIVE_2IMAGE_2TEXT ||
+            adData.adPatternType == AdPatternType.NATIVE_1IMAGE_2TEXT
         ) {
-            // 双图双文、单图双文：注册mImagePoster的点击事件
             clickableViews.add(img_poster)
-        } else {
-            // 三小图广告：注册native_3img_ad_container的点击事件
-            clickableViews.add(findViewById(R.id.native_3img_ad_container))
         }
-        ad.setNativeAdEventListener(object : NativeADEventListener {
+        adData.setNativeAdEventListener(object : NativeADEventListener {
             override fun onADExposed() {
                 Log.i(TAG, "onADExposed: ")
             }
@@ -200,25 +167,21 @@ class NativeADUnifiedSampleActivity : AppCompatActivity(),
                 Log.i(TAG, "onADStatusChanged: ")
                 updateAdAction(
                     btn_download,
-                    ad
+                    adData,
+                    baseContext
                 )
             }
         })
-        updateAdAction(btn_download, ad)
+        updateAdAction(btn_download, adData, context)
     }
 
     override fun onResume() {
         super.onResume()
-        if (mAdData != null) {
-            // 必须要在Activity.onResume()时通知到广告数据，以便重置广告恢复状态
-            mAdData?.resume()
-        }
+        adData?.resume()
     }
 
     private fun renderAdUi(ad: NativeUnifiedADData) {
         val patternType = ad.adPatternType
-        val titleTxT = findViewById<TextView>(R.id.text_title)
-        val descTxT = findViewById<TextView>(R.id.text_desc)
         if (patternType == AdPatternType.NATIVE_2IMAGE_2TEXT
             || patternType == AdPatternType.NATIVE_VIDEO
         ) {
@@ -226,67 +189,60 @@ class NativeADUnifiedSampleActivity : AppCompatActivity(),
             img_poster.visibility = View.VISIBLE
             Glide.with(this).load(ad.iconUrl).into(img_logo)
             Glide.with(this).load(ad.iconUrl).into(img_poster)
-            titleTxT.text = ad.title
-            descTxT.text = ad.desc
+            text_title.text = ad.title
+            text_desc.text = ad.desc
         } else if (patternType == AdPatternType.NATIVE_1IMAGE_2TEXT) {
-            titleTxT.text = ad.title
-            descTxT.text = ad.desc
+            text_title.text = ad.title
+            text_desc.text = ad.desc
         }
     }
 
 
     override fun onDestroy() {
         super.onDestroy()
-        if (mAdData != null) {
-            // 必须要在Actiivty.destroy()时通知到广告数据，以便释放内存
-            mAdData?.destroy()
-        }
+        adData?.destroy()
     }
 
     override fun onNoAD(error: AdError) {
         Log.i(TAG, "onADError: 错误编号:${error.errorCode}，错误消息:${error.errorMsg}")
-        mLoadingAd = false
     }
 
     companion object {
         private const val MSG_INIT_AD = 0
         private const val MSG_VIDEO_START = 1
-        private const val AD_COUNT = 1
 
-        fun getVideoOption(intent: Intent?): VideoOption? {
-            if (intent == null) {
-                return null
-            }
+        fun getVideoOption(): VideoOption? {
             val videoOption: VideoOption?
-            val builder =
-                VideoOption.Builder()
-            builder.setAutoPlayPolicy(VideoOption.AutoPlayPolicy.ALWAYS)
-            builder.setAutoPlayMuted(true)
-            builder.setDetailPageMuted(false)
-            builder.setNeedCoverImage(true)
-            builder.setNeedProgressBar(true)
-            builder.setEnableDetailPage(true)
-            builder.setEnableUserControl(false)
-            videoOption = builder.build()
+            val builder = VideoOption.Builder()
+            builder.run {
+                setAutoPlayPolicy(VideoOption.AutoPlayPolicy.ALWAYS)
+                setAutoPlayMuted(true)
+                setDetailPageMuted(false)
+                setNeedCoverImage(true)
+                setNeedProgressBar(true)
+                setEnableDetailPage(true)
+                setEnableUserControl(false)
+                videoOption = build()
+            }
             return videoOption
         }
 
-        fun updateAdAction(
-            button: Button,
-            ad: NativeUnifiedADData
-        ) {
-            if (!ad.isAppAd) {
-                button.text = "浏览"
-                return
-            }
-            when (ad.appStatus) {
-                0 -> button.text = "下载"
-                1 -> button.text = "启动"
-                2 -> button.text = "更新"
-                4 -> button.text = ad.progress.toString() + "%"
-                8 -> button.text = "安装"
-                16 -> button.text = "下载失败，重新下载"
-                else -> button.text = "浏览"
+        @SuppressLint("SetTextI18n")
+        fun updateAdAction(button: Button, adData: NativeUnifiedADData, ctx: Context) {
+            when {
+                !adData.isAppAd -> {
+                    button.text = ctx.getText(R.string.views)
+                    return
+                }
+                else -> when (adData.appStatus) {
+                    0 -> button.text = ctx.getText(R.string.download)
+                    1 -> button.text = ctx.getText(R.string.start)
+                    2 -> button.text = ctx.getText(R.string.update)
+                    4 -> button.text = "${adData.progress}%"
+                    8 -> button.text = ctx.getText(R.string.install)
+                    16 -> button.text = ctx.getText(R.string.retry)
+                    else -> button.text = ctx.getText(R.string.retry)
+                }
             }
         }
     }

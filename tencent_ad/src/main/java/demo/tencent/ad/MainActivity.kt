@@ -1,6 +1,6 @@
 package demo.tencent.ad
 
-import android.Manifest.permission.ACCESS_FINE_LOCATION
+import android.Manifest.permission.ACCESS_COARSE_LOCATION
 import android.Manifest.permission.READ_PHONE_STATE
 import android.annotation.TargetApi
 import android.content.Intent
@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
             checkSelfPermission(READ_PHONE_STATE) != PERMISSION_GRANTED -> {
                 lackedPermission.add(READ_PHONE_STATE)
             }
-            checkSelfPermission(ACCESS_FINE_LOCATION) != PERMISSION_GRANTED -> {
-                lackedPermission.add(ACCESS_FINE_LOCATION)
+            checkSelfPermission(ACCESS_COARSE_LOCATION) != PERMISSION_GRANTED -> {
+                lackedPermission.add(ACCESS_COARSE_LOCATION)
             }
         }
 

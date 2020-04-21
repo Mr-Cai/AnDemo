@@ -11,4 +11,10 @@
     <string name="title_stop_video">停止</string>
     <string name="show_splash">加载闪屏</string>
     <string name="native_render">自渲染2.0单独</string>
+    <string name="download">下载</string>
+    <string name="start">启动</string>
+    <string name="update">更新</string>
+    <string name="install">安装</string>
+    <string name="retry">下载失败，重新下载</string>
+    <string name="views">浏览</string>
 </resources>
