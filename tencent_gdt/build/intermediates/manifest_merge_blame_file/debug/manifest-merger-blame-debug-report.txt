@@ -41,37 +41,37 @@
 30-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:23:5-81
 30-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:23:22-78
 31    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-31-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:5-83
-31-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:22-80
+31-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:5-83
+31-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:22-80
 32    <uses-permission android:name="android.permission.INTERNET" />
-32-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:5-67
-32-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:22-64
+32-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:5-67
+32-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:22-64
 33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-33-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:5-79
-33-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:22-76
+33-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:5-79
+33-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:22-76
 34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-34-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:5-76
-34-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:22-73
+34-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:5-76
+34-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:22-73
 35
 36    <permission
-36-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
+36-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
 37        android:name="com.qq.e.union.demo.permission.KW_SDK_BROADCAST"
-37-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
+37-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
 38        android:protectionLevel="signature" />
-38-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
+38-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
 39
 40    <uses-permission android:name="com.qq.e.union.demo.permission.KW_SDK_BROADCAST" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
-40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
-40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
+40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
+40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
 41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 快手需要权限结束 -->
-41-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:5-77
-41-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:22-74
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:5-77
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:22-74
 42    <application
 42-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:26:5-460:19
 43        android:name="com.qq.e.union.demo.DemoApplication"
 43-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:27:9-40
 44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-44-->[androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:24:18-86
+44-->[androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:24:18-86
 45        android:debuggable="true"
 46        android:icon="@drawable/gdticon"
 46-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:28:9-41
@@ -83,7 +83,7 @@
 50        android:theme="@style/AppTheme"
 50-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:31:9-40
 51        android:usesCleartextTraffic="true" >
-51-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:18-53
+51-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:18-53
 52
 53        <!-- mtg所需要依赖，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
 54        <uses-library
@@ -908,110 +908,110 @@
 486        <!-- MTG所需的组件结束 -->
 487        <!-- 声明SDK所需要的组件 -->
 488        <service
-488-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:19:9-22:43
+488-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:19:9-22:43
 489            android:name="com.qq.e.comm.DownloadService"
-489-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:20:13-57
+489-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:20:13-57
 490            android:exported="false"
-490-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:21:13-37
+490-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:21:13-37
 491            android:multiprocess="true" /> <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
-491-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:22:13-40
+491-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:22:13-40
 492        <activity
-492-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:23:9-26:43
+492-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:23:9-26:43
 493            android:name="com.qq.e.ads.ADActivity"
-493-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:24:13-51
+493-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:24:13-51
 494            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-494-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:25:13-83
+494-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:25:13-83
 495            android:multiprocess="true" />
-495-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:26:13-40
+495-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:26:13-40
 496        <activity
-496-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:27:9-31:52
+496-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:27:9-31:52
 497            android:name="com.qq.e.ads.PortraitADActivity"
-497-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:28:13-59
+497-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:28:13-59
 498            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-498-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:29:13-83
+498-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:29:13-83
 499            android:multiprocess="true"
-499-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:30:13-40
+499-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:30:13-40
 500            android:screenOrientation="portrait" />
-500-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:31:13-49
+500-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:31:13-49
 501        <activity
-501-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:32:9-36:53
+501-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:32:9-36:53
 502            android:name="com.qq.e.ads.LandscapeADActivity"
-502-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:33:13-60
+502-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:33:13-60
 503            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-503-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:34:13-83
+503-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:34:13-83
 504            android:multiprocess="true"
-504-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:35:13-40
+504-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:35:13-40
 505            android:screenOrientation="landscape" /> <!-- 用于激励视频可选广告的竖屏透明背景activity -->
-505-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:36:13-50
+505-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:36:13-50
 506        <activity
-506-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:37:9-41:64
+506-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:37:9-41:64
 507            android:name="com.qq.e.ads.RewardvideoPortraitADActivity"
-507-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:38:13-70
+507-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:38:13-70
 508            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-508-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:39:13-83
+508-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:39:13-83
 509            android:multiprocess="true"
-509-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:40:13-40
+509-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:40:13-40
 510            android:theme="@android:style/Theme.Translucent" /> <!-- 用于激励视频可选广告的横屏透明背景activity -->
-510-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:41:13-61
+510-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:41:13-61
 511        <activity
-511-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:42:9-46:64
+511-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:42:9-46:64
 512            android:name="com.qq.e.ads.RewardvideoLandscapeADActivity"
-512-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:43:13-71
+512-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:43:13-71
 513            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-513-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:44:13-83
+513-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:44:13-83
 514            android:multiprocess="true"
-514-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:45:13-40
+514-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:45:13-40
 515            android:theme="@android:style/Theme.Translucent" />
-515-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:46:13-61
+515-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:46:13-61
 516        <activity
-516-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:22:9-25:52
+516-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:22:9-25:52
 517            android:name="com.kwad.sdk.page.KsAdWebViewActivity"
-517-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:23:13-65
+517-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:23:13-65
 518            android:configChanges="keyboardHidden|orientation|screenSize"
-518-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:24:13-74
+518-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:24:13-74
 519            android:screenOrientation="portrait" />
-519-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:25:13-49
+519-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:25:13-49
 520        <activity
-520-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:26:9-30:80
+520-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:26:9-30:80
 521            android:name="com.kwad.sdk.page.VideoWebViewActivity"
-521-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:27:13-66
+521-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:27:13-66
 522            android:configChanges="keyboardHidden|orientation|screenSize"
-522-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:28:13-74
+522-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:28:13-74
 523            android:screenOrientation="portrait"
-523-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:29:13-49
+523-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:29:13-49
 524            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-524-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:30:13-77
+524-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:30:13-77
 525        <activity
-525-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:31:9-35:80
+525-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:31:9-35:80
 526            android:name="com.kwad.sdk.page.KsFullScreenVideoActivity"
-526-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:32:13-71
+526-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:32:13-71
 527            android:configChanges="keyboardHidden|orientation|screenSize"
-527-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:33:13-74
+527-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:33:13-74
 528            android:screenOrientation="portrait"
-528-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:34:13-49
+528-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:34:13-49
 529            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-529-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:35:13-77
+529-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:35:13-77
 530        <activity
-530-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:36:9-40:80
+530-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:36:9-40:80
 531            android:name="com.kwad.sdk.page.KSRewardVideoActivity"
-531-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:37:13-67
+531-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:37:13-67
 532            android:configChanges="keyboardHidden|orientation|screenSize"
-532-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:38:13-74
+532-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:38:13-74
 533            android:screenOrientation="portrait"
-533-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:39:13-49
+533-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:39:13-49
 534            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-534-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:40:13-77
+534-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:40:13-77
 535
 536        <provider
-536-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:42:9-50:20
+536-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:42:9-50:20
 537            android:name="com.kwad.sdk.widget.AdSdkFileProvider"
-537-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:43:13-65
+537-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:43:13-65
 538            android:authorities="com.qq.e.union.demo.adFileProvider"
-538-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:44:13-66
+538-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:44:13-66
 539            android:exported="false"
-539-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:45:13-37
+539-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:45:13-37
 540            android:grantUriPermissions="true" >
-540-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:46:13-47
+540-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:46:13-47
 541            <meta-data
 541-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
 542                android:name="android.support.FILE_PROVIDER_PATHS"
@@ -1020,63 +1020,63 @@
 543-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
 544        </provider> <!-- 下载相关 -->
 545        <receiver
-545-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:53:9-65:20
+545-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:53:9-65:20
 546            android:name="com.ksad.download.DownloadReceiver"
-546-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:54:13-62
+546-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:54:13-62
 547            android:exported="true" >
-547-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:55:13-36
+547-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:55:13-36
 548            <intent-filter>
-548-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:56:13-58:29
+548-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:56:13-58:29
 549                <action android:name="download.intent.action.DOWNLOAD_PAUSE" />
-549-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:17-80
-549-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:25-77
+549-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:17-80
+549-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:25-77
 550            </intent-filter>
 551            <intent-filter>
-551-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:59:13-61:29
+551-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:59:13-61:29
 552                <action android:name="download.intent.action.DOWNLOAD_RESUME" />
-552-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:17-81
-552-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:25-78
+552-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:17-81
+552-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:25-78
 553            </intent-filter>
 554            <intent-filter>
-554-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:62:13-64:29
+554-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:62:13-64:29
 555                <action android:name="download.intent.action.DOWNLOAD_CANCEL" />
-555-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:17-81
-555-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:25-78
+555-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:17-81
+555-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:25-78
 556            </intent-filter>
 557        </receiver>
 558
 559        <service android:name="com.kwai.filedownloader.services.FileDownloadService$SharedMainProcessService" />
-559-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:9-113
-559-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:18-110
+559-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:9-113
+559-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:18-110
 560        <service
-560-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:68:9-70:49
+560-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:68:9-70:49
 561            android:name="com.kwai.filedownloader.services.FileDownloadService$SeparateProcessService"
-561-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:69:13-103
+561-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:69:13-103
 562            android:process=":filedownloader" />
-562-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:70:13-46
+562-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:70:13-46
 563        <service
-563-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:71:9-73:40
+563-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:71:9-73:40
 564            android:name="com.ksad.download.service.DownloadService"
-564-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:72:13-69
+564-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:72:13-69
 565            android:exported="false" />
-565-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:73:13-37
+565-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:73:13-37
 566        <service
-566-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:23:9-25:40
+566-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:23:9-25:40
 567            android:name="leakcanary.internal.HeapAnalyzerService"
-567-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:24:13-67
+567-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:24:13-67
 568            android:exported="false" />
-568-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:25:13-37
+568-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:25:13-37
 569
 570        <provider
-570-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:29:9-37:20
+570-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:29:9-37:20
 571            android:name="leakcanary.internal.LeakCanaryFileProvider"
-571-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:30:13-70
+571-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:30:13-70
 572            android:authorities="com.squareup.leakcanary.fileprovider.com.qq.e.union.demo"
-572-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:31:13-88
+572-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:31:13-88
 573            android:exported="false"
-573-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:32:13-37
+573-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:32:13-37
 574            android:grantUriPermissions="true" >
-574-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:33:13-47
+574-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:33:13-47
 575            <meta-data
 575-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
 576                android:name="android.support.FILE_PROVIDER_PATHS"
@@ -1086,38 +1086,38 @@
 578        </provider>
 579
 580        <activity
-580-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:39:9-44:66
+580-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:39:9-44:66
 581            android:name="leakcanary.internal.activity.LeakActivity"
-581-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:40:13-69
+581-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:40:13-69
 582            android:icon="@mipmap/leak_canary_icon"
-582-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:41:13-52
+582-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:41:13-52
 583            android:label="@string/leak_canary_display_activity_label"
-583-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:42:13-71
+583-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:42:13-71
 584            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
-584-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:43:13-76
+584-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:43:13-76
 585            android:theme="@style/leak_canary_LeakCanary.Base" />
-585-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:44:13-63
+585-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:44:13-63
 586
 587        <activity-alias
-587-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:46:9-62:26
+587-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:46:9-62:26
 588            android:name="leakcanary.internal.activity.LeakLauncherActivity"
-588-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:47:13-77
+588-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:47:13-77
 589            android:banner="@drawable/leak_canary_tv_icon"
-589-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:48:13-59
+589-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:48:13-59
 590            android:enabled="@bool/leak_canary_add_launcher_icon"
-590-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:49:13-66
+590-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:49:13-66
 591            android:icon="@mipmap/leak_canary_icon"
-591-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:50:13-52
+591-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:50:13-52
 592            android:label="@string/leak_canary_display_activity_label"
-592-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:51:13-71
+592-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:51:13-71
 593            android:targetActivity="leakcanary.internal.activity.LeakActivity"
-593-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:52:13-79
+593-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:52:13-79
 594            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
-594-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:53:13-76
+594-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:53:13-76
 595            android:theme="@style/leak_canary_LeakCanary.Base" >
-595-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:54:13-63
+595-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:54:13-63
 596            <intent-filter>
-596-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:55:13-61:29
+596-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:55:13-61:29
 597                <action android:name="android.intent.action.MAIN" />
 597-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:17-69
 597-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:25-66
@@ -1127,38 +1127,38 @@
 599-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:80:27-74
 600                <!-- Android TV launcher intent -->
 601                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-601-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:17-86
-601-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:27-83
+601-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:17-86
+601-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:27-83
 602            </intent-filter>
 603        </activity-alias>
 604
 605        <activity
-605-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:64:9-70:68
+605-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:64:9-70:68
 606            android:name="leakcanary.internal.RequestStoragePermissionActivity"
-606-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:65:13-80
+606-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:65:13-80
 607            android:excludeFromRecents="true"
-607-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:66:13-46
+607-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:66:13-46
 608            android:icon="@mipmap/leak_canary_icon"
-608-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:67:13-52
+608-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:67:13-52
 609            android:label="@string/leak_canary_storage_permission_activity_label"
-609-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:68:13-82
+609-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:68:13-82
 610            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
-610-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:69:13-76
+610-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:69:13-76
 611            android:theme="@style/leak_canary_Theme.Transparent" />
-611-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:70:13-65
+611-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:70:13-65
 612
 613        <receiver android:name="leakcanary.internal.NotificationReceiver" />
-613-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:9-77
-613-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:19-74
+613-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:9-77
+613-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:19-74
 614
 615        <provider
-615-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:8:9-11:40
+615-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:8:9-11:40
 616            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
-616-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:9:13-79
+616-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:9:13-79
 617            android:authorities="com.qq.e.union.demo.leakcanary-installer"
-617-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:10:13-72
+617-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:10:13-72
 618            android:exported="false" />
-618-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:11:13-37
+618-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:11:13-37
 619    </application>
 620
 621</manifest>

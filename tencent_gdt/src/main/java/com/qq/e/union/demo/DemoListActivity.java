@@ -23,11 +23,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.qq.e.union.demo.adapter.test.activity.MediationTestActivity;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+
+import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
 
 public class DemoListActivity extends AppCompatActivity {
@@ -81,30 +84,24 @@ public class DemoListActivity extends AppCompatActivity {
         linearLayout.setOrientation(LinearLayout.VERTICAL);
         int padding = (int) getResources().getDimension(R.dimen.activity_vertical_margin);
         linearLayout.setPadding(padding, padding, padding, padding);
-        Iterator<Map.Entry<String, Pair<String, String>>> iterator = launcherMap.entrySet().iterator();
-        while (iterator.hasNext()) {
-            Map.Entry<String, Pair<String, String>> entry = iterator.next();
+        for (Map.Entry<String, Pair<String, String>> entry : launcherMap.entrySet()) {
             final String action = entry.getKey();
             final Pair<String, String> pair = entry.getValue();
-
             Button button = new Button(this);
             button.setId(getResources().getIdentifier(pair.first, "id", getPackageName()));
             button.setText(pair.second);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(action);
-                    intent.setPackage(getPackageName());
-                    DemoListActivity.this.startActivity(intent);
-                }
+            button.setOnClickListener(v -> {
+                Intent intent = new Intent(action);
+                intent.setPackage(getPackageName());
+                DemoListActivity.this.startActivity(intent);
             });
             linearLayout.addView(button,
                     new LinearLayout.LayoutParams(
-                            LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+                            MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         }
         ScrollView scrollView = new ScrollView(this);
         scrollView.addView(linearLayout, new FrameLayout.LayoutParams(
-                FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
+                MATCH_PARENT, MATCH_PARENT));
         return scrollView;
     }
 
@@ -125,7 +122,7 @@ public class DemoListActivity extends AppCompatActivity {
      */
     @TargetApi(Build.VERSION_CODES.M)
     private void checkAndRequestPermission() {
-        List<String> lackedPermission = new ArrayList<String>();
+        List<String> lackedPermission = new ArrayList<>();
         if (!(checkSelfPermission(Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED)) {
             lackedPermission.add(Manifest.permission.READ_PHONE_STATE);
         }
@@ -152,7 +149,7 @@ public class DemoListActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NotNull String[] permissions, @NotNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == 1024 && !hasAllPermissionsGranted(grantResults)) {
             Toast.makeText(this, "应用缺少必要的权限！请点击\"权限\"，打开所需要的权限。", Toast.LENGTH_LONG).show();

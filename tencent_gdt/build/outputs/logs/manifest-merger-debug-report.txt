@@ -26,61 +26,61 @@ ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/Andr
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:1-462:12
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:1-462:12
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:1-462:12
-MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:2:1-49:12
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:2:1-76:12
-MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.multidex:multidex:2.0.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2f855e387a43b38b0ec6e666f5398ea7/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/552bb3ef68d577d79a23cf8e72dbcff3/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6981bc02f047e62508d1659eaf492c63/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/91098a6cdf44a292a446c53c0e982774/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7907cedab309e5a5152f3222e1358745/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8208689da8c47d4ee3be358abaa89542/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/62a751947c4fca32cd9df57746c966c7/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.tencent.bugly:crashreport:3.2.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/06f7d2631c1132877e460bfddbdc322e/jetified-crashreport-3.2.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.mintegral.msdk:videojs:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f41665b471402d8ac54904078fbb9c74/jetified-videojs-10.1.31/AndroidManifest.xml:2:1-11:12
-MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76c47c8b70931d34d13f0731a58811bd/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:2:1-14:12
-MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fb8988548cb7908fe39b99950165d80d/jetified-playercommon-10.1.31/AndroidManifest.xml:2:1-15:12
-MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2addf2af4c394e3671047d89b40be2bf/jetified-reward-10.1.31/AndroidManifest.xml:2:1-15:12
-MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1c140ccf669d3b13bed5257aefd6e984/jetified-videocommon-10.1.31/AndroidManifest.xml:2:1-15:12
-MERGED from [com.mintegral.msdk:optimizedata:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2183ee0a677c20693033e99ca7164b22/jetified-optimizedata-10.1.31/AndroidManifest.xml:2:1-11:12
-MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e23bb13a3a6aad4e51fa00f779a9f467/jetified-common-10.1.31/AndroidManifest.xml:2:1-15:12
-MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/863674e53ef44f7b53471e8e15797f7d/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:2:1-14:12
-MERGED from [com.mintegral.msdk:mtgbid:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4f1b69af91df3229c7bdca0b0a6861f5/jetified-mtgbid-10.1.31/AndroidManifest.xml:2:1-11:12
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:17:1-75:12
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6906ac904c94e9d103ee17728f60e938/jetified-leakcanary-object-watcher-android-androidx-2.2/AndroidManifest.xml:2:1-7:12
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fd7a0ccb5656af8bee0781dc0e7043f3/jetified-leakcanary-object-watcher-android-support-fragments-2.2/AndroidManifest.xml:2:1-7:12
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.media:media:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/605ee8e0216680d225a1717af511b946/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/44af9bb6193b0cb0dcd9d4d8e8b3c288/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/817fec8b0da164c75162cd51858881b8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/35b59c63d8d73e2fa90f53459421d755/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/b8b2ca25f1963312827576da6151df6c/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2b057e052bb3f7da4f0287b22868b6ee/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/952df4a2acdca06921d98eabc17faa0c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/a9280d5a1e05d722104c293b55410768/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/40bc29655f63f931b1f5e39832e82041/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e4513386cf71268547bec41c09b8a1e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ec4543911922fa197ea78b883afb442d/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/41bc183e13d00f2e83d2b72d567fc8cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5849ab700cf0fcb96e4c529f5f893a25/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e94048dd4898009e3c4fe3198ad4fc/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/537136c926c9ca99b027571fba1e6557/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3f553b64259231263d3bc0bfd6d70cef/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/93f12ed7d56274c16e97103357f95868/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/de2e2783dc4ef18902d6c56e152d7264/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6ff931a0350e3f1a8bc1ac8944a05d3c/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/22e874fb42192be9c32d6d9c984d8f36/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fc825ed76e0c4d1d9156a200fcaac998/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f8923c0c1965f03765f5c56481358463/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/709824a4bcbe4bc5d49a6168fc060ca8/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/048793356dc963f0f53e93bde2e404c1/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/02a6d42e645be3e12c1d8f3dd6dfa807/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/cb365836d49e0fb27d0af100e20e1564/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ef7dd7324088c7c9933e773ffeb87215/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/63dedb08fca38e491e85c04225c8c6fb/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f32f0083ce925884bc28fdd494165d1c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8915e90116ab85d1d4e4d5e4bd1997fd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:2:1-49:12
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:2:1-76:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d0699bf3413c94bf7776459b77aa4743/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/96b064a7c512bc870394e40636967b7c/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c384d470472cb439d88222ba61298345/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/00ca16b59204affb1904b6685aca1d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0253e58da8b026010c2d3a19fe8c8787/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/169cbd77ea688784084fd082289d7752/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/01a3a3dd74a52e7626392a8262306263/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.tencent.bugly:crashreport:3.2.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bbfa998f5cfe65b1cb6751675d45fd67/jetified-crashreport-3.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mintegral.msdk:videojs:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/91f1c47a21479c431ec0608e984db279/jetified-videojs-10.1.31/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e22626e25d72468c7af0dfe050c3a60/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:2:1-14:12
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c8568f87df7eba2e97e2f629520bd03a/jetified-playercommon-10.1.31/AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c89f66d218fd5f37f9cd4e53268caf4c/jetified-reward-10.1.31/AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4c8db1be188820dc465d515c0337b2c1/jetified-videocommon-10.1.31/AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:optimizedata:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d799a0d6242239b6edd3cd52eec72c48/jetified-optimizedata-10.1.31/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/48549d0060578ad6274fcafd773c8006/jetified-common-10.1.31/AndroidManifest.xml:2:1-15:12
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/15f1b16fcabad7a4126cb6bbc22e08d4/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:2:1-14:12
+MERGED from [com.mintegral.msdk:mtgbid:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/55415ccbeb6cd779fd6b1792f2a5ec20/jetified-mtgbid-10.1.31/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:17:1-75:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/253685ac2c50b6064c1d0e78bc0b7acd/jetified-leakcanary-object-watcher-android-androidx-2.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/753c0f35ed6de6718745597e8b3716a8/jetified-leakcanary-object-watcher-android-support-fragments-2.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.media:media:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ab530a1af78f4fea0bd5f7720329d85/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8c43306693781087394cf39966e2d7ef/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ade37a9d002de961ab88ce4b0c1dcec1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/cccd35eb65bdc53deb7453db07e7c668/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f1493caf4b12f675cbb47f3f82e11abd/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/52e786c1d2db75ebf3d3909b2a207cf8/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8c88a1960765f343a51064f75cec1526/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3f455dea3fd560f7e62c691eb4eb67c6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/afab31c688623b6befb0b8a4b59591f3/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ab8b877472e6d0d78fd8201866971b4b/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/044eaa349c1d389da6140e61d7b63af9/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d8eb06b7ac9fed5ff1d3200e42a798fd/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/b4a704097a6cc6f797097d970a74f184/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/04d938699635719910eda1060a1d3d23/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7adf84dcdd25f2a83e44ceb64ab90bc6/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/a83f5a5b916782c5c9c557b2c0e1fe01/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/18baaf1c35b8fbd540a32e9c8746ab14/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76f4506cf76d85db1be846d4a0d89b0c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e25ba34f38ba1ed31898f1f92a8c9515/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d688667438e11cc797aa635c0535bcfc/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/65f1d837e5a94429e8158d72d12e6586/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3a4c9a83f9bb0e8bad4efd783d3228aa/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c38c7820ea7aefac27333a45ac187bf2/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6572f67f59a148bd3616ae16f6f48007/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/337f85511bd0b9757f8f1adb90ec500a/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6151990c57d6b29626096168666c409a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ea4853fa80fcb27578dfe992546a2029/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/127ee686b5aa7269b4f8385c60b15006/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/30bebccc54a5ff509dca0c42d8f76fa6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7d470b25d1682364011883268bb8215c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:1-462:12
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:1-462:12
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:1-462:12
@@ -102,8 +102,8 @@ INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/A
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_PHONE_STATE
 ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:8:5-75
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:15:5-75
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:15:5-75
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:15:5-75
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:15:5-75
 	android:name
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:8:22-72
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -116,50 +116,50 @@ ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/Andr
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:22:5-80
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:23:5-80
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:23:5-80
 	android:name
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:22:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:23:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:24:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:24:5-81
 	android:name
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:23:22-78
 application
 ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:26:5-460:19
-MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:5-47:19
-MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:5-47:19
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:21:5-74:19
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:21:5-74:19
-MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:22:5-26:19
-MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6981bc02f047e62508d1659eaf492c63/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6981bc02f047e62508d1659eaf492c63/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/62a751947c4fca32cd9df57746c966c7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/62a751947c4fca32cd9df57746c966c7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76c47c8b70931d34d13f0731a58811bd/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:11:5-12:19
-MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76c47c8b70931d34d13f0731a58811bd/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:11:5-12:19
-MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fb8988548cb7908fe39b99950165d80d/jetified-playercommon-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fb8988548cb7908fe39b99950165d80d/jetified-playercommon-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2addf2af4c394e3671047d89b40be2bf/jetified-reward-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2addf2af4c394e3671047d89b40be2bf/jetified-reward-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1c140ccf669d3b13bed5257aefd6e984/jetified-videocommon-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1c140ccf669d3b13bed5257aefd6e984/jetified-videocommon-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e23bb13a3a6aad4e51fa00f779a9f467/jetified-common-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e23bb13a3a6aad4e51fa00f779a9f467/jetified-common-10.1.31/AndroidManifest.xml:12:5-13:19
-MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/863674e53ef44f7b53471e8e15797f7d/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:11:5-12:19
-MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/863674e53ef44f7b53471e8e15797f7d/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:11:5-12:19
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:28:5-73:19
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:28:5-73:19
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/048793356dc963f0f53e93bde2e404c1/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/048793356dc963f0f53e93bde2e404c1/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:5-47:19
+MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:5-47:19
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:21:5-74:19
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:21:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c384d470472cb439d88222ba61298345/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c384d470472cb439d88222ba61298345/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/01a3a3dd74a52e7626392a8262306263/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/01a3a3dd74a52e7626392a8262306263/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e22626e25d72468c7af0dfe050c3a60/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:11:5-12:19
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e22626e25d72468c7af0dfe050c3a60/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:11:5-12:19
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c8568f87df7eba2e97e2f629520bd03a/jetified-playercommon-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c8568f87df7eba2e97e2f629520bd03a/jetified-playercommon-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c89f66d218fd5f37f9cd4e53268caf4c/jetified-reward-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c89f66d218fd5f37f9cd4e53268caf4c/jetified-reward-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4c8db1be188820dc465d515c0337b2c1/jetified-videocommon-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4c8db1be188820dc465d515c0337b2c1/jetified-videocommon-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/48549d0060578ad6274fcafd773c8006/jetified-common-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/48549d0060578ad6274fcafd773c8006/jetified-common-10.1.31/AndroidManifest.xml:12:5-13:19
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/15f1b16fcabad7a4126cb6bbc22e08d4/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:11:5-12:19
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/15f1b16fcabad7a4126cb6bbc22e08d4/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:11:5-12:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:28:5-73:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:28:5-73:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6572f67f59a148bd3616ae16f6f48007/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6572f67f59a148bd3616ae16f6f48007/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:29:9-36
 	android:icon
@@ -171,7 +171,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caik
 	tools:replace
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:32:9-38
 	android:usesCleartextTraffic
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:18-53
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:18-53
 	android:name
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:27:9-40
 uses-library#org.apache.http.legacy
@@ -656,116 +656,116 @@ uses-sdk
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml
-MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:7:5-9:41
-MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:7:5-9:41
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:7:5-9:41
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.multidex:multidex:2.0.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2f855e387a43b38b0ec6e666f5398ea7/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2f855e387a43b38b0ec6e666f5398ea7/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/552bb3ef68d577d79a23cf8e72dbcff3/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/552bb3ef68d577d79a23cf8e72dbcff3/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6981bc02f047e62508d1659eaf492c63/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6981bc02f047e62508d1659eaf492c63/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/91098a6cdf44a292a446c53c0e982774/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/91098a6cdf44a292a446c53c0e982774/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7907cedab309e5a5152f3222e1358745/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7907cedab309e5a5152f3222e1358745/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8208689da8c47d4ee3be358abaa89542/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8208689da8c47d4ee3be358abaa89542/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/62a751947c4fca32cd9df57746c966c7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/62a751947c4fca32cd9df57746c966c7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.tencent.bugly:crashreport:3.2.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/06f7d2631c1132877e460bfddbdc322e/jetified-crashreport-3.2.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.tencent.bugly:crashreport:3.2.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/06f7d2631c1132877e460bfddbdc322e/jetified-crashreport-3.2.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.mintegral.msdk:videojs:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f41665b471402d8ac54904078fbb9c74/jetified-videojs-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:videojs:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f41665b471402d8ac54904078fbb9c74/jetified-videojs-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76c47c8b70931d34d13f0731a58811bd/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76c47c8b70931d34d13f0731a58811bd/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fb8988548cb7908fe39b99950165d80d/jetified-playercommon-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fb8988548cb7908fe39b99950165d80d/jetified-playercommon-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2addf2af4c394e3671047d89b40be2bf/jetified-reward-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2addf2af4c394e3671047d89b40be2bf/jetified-reward-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1c140ccf669d3b13bed5257aefd6e984/jetified-videocommon-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1c140ccf669d3b13bed5257aefd6e984/jetified-videocommon-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:optimizedata:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2183ee0a677c20693033e99ca7164b22/jetified-optimizedata-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:optimizedata:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2183ee0a677c20693033e99ca7164b22/jetified-optimizedata-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e23bb13a3a6aad4e51fa00f779a9f467/jetified-common-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e23bb13a3a6aad4e51fa00f779a9f467/jetified-common-10.1.31/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/863674e53ef44f7b53471e8e15797f7d/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/863674e53ef44f7b53471e8e15797f7d/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:mtgbid:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4f1b69af91df3229c7bdca0b0a6861f5/jetified-mtgbid-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mintegral.msdk:mtgbid:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4f1b69af91df3229c7bdca0b0a6861f5/jetified-mtgbid-10.1.31/AndroidManifest.xml:7:5-9:41
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6906ac904c94e9d103ee17728f60e938/jetified-leakcanary-object-watcher-android-androidx-2.2/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6906ac904c94e9d103ee17728f60e938/jetified-leakcanary-object-watcher-android-androidx-2.2/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fd7a0ccb5656af8bee0781dc0e7043f3/jetified-leakcanary-object-watcher-android-support-fragments-2.2/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fd7a0ccb5656af8bee0781dc0e7043f3/jetified-leakcanary-object-watcher-android-support-fragments-2.2/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/605ee8e0216680d225a1717af511b946/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/605ee8e0216680d225a1717af511b946/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/44af9bb6193b0cb0dcd9d4d8e8b3c288/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/44af9bb6193b0cb0dcd9d4d8e8b3c288/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/817fec8b0da164c75162cd51858881b8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/817fec8b0da164c75162cd51858881b8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/35b59c63d8d73e2fa90f53459421d755/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/35b59c63d8d73e2fa90f53459421d755/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/b8b2ca25f1963312827576da6151df6c/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/b8b2ca25f1963312827576da6151df6c/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2b057e052bb3f7da4f0287b22868b6ee/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2b057e052bb3f7da4f0287b22868b6ee/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/952df4a2acdca06921d98eabc17faa0c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/952df4a2acdca06921d98eabc17faa0c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/a9280d5a1e05d722104c293b55410768/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/a9280d5a1e05d722104c293b55410768/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/40bc29655f63f931b1f5e39832e82041/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/40bc29655f63f931b1f5e39832e82041/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e4513386cf71268547bec41c09b8a1e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e4513386cf71268547bec41c09b8a1e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ec4543911922fa197ea78b883afb442d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ec4543911922fa197ea78b883afb442d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/41bc183e13d00f2e83d2b72d567fc8cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/41bc183e13d00f2e83d2b72d567fc8cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5849ab700cf0fcb96e4c529f5f893a25/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5849ab700cf0fcb96e4c529f5f893a25/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e94048dd4898009e3c4fe3198ad4fc/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e94048dd4898009e3c4fe3198ad4fc/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/537136c926c9ca99b027571fba1e6557/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/537136c926c9ca99b027571fba1e6557/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3f553b64259231263d3bc0bfd6d70cef/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3f553b64259231263d3bc0bfd6d70cef/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/93f12ed7d56274c16e97103357f95868/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/93f12ed7d56274c16e97103357f95868/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/49e37810ccf1a572501bb4327fbd81fb/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/de2e2783dc4ef18902d6c56e152d7264/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/de2e2783dc4ef18902d6c56e152d7264/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6ff931a0350e3f1a8bc1ac8944a05d3c/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6ff931a0350e3f1a8bc1ac8944a05d3c/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/22e874fb42192be9c32d6d9c984d8f36/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/22e874fb42192be9c32d6d9c984d8f36/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fc825ed76e0c4d1d9156a200fcaac998/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/fc825ed76e0c4d1d9156a200fcaac998/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f8923c0c1965f03765f5c56481358463/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f8923c0c1965f03765f5c56481358463/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/709824a4bcbe4bc5d49a6168fc060ca8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/709824a4bcbe4bc5d49a6168fc060ca8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/048793356dc963f0f53e93bde2e404c1/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/048793356dc963f0f53e93bde2e404c1/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/02a6d42e645be3e12c1d8f3dd6dfa807/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/02a6d42e645be3e12c1d8f3dd6dfa807/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/cb365836d49e0fb27d0af100e20e1564/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/cb365836d49e0fb27d0af100e20e1564/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ef7dd7324088c7c9933e773ffeb87215/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ef7dd7324088c7c9933e773ffeb87215/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/63dedb08fca38e491e85c04225c8c6fb/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/63dedb08fca38e491e85c04225c8c6fb/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f32f0083ce925884bc28fdd494165d1c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f32f0083ce925884bc28fdd494165d1c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8915e90116ab85d1d4e4d5e4bd1997fd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8915e90116ab85d1d4e4d5e4bd1997fd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:7:5-9:41
+MERGED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:7:5-9:41
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d0699bf3413c94bf7776459b77aa4743/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d0699bf3413c94bf7776459b77aa4743/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/96b064a7c512bc870394e40636967b7c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/96b064a7c512bc870394e40636967b7c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c384d470472cb439d88222ba61298345/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c384d470472cb439d88222ba61298345/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/00ca16b59204affb1904b6685aca1d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/00ca16b59204affb1904b6685aca1d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0253e58da8b026010c2d3a19fe8c8787/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0253e58da8b026010c2d3a19fe8c8787/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/169cbd77ea688784084fd082289d7752/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/169cbd77ea688784084fd082289d7752/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/01a3a3dd74a52e7626392a8262306263/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/01a3a3dd74a52e7626392a8262306263/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.2.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bbfa998f5cfe65b1cb6751675d45fd67/jetified-crashreport-3.2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.2.1] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bbfa998f5cfe65b1cb6751675d45fd67/jetified-crashreport-3.2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mintegral.msdk:videojs:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/91f1c47a21479c431ec0608e984db279/jetified-videojs-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:videojs:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/91f1c47a21479c431ec0608e984db279/jetified-videojs-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e22626e25d72468c7af0dfe050c3a60/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgjscommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2e22626e25d72468c7af0dfe050c3a60/jetified-mtgjscommon-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c8568f87df7eba2e97e2f629520bd03a/jetified-playercommon-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:playercommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c8568f87df7eba2e97e2f629520bd03a/jetified-playercommon-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c89f66d218fd5f37f9cd4e53268caf4c/jetified-reward-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:reward:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c89f66d218fd5f37f9cd4e53268caf4c/jetified-reward-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4c8db1be188820dc465d515c0337b2c1/jetified-videocommon-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:videocommon:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/4c8db1be188820dc465d515c0337b2c1/jetified-videocommon-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:optimizedata:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d799a0d6242239b6edd3cd52eec72c48/jetified-optimizedata-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:optimizedata:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d799a0d6242239b6edd3cd52eec72c48/jetified-optimizedata-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/48549d0060578ad6274fcafd773c8006/jetified-common-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:common:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/48549d0060578ad6274fcafd773c8006/jetified-common-10.1.31/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/15f1b16fcabad7a4126cb6bbc22e08d4/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgdownloads:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/15f1b16fcabad7a4126cb6bbc22e08d4/jetified-mtgdownloads-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgbid:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/55415ccbeb6cd779fd6b1792f2a5ec20/jetified-mtgbid-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mintegral.msdk:mtgbid:10.1.31] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/55415ccbeb6cd779fd6b1792f2a5ec20/jetified-mtgbid-10.1.31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/253685ac2c50b6064c1d0e78bc0b7acd/jetified-leakcanary-object-watcher-android-androidx-2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/253685ac2c50b6064c1d0e78bc0b7acd/jetified-leakcanary-object-watcher-android-androidx-2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/753c0f35ed6de6718745597e8b3716a8/jetified-leakcanary-object-watcher-android-support-fragments-2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/753c0f35ed6de6718745597e8b3716a8/jetified-leakcanary-object-watcher-android-support-fragments-2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ab530a1af78f4fea0bd5f7720329d85/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ab530a1af78f4fea0bd5f7720329d85/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8c43306693781087394cf39966e2d7ef/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8c43306693781087394cf39966e2d7ef/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ade37a9d002de961ab88ce4b0c1dcec1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ade37a9d002de961ab88ce4b0c1dcec1/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/cccd35eb65bdc53deb7453db07e7c668/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/cccd35eb65bdc53deb7453db07e7c668/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f1493caf4b12f675cbb47f3f82e11abd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f1493caf4b12f675cbb47f3f82e11abd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/52e786c1d2db75ebf3d3909b2a207cf8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/52e786c1d2db75ebf3d3909b2a207cf8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8c88a1960765f343a51064f75cec1526/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8c88a1960765f343a51064f75cec1526/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3f455dea3fd560f7e62c691eb4eb67c6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3f455dea3fd560f7e62c691eb4eb67c6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/afab31c688623b6befb0b8a4b59591f3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/afab31c688623b6befb0b8a4b59591f3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ab8b877472e6d0d78fd8201866971b4b/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ab8b877472e6d0d78fd8201866971b4b/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/044eaa349c1d389da6140e61d7b63af9/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/044eaa349c1d389da6140e61d7b63af9/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d8eb06b7ac9fed5ff1d3200e42a798fd/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d8eb06b7ac9fed5ff1d3200e42a798fd/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/b4a704097a6cc6f797097d970a74f184/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/b4a704097a6cc6f797097d970a74f184/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/04d938699635719910eda1060a1d3d23/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/04d938699635719910eda1060a1d3d23/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7adf84dcdd25f2a83e44ceb64ab90bc6/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7adf84dcdd25f2a83e44ceb64ab90bc6/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/a83f5a5b916782c5c9c557b2c0e1fe01/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/a83f5a5b916782c5c9c557b2c0e1fe01/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/18baaf1c35b8fbd540a32e9c8746ab14/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/18baaf1c35b8fbd540a32e9c8746ab14/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76f4506cf76d85db1be846d4a0d89b0c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/76f4506cf76d85db1be846d4a0d89b0c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e25ba34f38ba1ed31898f1f92a8c9515/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e25ba34f38ba1ed31898f1f92a8c9515/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d688667438e11cc797aa635c0535bcfc/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/d688667438e11cc797aa635c0535bcfc/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/65f1d837e5a94429e8158d72d12e6586/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/65f1d837e5a94429e8158d72d12e6586/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3a4c9a83f9bb0e8bad4efd783d3228aa/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/3a4c9a83f9bb0e8bad4efd783d3228aa/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c38c7820ea7aefac27333a45ac187bf2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/c38c7820ea7aefac27333a45ac187bf2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6572f67f59a148bd3616ae16f6f48007/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6572f67f59a148bd3616ae16f6f48007/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/337f85511bd0b9757f8f1adb90ec500a/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/337f85511bd0b9757f8f1adb90ec500a/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6151990c57d6b29626096168666c409a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/6151990c57d6b29626096168666c409a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ea4853fa80fcb27578dfe992546a2029/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ea4853fa80fcb27578dfe992546a2029/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/127ee686b5aa7269b4f8385c60b15006/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/127ee686b5aa7269b4f8385c60b15006/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/30bebccc54a5ff509dca0c42d8f76fa6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/30bebccc54a5ff509dca0c42d8f76fa6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7d470b25d1682364011883268bb8215c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7d470b25d1682364011883268bb8215c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml
 INJECTED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -783,270 +783,270 @@ ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/Andr
 	android:name
 		ADDED from /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:5-83
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:18:5-83
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:18:5-83
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:5-83
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:18:5-83
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:18:5-83
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:22-80
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:22-80
 uses-permission#android.permission.INTERNET
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:5-67
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:22-64
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:5-79
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:16:5-79
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:16:5-79
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:5-79
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:16:5-79
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:22-76
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:5-76
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:19:5-76
-MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:19:5-76
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:5-76
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:19:5-76
+MERGED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:22-73
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:22-73
 service#com.qq.e.comm.DownloadService
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:19:9-22:43
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:19:9-22:43
 	android:multiprocess
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:22:13-40
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:22:13-40
 	android:exported
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:21:13-37
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:20:13-57
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:20:13-57
 activity#com.qq.e.ads.ADActivity
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:23:9-26:43
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:23:9-26:43
 	android:multiprocess
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:26:13-40
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:26:13-40
 	android:configChanges
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:25:13-83
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:25:13-83
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:24:13-51
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:24:13-51
 activity#com.qq.e.ads.PortraitADActivity
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:27:9-31:52
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:27:9-31:52
 	android:screenOrientation
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:31:13-49
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:31:13-49
 	android:multiprocess
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:30:13-40
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:30:13-40
 	android:configChanges
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:29:13-83
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:29:13-83
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:28:13-59
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:28:13-59
 activity#com.qq.e.ads.LandscapeADActivity
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:32:9-36:53
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:32:9-36:53
 	android:screenOrientation
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:36:13-50
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:36:13-50
 	android:multiprocess
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:35:13-40
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:35:13-40
 	android:configChanges
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:34:13-83
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:34:13-83
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:33:13-60
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:33:13-60
 activity#com.qq.e.ads.RewardvideoPortraitADActivity
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:37:9-41:64
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:37:9-41:64
 	android:multiprocess
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:40:13-40
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:40:13-40
 	android:configChanges
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:39:13-83
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:39:13-83
 	android:theme
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:41:13-61
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:41:13-61
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:38:13-70
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:38:13-70
 activity#com.qq.e.ads.RewardvideoLandscapeADActivity
-ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:42:9-46:64
+ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:42:9-46:64
 	android:multiprocess
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:45:13-40
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:45:13-40
 	android:configChanges
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:44:13-83
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:44:13-83
 	android:theme
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:46:13-61
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:46:13-61
 	android:name
-		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/e734b1a7f74fe97d2402d13f1a1151d6/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:43:13-71
+		ADDED from [GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:43:13-71
 permission#${applicationId}.permission.KW_SDK_BROADCAST
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
 	android:protectionLevel
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
 permission#com.qq.e.union.demo.permission.KW_SDK_BROADCAST
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
 	android:protectionLevel
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
 uses-permission#${applicationId}.permission.KW_SDK_BROADCAST
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
 uses-permission#com.qq.e.union.demo.permission.KW_SDK_BROADCAST
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
 activity#com.kwad.sdk.page.KsAdWebViewActivity
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:22:9-25:52
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:22:9-25:52
 	android:screenOrientation
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:25:13-49
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:25:13-49
 	android:configChanges
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:24:13-74
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:24:13-74
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:23:13-65
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:23:13-65
 activity#com.kwad.sdk.page.VideoWebViewActivity
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:26:9-30:80
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:26:9-30:80
 	android:screenOrientation
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:29:13-49
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:29:13-49
 	android:configChanges
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:28:13-74
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:28:13-74
 	android:theme
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:30:13-77
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:30:13-77
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:27:13-66
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:27:13-66
 activity#com.kwad.sdk.page.KsFullScreenVideoActivity
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:31:9-35:80
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:31:9-35:80
 	android:screenOrientation
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:34:13-49
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:34:13-49
 	android:configChanges
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:33:13-74
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:33:13-74
 	android:theme
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:35:13-77
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:35:13-77
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:32:13-71
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:32:13-71
 activity#com.kwad.sdk.page.KSRewardVideoActivity
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:36:9-40:80
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:36:9-40:80
 	android:screenOrientation
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:39:13-49
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:39:13-49
 	android:configChanges
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:38:13-74
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:38:13-74
 	android:theme
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:40:13-77
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:40:13-77
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:37:13-67
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:37:13-67
 provider#com.kwad.sdk.widget.AdSdkFileProvider
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:42:9-50:20
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:42:9-50:20
 	android:grantUriPermissions
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:46:13-47
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:46:13-47
 	android:authorities
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:44:13-66
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:44:13-66
 	android:exported
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:45:13-37
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:43:13-65
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:43:13-65
 receiver#com.ksad.download.DownloadReceiver
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:53:9-65:20
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:53:9-65:20
 	android:exported
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:55:13-36
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:54:13-62
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:54:13-62
 intent-filter#action:name:download.intent.action.DOWNLOAD_PAUSE
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:56:13-58:29
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:56:13-58:29
 action#download.intent.action.DOWNLOAD_PAUSE
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:17-80
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:17-80
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:25-77
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:25-77
 intent-filter#action:name:download.intent.action.DOWNLOAD_RESUME
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:59:13-61:29
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:59:13-61:29
 action#download.intent.action.DOWNLOAD_RESUME
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:17-81
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:17-81
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:25-78
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:25-78
 intent-filter#action:name:download.intent.action.DOWNLOAD_CANCEL
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:62:13-64:29
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:62:13-64:29
 action#download.intent.action.DOWNLOAD_CANCEL
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:17-81
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:17-81
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:25-78
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:25-78
 service#com.kwai.filedownloader.services.FileDownloadService$SharedMainProcessService
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:9-113
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:9-113
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:18-110
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:18-110
 service#com.kwai.filedownloader.services.FileDownloadService$SeparateProcessService
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:68:9-70:49
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:68:9-70:49
 	android:process
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:70:13-46
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:70:13-46
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:69:13-103
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:69:13-103
 service#com.ksad.download.service.DownloadService
-ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:71:9-73:40
+ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:71:9-73:40
 	android:exported
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:73:13-37
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/142a01b37a2646741d317819a85552fa/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:72:13-69
+		ADDED from [ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:72:13-69
 service#leakcanary.internal.HeapAnalyzerService
-ADDED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:23:9-25:40
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:25:13-37
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/bba2e79b722e391a81105bb90a4d06b2/jetified-leakcanary-android-2.2/AndroidManifest.xml:24:13-67
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:24:13-67
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:5-77
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:5-77
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:22-74
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:22-74
 provider#leakcanary.internal.LeakCanaryFileProvider
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:29:9-37:20
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:29:9-37:20
 	android:grantUriPermissions
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:33:13-47
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:33:13-47
 	android:authorities
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:31:13-88
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:31:13-88
 	android:exported
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:32:13-37
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:30:13-70
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:30:13-70
 activity#leakcanary.internal.activity.LeakActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:39:9-44:66
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:39:9-44:66
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:42:13-71
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:42:13-71
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:41:13-52
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:41:13-52
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:44:13-63
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:44:13-63
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:43:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:43:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:40:13-69
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:40:13-69
 activity-alias#leakcanary.internal.activity.LeakLauncherActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:46:9-62:26
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:46:9-62:26
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:49:13-66
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:49:13-66
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:51:13-71
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:51:13-71
 	android:targetActivity
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:52:13-79
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:52:13-79
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:50:13-52
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:50:13-52
 	android:banner
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:48:13-59
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:48:13-59
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:54:13-63
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:54:13-63
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:53:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:53:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:47:13-77
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:47:13-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:55:13-61:29
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:55:13-61:29
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:17-86
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:17-86
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:27-83
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:27-83
 activity#leakcanary.internal.RequestStoragePermissionActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:64:9-70:68
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:64:9-70:68
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:68:13-82
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:68:13-82
 	android:excludeFromRecents
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:66:13-46
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:66:13-46
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:67:13-52
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:67:13-52
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:70:13-65
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:70:13-65
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:69:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:69:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:65:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:65:13-80
 receiver#leakcanary.internal.NotificationReceiver
-ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:9-77
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:9-77
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/05edbe0cce6daf40a64ec8e5072175cd/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:19-74
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:19-74
 provider#leakcanary.internal.AppWatcherInstaller$MainProcess
-ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/613cb3056f1c390c8cfb7f2959e51753/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:9:13-79
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:9:13-79

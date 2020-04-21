@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">腾讯广告</string>
+    <string name="load_banner">刷新横幅</string>
+    <string name="show_inters">显示插屏</string>
+    <string name="show_reward">显示激励</string>
+
+    <string name="title_mute_video">静音</string>
+    <string name="title_play_video">播放</string>
+    <string name="title_pause_video">暂停</string>
+    <string name="title_resume_video">恢复</string>
+    <string name="title_stop_video">停止</string>
+    <string name="show_splash">加载闪屏</string>
+    <string name="native_render">自渲染2.0单独</string>
+</resources>
