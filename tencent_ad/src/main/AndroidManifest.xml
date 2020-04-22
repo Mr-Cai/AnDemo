@@ -21,11 +21,9 @@
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".NativeADActivity" />
         <activity
-            android:name=".NativeADUnifiedSampleActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:exported="true" />
+            android:name=".NativeADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
         <activity
             android:name=".IntersActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"

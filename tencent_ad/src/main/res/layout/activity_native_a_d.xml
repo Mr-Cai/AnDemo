@@ -27,87 +27,100 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <com.qq.e.ads.nativ.widget.NativeAdContainer
-        android:id="@+id/nativeADContainer"
+        android:id="@+id/nativeContainer"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="320dp"
-            android:layout_gravity="center">
-
-            <ImageView
-                android:id="@+id/adLogo"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
-                android:contentDescription="@null"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <ImageView
-                android:id="@+id/adPostPic"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:contentDescription="@null"
-                android:scaleType="fitXY"
-                app:layout_constraintBottom_toBottomOf="@+id/mediaView"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/mediaView"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
-            <com.qq.e.ads.nativ.MediaView
-                android:id="@+id/mediaView"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_marginTop="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/adLogo">
-
-            </com.qq.e.ads.nativ.MediaView>
-
-            <TextView
-                android:id="@+id/adTitleTxT"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                app:layout_constraintEnd_toStartOf="@+id/installBTN"
-                app:layout_constraintStart_toEndOf="@+id/adLogo"
-                app:layout_constraintTop_toTopOf="@+id/adLogo"
-                tools:text="广告标题" />
-
-            <TextView
-                android:id="@+id/adDescTxT"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                app:layout_constraintEnd_toEndOf="@+id/adTitleTxT"
-                app:layout_constraintStart_toStartOf="@+id/adTitleTxT"
-                app:layout_constraintTop_toBottomOf="@+id/adTitleTxT"
-                tools:text="广告描述" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/installBTN"
-                android:layout_width="wrap_content"
+                android:id="@+id/nativeShowBTN"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/adLogo"
-                tools:text="安装｜下载" />
+                android:layout_marginHorizontal="8dp"
+                android:text="@string/native_render" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="8dp">
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:contentDescription="@null"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/text_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="#e0000000"
+                        tools:text="@string/app_name" />
+
+                    <TextView
+                        android:id="@+id/text_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="#a0000000"
+                        tools:text="@string/native_render" />
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btn_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#80000000"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:visibility="gone"
+                    tools:text="@string/download" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="4dp">
+
+                <com.qq.e.ads.nativ.MediaView
+                    android:id="@+id/gdt_media_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000" />
+
+                <ImageView
+                    android:id="@+id/img_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+        </LinearLayout>
     </com.qq.e.ads.nativ.widget.NativeAdContainer>
 </androidx.constraintlayout.widget.ConstraintLayout>
