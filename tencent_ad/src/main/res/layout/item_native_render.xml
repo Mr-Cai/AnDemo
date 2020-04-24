@@ -13,7 +13,7 @@
         <LinearLayout
             android:id="@+id/topBarLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginVertical="4dp"
             android:orientation="horizontal"
             android:paddingHorizontal="8dp">
@@ -28,14 +28,17 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_weight="1"
-                android:orientation="vertical"
-                android:padding="8dp">
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/titleTxTAD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:ellipsize="end"
                     android:singleLine="true"
                     android:textColor="#e0000000"
@@ -44,8 +47,9 @@
                 <TextView
                     android:id="@+id/descTxTAD"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:ellipsize="end"
+                    android:gravity="center_vertical"
                     android:maxLines="2"
                     android:textColor="#a0000000"
                     tools:text="@string/native_render" />

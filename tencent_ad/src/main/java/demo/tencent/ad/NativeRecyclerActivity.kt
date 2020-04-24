@@ -6,16 +6,12 @@ import android.os.Bundle
 import android.os.Handler
 import android.util.Log
 import android.view.*
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.qq.e.ads.cfg.VideoOption
 import com.qq.e.ads.nativ.*
-import com.qq.e.ads.nativ.widget.NativeAdContainer
 import com.qq.e.comm.constants.AdPatternType
 import com.qq.e.comm.managers.status.SDKStatus
 import com.qq.e.comm.util.AdError
@@ -25,11 +21,12 @@ import kotlinx.android.synthetic.main.activity_render_recycler_native.*
 import kotlinx.android.synthetic.main.item_data.view.*
 import kotlinx.android.synthetic.main.item_native_render.view.*
 import java.util.*
+import kotlin.collections.ArrayList
 
 class NativeRecyclerActivity : AppCompatActivity(),
     NativeADUnifiedListener {
     private lateinit var nativeUnifiedAD: NativeUnifiedAD
-    private var adDataList: MutableList<NativeUnifiedADData>? = ArrayList()
+    private lateinit var adDataList: MutableList<NativeUnifiedADData>
     private lateinit var adapter: CustomAdapter
     private val adHandler by lazy { getHandler() }
     private var isLoading = true
@@ -43,42 +40,33 @@ class NativeRecyclerActivity : AppCompatActivity(),
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.native_ad_menu, menu)
+        menuInflater.inflate(R.menu.native_ad_menu, menu)
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.nativeRender -> {
-                startActivity(
-                    Intent(
-                        this,
-                        NativeADActivity::class.java
-                    ).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-                )
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
+    override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
+        R.id.nativeRender -> {
+            startActivity(Intent(this, NativeADActivity::class.java))
+            true
         }
+        else -> super.onOptionsItemSelected(item)
     }
 
     private fun initAD() {
         nativeUnifiedAD = NativeUnifiedAD(this, O.appID, O.nativeID, this)
-        nativeUnifiedAD.setMinVideoDuration(0)
-        nativeUnifiedAD.setMaxVideoDuration(0)
-        nativeUnifiedAD.setVideoPlayPolicy(VideoOption.VideoPlayPolicy.AUTO)
-        nativeUnifiedAD.setVideoADContainerRender(VideoOption.VideoADContainerRender.SDK)
-        nativeUnifiedAD.loadData(AD_COUNT)
+        nativeUnifiedAD.run {
+            setMinVideoDuration(0)
+            setMaxVideoDuration(0)
+            setVideoPlayPolicy(VideoOption.VideoPlayPolicy.AUTO)
+            setVideoADContainerRender(VideoOption.VideoADContainerRender.SDK)
+            loadData(AD_COUNT)
+        }
     }
 
     private fun initView() {
+        adDataList = ArrayList()
+        adapter = CustomAdapter(this, ArrayList())
         nativeRecycler.layoutManager = LinearLayoutManager(this)
-        val list = ArrayList<Any>()
-        for (i in 0..9) {
-            list.add(NormalItem("No.$i Init Data"))
-        }
-        adapter = CustomAdapter(this, list)
         nativeRecycler.adapter = adapter
         nativeRecycler.addOnScrollListener(object : RecyclerView.OnScrollListener() {
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
@@ -87,25 +75,24 @@ class NativeRecyclerActivity : AppCompatActivity(),
                     !recyclerView.canScrollVertically(1)
                 ) {
                     isLoading = true
-                    nativeUnifiedAD.setVideoPlayPolicy(VideoOption.VideoPlayPolicy.AUTO)
-                    nativeUnifiedAD.setVideoADContainerRender(VideoOption.VideoADContainerRender.DEV)
-                    nativeUnifiedAD.loadData(AD_COUNT)
+                    nativeUnifiedAD.run {
+                        setVideoPlayPolicy(VideoOption.VideoPlayPolicy.AUTO)
+                        setVideoADContainerRender(VideoOption.VideoADContainerRender.DEV)
+                        loadData(AD_COUNT)
+                    }
                 }
             }
         })
-
     }
 
     override fun onADLoaded(ads: List<NativeUnifiedADData>) {
         isLoading = false
-        if (adDataList != null) {
-            adDataList!!.addAll(ads)
-            val msg = adHandler.obtainMessage(
-                MSG_REFRESH_LIST,
-                ads
-            )
-            adHandler.sendMessage(msg)
-        }
+        adDataList.addAll(ads)
+        val msg = adHandler.obtainMessage(
+            MSG_REFRESH_LIST,
+            ads
+        )
+        adHandler.sendMessage(msg)
     }
 
     override fun onNoAD(error: AdError) {
@@ -114,22 +101,14 @@ class NativeRecyclerActivity : AppCompatActivity(),
     }
 
     override fun onResume() {
+        for (adData in adDataList) adData.resume()
         super.onResume()
-        if (adDataList != null) {
-            for (ad in adDataList!!) {
-                ad.resume()
-            }
-        }
     }
 
     override fun onDestroy() {
+        for (adData in adDataList) adData.destroy()
+        adDataList.clear()
         super.onDestroy()
-        if (adDataList != null) {
-            for (ad in adDataList!!) {
-                ad.destroy()
-            }
-        }
-        adDataList = null
     }
 
     private fun getHandler(): Handler {
@@ -138,27 +117,23 @@ class NativeRecyclerActivity : AppCompatActivity(),
                 MSG_REFRESH_LIST -> {
                     val count = adapter.itemCount
                     for (i in 0 until ITEM_COUNT) {
-                        adapter.addNormalItem(
-                            NormalItem("标题$i")
-                        )
+                        adapter.addNormalItem(NormalItem("标题$i"))
                     }
-                    val ads =
-                        msg.obj as List<NativeUnifiedADData>
-                    if (ads.isNotEmpty()) {
-                        var i = 0
-                        while (i < ads.size) {
-                            adapter.addAdToPosition(
-                                ads[i],
-                                count + i * AD_DISTANCE + FIRST_AD_POSITION
-                            )
-                            Log.i(
-                                TAG,
-                                "$i: eCPM = " + ads[i]
-                                    .ecpm + " , eCPMLevel = " + ads[i]
-                                    .ecpmLevel + " , videoDuration = " + ads[i]
-                                    .videoDuration
-                            )
-                            i++
+                    val ads = msg.obj as List<*>
+                    when {
+                        ads.isNotEmpty() -> {
+                            for (i in ads.indices) {
+                                val adData = ads[i] as NativeUnifiedADData
+                                adapter.addAdToPosition(
+                                    adData,
+                                    count + i * AD_DISTANCE + FIRST_AD_POSITION
+                                )
+                                Log.i(
+                                    TAG,
+                                    "$i: eCPM: ${adData.ecpm}\n" + "eCPMLevel: ${adData.ecpmLevel} " +
+                                            "videoDuration: ${adData.videoDuration} "
+                                )
+                            }
                         }
                     }
                     adapter.notifyDataSetChanged()
@@ -168,43 +143,30 @@ class NativeRecyclerActivity : AppCompatActivity(),
         })
     }
 
-    internal inner class CustomAdapter(
+    inner class CustomAdapter(
         private val mContext: Context,
         private val dataList: MutableList<Any>
     ) : RecyclerView.Adapter<CustomHolder>() {
-        private val adSet = TreeSet<Any?>()
+        private val adSet = TreeSet<Any>()
+
         fun addNormalItem(item: NormalItem) {
             dataList.add(item)
         }
 
-        fun addAdToPosition(
-            nativeUnifiedADData: NativeUnifiedADData,
-            position: Int
-        ) {
+        fun addAdToPosition(adData: NativeUnifiedADData, position: Int) {
             if (position >= 0 && position < dataList.size) {
-                dataList.add(position, nativeUnifiedADData)
+                dataList.add(position, adData)
                 adSet.add(position)
             }
         }
 
-        override fun getItemViewType(position: Int): Int {
-            return when {
-                adSet.contains(position) -> {
-                    TYPE_AD
-                }
-                adSet.contains(position + 1) -> {
-                    TYPE_SHOW_SDK_VERSION
-                }
-                else -> {
-                    TYPE_DATA
-                }
-            }
+        override fun getItemViewType(position: Int) = when {
+            adSet.contains(position) -> TYPE_AD
+            adSet.contains(position + 1) -> TYPE_SHOW_SDK_VERSION
+            else -> TYPE_DATA
         }
 
-        override fun onCreateViewHolder(
-            parent: ViewGroup,
-            viewType: Int
-        ): CustomHolder {
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomHolder {
             val view = when (viewType) {
                 TYPE_AD -> LayoutInflater.from(mContext)
                     .inflate(R.layout.item_native_render, parent, false)
@@ -212,46 +174,46 @@ class NativeRecyclerActivity : AppCompatActivity(),
                     .inflate(R.layout.item_data, parent, false)
                 else -> null
             }
-            return CustomHolder(view!!, viewType)
+            return CustomHolder(view!!)
         }
 
-        override fun onBindViewHolder(
-            holder: CustomHolder,
-            position: Int
-        ) {
+        override fun onBindViewHolder(holder: CustomHolder, position: Int) {
             val itemView = holder.itemView
             when (getItemViewType(position)) {
                 TYPE_AD -> {
-                    val ad = dataList[position] as NativeUnifiedADData
-                    holder.title.text = ad.title
-                    holder.desc!!.text = ad.desc
-                    Glide.with(holder.itemView.context).load(ad.iconUrl).into(holder.logo!!)
-                    Glide.with(holder.itemView.context).load(ad.imgUrl).into(holder.poster!!)
+                    val adData = dataList[position] as NativeUnifiedADData
+                    itemView.titleTxTAD.text = adData.title
+                    itemView.descTxTAD.text = adData.desc
+                    Glide.with(holder.itemView.context).load(adData.iconUrl).into(itemView.logoPic)
+                    Glide.with(holder.itemView.context).load(adData.imgUrl).into(itemView.adPoster)
                     // 视频广告
-                    if (ad.adPatternType == 2) {
-                        holder.poster!!.visibility = View.INVISIBLE
-                        holder.mediaView!!.visibility = View.VISIBLE
-                    } else {
-                        holder.poster!!.visibility = View.VISIBLE
-                        holder.mediaView!!.visibility = View.INVISIBLE
+                    when (adData.adPatternType) {
+                        2 -> {
+                            itemView.adPoster.visibility = View.INVISIBLE
+                            itemView.adMediaView.visibility = View.VISIBLE
+                        }
+                        else -> {
+                            itemView.adPoster.visibility = View.VISIBLE
+                            itemView.adMediaView.visibility = View.INVISIBLE
+                        }
                     }
-                    ad.bindAdToView(
-                        this@NativeRecyclerActivity, holder.container, null,
-                        mutableListOf(holder.poster, holder.topBarLayout)
+                    adData.bindAdToView(
+                        this@NativeRecyclerActivity, itemView.adNativeContainer, null,
+                        mutableListOf(itemView.adPoster, itemView.topBarLayout)
                     )
-                    setAdListener(holder, ad)
+                    setAdListener(itemView, adData)
                 }
                 TYPE_DATA -> itemView.titleTxT.text = (dataList[position] as NormalItem).title
                 TYPE_SHOW_SDK_VERSION -> itemView.titleTxT!!.text =
-                    "腾讯广告SDK版本:\t${SDKStatus.getIntegrationSDKVersion()}"
+                    String.format(
+                        getString(R.string.versions),
+                        SDKStatus.getIntegrationSDKVersion()
+                    )
             }
         }
 
-        private fun setAdListener(
-            holder: CustomHolder,
-            ad: NativeUnifiedADData
-        ) {
-            ad.setNativeAdEventListener(object : NativeADEventListener {
+        private fun setAdListener(itemView: View, adData: NativeUnifiedADData) {
+            adData.setNativeAdEventListener(object : NativeADEventListener {
                 override fun onADExposed() {
                     Log.i(TAG, "onADExposed: ")
                 }
@@ -269,58 +231,60 @@ class NativeRecyclerActivity : AppCompatActivity(),
                 }
             })
             // 视频广告
-            if (ad.adPatternType == AdPatternType.NATIVE_VIDEO) {
-                ad.bindMediaView(
-                    holder.mediaView,
-                    getVideoOption(),
-                    object : NativeADMediaListener {
-                        override fun onVideoInit() {
-                            Log.i(TAG, "onVideoInit: ")
-                        }
+            when (adData.adPatternType) {
+                AdPatternType.NATIVE_VIDEO -> {
+                    adData.bindMediaView(
+                        itemView.adMediaView,
+                        getVideoOption(),
+                        object : NativeADMediaListener {
+                            override fun onVideoInit() {
+                                Log.i(TAG, "onVideoInit: ")
+                            }
 
-                        override fun onVideoLoading() {
-                            Log.i(TAG, "onVideoLoading: ")
-                        }
+                            override fun onVideoLoading() {
+                                Log.i(TAG, "onVideoLoading: ")
+                            }
 
-                        override fun onVideoReady() {
-                            Log.i(TAG, "onVideoReady: ")
-                        }
+                            override fun onVideoReady() {
+                                Log.i(TAG, "onVideoReady: ")
+                            }
 
-                        override fun onVideoLoaded(videoDuration: Int) {
-                            Log.i(TAG, "onVideoLoaded: $videoDuration")
-                        }
+                            override fun onVideoLoaded(videoDuration: Int) {
+                                Log.i(TAG, "onVideoLoaded: $videoDuration")
+                            }
 
-                        override fun onVideoStart() {
-                            Log.i(TAG, "onVideoStart: ")
-                        }
+                            override fun onVideoStart() {
+                                Log.i(TAG, "onVideoStart: ")
+                            }
 
-                        override fun onVideoPause() {
-                            Log.i(TAG, "onVideoPause: ")
-                        }
+                            override fun onVideoPause() {
+                                Log.i(TAG, "onVideoPause: ")
+                            }
 
-                        override fun onVideoResume() {
-                            Log.i(TAG, "onVideoResume: ")
-                        }
+                            override fun onVideoResume() {
+                                Log.i(TAG, "onVideoResume: ")
+                            }
 
-                        override fun onVideoCompleted() {
-                            Log.i(TAG, "onVideoCompleted: ")
-                        }
+                            override fun onVideoCompleted() {
+                                Log.i(TAG, "onVideoCompleted: ")
+                            }
 
-                        override fun onVideoError(error: AdError) {
-                            Log.i(
-                                TAG,
-                                "onADError: 错误编号: ${error.errorCode}, 错误消息: ${error.errorMsg}"
-                            )
-                        }
+                            override fun onVideoError(error: AdError) {
+                                Log.i(
+                                    TAG,
+                                    "onADError: 错误编号: ${error.errorCode}, 错误消息: ${error.errorMsg}"
+                                )
+                            }
 
-                        override fun onVideoStop() {
-                            Log.i(TAG, "onVideoStop: ")
-                        }
+                            override fun onVideoStop() {
+                                Log.i(TAG, "onVideoStop: ")
+                            }
 
-                        override fun onVideoClicked() {
-                            Log.i(TAG, "onVideoClicked: ")
-                        }
-                    })
+                            override fun onVideoClicked() {
+                                Log.i(TAG, "onVideoClicked: ")
+                            }
+                        })
+                }
             }
         }
 
@@ -337,38 +301,11 @@ class NativeRecyclerActivity : AppCompatActivity(),
                 setEnableUserControl(false)
                 build()
             }
-
     }
 
+    class CustomHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
-    internal class CustomHolder(itemView: View, adType: Int) :
-        RecyclerView.ViewHolder(itemView) {
-        lateinit var title: TextView
-        var mediaView: MediaView? = null
-        var desc: TextView? = null
-        var logo: ImageView? = null
-        var poster: ImageView? = null
-        var container: NativeAdContainer? = null
-        lateinit var topBarLayout: LinearLayout
-
-        init {
-            when (adType) {
-                TYPE_AD -> {
-                    mediaView = itemView.adMediaView
-                    logo = itemView.logoPic
-                    poster = itemView.adPoster
-                    desc = itemView.descTxTAD
-                    container = itemView.adNativeContainer
-                    title = itemView.titleTxTAD
-                    topBarLayout = itemView.topBarLayout
-                }
-                TYPE_DATA, TYPE_SHOW_SDK_VERSION -> title =
-                    itemView.titleTxT
-            }
-        }
-    }
-
-    inner class NormalItem(val title: String)
+    data class NormalItem(val title: String)
 
     companion object {
         private const val AD_COUNT = 3

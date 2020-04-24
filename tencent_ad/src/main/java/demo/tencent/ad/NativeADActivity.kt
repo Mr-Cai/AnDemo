@@ -1,6 +1,5 @@
 package demo.tencent.ad
 
-import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Message
@@ -21,7 +20,7 @@ import kotlinx.android.synthetic.main.activity_ad_native.*
 
 class NativeADActivity : AppCompatActivity(), NativeADUnifiedListener {
     private var adData: NativeUnifiedADData? = null // 广告数据
-    private val adHandler: Handler = getHandler()  // 广告接收处理
+    private val adHandler: Handler by lazy { getHandler() } // 广告接收处理
     private lateinit var nativeUnifiedAD: NativeUnifiedAD  // 广告UI
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +36,7 @@ class NativeADActivity : AppCompatActivity(), NativeADUnifiedListener {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.native_ad_menu, menu)
+        inflater.inflate(R.menu.finish, menu)
         return true
     }
 
@@ -55,7 +54,7 @@ class NativeADActivity : AppCompatActivity(), NativeADUnifiedListener {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.nativeRender -> {
-                startActivity(Intent(this, NativeRecyclerActivity::class.java))
+                finish()
                 true
             }
             else -> super.onOptionsItemSelected(item)
