@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
                     3 -> itemView.context.startActivity(
                         Intent(
                             itemView.context,
-                            NativeADActivity::class.java
+                            NativeRecyclerActivity::class.java
                         )
                     )
                     4 -> itemView.context.startActivity(

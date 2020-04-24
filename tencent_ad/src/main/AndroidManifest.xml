@@ -22,6 +22,9 @@
             android:name=".SplashActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".NativeRecyclerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity
             android:name=".NativeADActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
         <activity
