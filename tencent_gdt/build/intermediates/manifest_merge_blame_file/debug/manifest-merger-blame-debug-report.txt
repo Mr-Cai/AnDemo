@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="16"
 8-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="29" />
+9        android:targetSdkVersion="30" />
 9-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml
 10
 11    <!-- 相关权限声明 : SDK不强制校验下列权限（即:无下面权限sdk也可正常工作），但建议开发者申请下面权限，尤其是READ_PHONE_STATE权限 -->
@@ -41,49 +41,49 @@
 30-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:23:5-81
 30-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:23:22-78
 31    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-31-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:5-83
-31-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:11:22-80
+31-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:11:5-83
+31-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:11:22-80
 32    <uses-permission android:name="android.permission.INTERNET" />
-32-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:5-67
-32-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:12:22-64
+32-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:12:5-67
+32-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:12:22-64
 33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-33-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:5-79
-33-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:13:22-76
+33-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:13:5-79
+33-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:13:22-76
 34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-34-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:5-76
-34-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:14:22-73
+34-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:14:5-76
+34-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:14:22-73
 35
 36    <permission
-36-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
+36-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:11:5-13:47
 37        android:name="com.qq.e.union.demo.permission.KW_SDK_BROADCAST"
-37-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
+37-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:12:9-68
 38        android:protectionLevel="signature" />
-38-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
+38-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:13:9-44
 39
 40    <uses-permission android:name="com.qq.e.union.demo.permission.KW_SDK_BROADCAST" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
-40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
-40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
+40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:5-84
+40-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:17:22-81
 41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 快手需要权限结束 -->
-41-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:5-77
-41-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:26:22-74
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:26:5-77
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:26:22-74
 42    <application
-42-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:26:5-460:19
+42-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:26:5-366:19
 43        android:name="com.qq.e.union.demo.DemoApplication"
 43-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:27:9-40
 44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-44-->[androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/AndroidManifest.xml:24:18-86
+44-->[androidx.core:core:1.1.0] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9fc82736af3431abb64435e6c795908e/core-1.1.0/AndroidManifest.xml:24:18-86
 45        android:debuggable="true"
 46        android:icon="@drawable/gdticon"
 46-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:28:9-41
 47        android:label="广点通TBS Demo"
-47-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:29:9-36
+47-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:30:9-36
 48        android:networkSecurityConfig="@xml/network_security_config"
-48-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:30:9-69
+48-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:32:9-69
 49        android:testOnly="true"
 50        android:theme="@style/AppTheme"
 50-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:31:9-40
 51        android:usesCleartextTraffic="true" >
-51-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:16:18-53
+51-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:16:18-53
 52
 53        <!-- mtg所需要依赖，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
 54        <uses-library
@@ -148,47 +148,47 @@
 88            </intent-filter>
 89        </activity>
 90        <activity
-90-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:68:9-71:75
+90-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:68:9-70:75
 91            android:name="com.qq.e.union.demo.SDKVersionActivity"
-91-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:69:13-47
+91-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:68:19-53
 92            android:screenOrientation="portrait"
-92-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:70:13-49
+92-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:69:13-49
 93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-93-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:71:13-72
+93-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:70:13-72
 94        <activity
-94-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:72:9-82:20
+94-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:71:9-81:20
 95            android:name="com.qq.e.union.demo.SplashActivity"
-95-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:73:13-43
+95-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:72:13-43
 96            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-96-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:74:13-83
+96-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:73:13-83
 97            android:screenOrientation="portrait"
-97-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:75:13-49
+97-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:74:13-49
 98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-98-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:76:13-71
+98-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:75:13-71
 99            android:windowSoftInputMode="stateHidden" >
-99-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:77:13-54
+99-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:76:13-54
 100            <intent-filter>
-100-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:78:13-81:29
+100-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:77:13-80:29
 101                <action android:name="android.intent.action.MAIN" />
-101-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:17-69
-101-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:25-66
+101-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:78:17-69
+101-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:78:25-66
 102
 103                <category android:name="android.intent.category.LAUNCHER" />
-103-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:80:17-77
-103-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:80:27-74
+103-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:17-77
+103-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:27-74
 104            </intent-filter>
 105        </activity>
 106        <activity
-106-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:83:9-101:20
+106-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:82:9-100:20
 107            android:name="com.qq.e.union.demo.SplashADActivity"
-107-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:84:13-45
+107-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:83:13-45
 108            android:screenOrientation="portrait" >
-108-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:85:13-49
+108-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:84:13-49
 109            <intent-filter>
-109-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:86:13-90:29
+109-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:85:13-89:29
 110                <action android:name="gdt.action.LAUNCH_DEMO" />
-110-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:87:17-65
-110-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:87:25-62
+110-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:86:17-65
+110-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:86:25-62
 111
 112                <category android:name="android.intent.category.DEFAULT" />
 112-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
@@ -196,969 +196,812 @@
 113            </intent-filter>
 114
 115            <meta-data
-115-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
+115-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
 116                android:name="id"
-116-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
+116-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
 117                android:value="@string/splash" />
-117-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
+117-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
 118            <meta-data
-118-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
+118-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
 119                android:name="content"
-119-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
+119-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
 120                android:value="开屏广告接入示例" />
-120-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
+120-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
 121            <meta-data
-121-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
+121-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
 122                android:name="action"
-122-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
+122-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
 123                android:value="gdt.action.LAUNCH_DEMO" />
-123-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
+123-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
 124        </activity>
 125        <activity
-125-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:102:9-121:20
-126            android:name="com.qq.e.union.demo.BannerActivity"
-126-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:103:13-43
-127            android:label="@string/title_activity_banner"
-127-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:104:13-58
-128            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-128-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:105:13-72
-129            <meta-data
-129-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-130                android:name="id"
-130-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-131                android:value="@string/banner" />
-131-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-132            <meta-data
-132-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-133                android:name="content"
-133-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-134                android:value="Banner广告接入示例" />
-134-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-135            <meta-data
-135-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-136                android:name="action"
-136-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-137                android:value="gdt.action.BANNER_DEMO" />
-137-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-138
-139            <intent-filter>
-139-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:116:13-120:29
-140                <action android:name="gdt.action.BANNER_DEMO" />
-140-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:117:17-65
-140-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:117:25-62
-141
-142                <category android:name="android.intent.category.DEFAULT" />
-142-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-142-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-143            </intent-filter>
-144        </activity>
-145        <activity
-145-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:122:9-141:20
-146            android:name="com.qq.e.union.demo.InterstitialADActivity"
-146-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:123:13-51
-147            android:label="@string/title_activity_interstitial_ad"
-147-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:124:13-67
-148            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-148-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:125:13-72
-149            <meta-data
-149-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-150                android:name="id"
-150-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-151                android:value="@string/interstitial" />
-151-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-152            <meta-data
-152-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-153                android:name="content"
-153-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-154                android:value="插屏广告接入示例" />
-154-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-155            <meta-data
-155-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-156                android:name="action"
-156-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-157                android:value="gdt.action.INTERSTITIAL_DEMO" />
-157-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-158
-159            <intent-filter>
-159-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:136:13-140:29
-160                <action android:name="gdt.action.INTERSTITIAL_DEMO" />
-160-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:137:17-71
-160-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:137:25-68
-161
-162                <category android:name="android.intent.category.DEFAULT" />
-162-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-162-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-163            </intent-filter>
-164        </activity>
-165        <activity
-165-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:142:9-145:75
-166            android:name="com.qq.e.union.demo.DeviceInfoActivity"
-166-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:143:13-47
-167            android:label="@string/title_activity_device_info"
-167-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:144:13-63
-168            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-168-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:145:13-72
-169        <activity
-169-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:146:9-149:75
-170            android:name="com.qq.e.union.demo.adapter.test.activity.MediationTestActivity"
-170-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:147:13-72
-171            android:label="@string/title_activity_test_mediation"
-171-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:148:13-66
-172            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-172-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:149:13-72
-173        <activity
-173-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:150:9-170:20
-174            android:name="com.qq.e.union.demo.NativeADActivity"
-174-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:151:13-45
-175            android:label="@string/title_nativead"
-175-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:152:13-51
-176            android:screenOrientation="portrait"
-176-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:153:13-49
-177            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-177-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:154:13-72
+125-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:101:9-104:75
+126            android:name="com.qq.e.union.demo.DeviceInfoActivity"
+126-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:102:13-47
+127            android:label="@string/title_activity_device_info"
+127-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:103:13-63
+128            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+128-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:104:13-72
+129        <activity
+129-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:105:9-108:74
+130            android:name="com.qq.e.union.demo.adapter.test.activity.MediationTestActivity"
+130-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:106:13-72
+131            android:label="@string/title_activity_test_mediation"
+131-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:107:13-66
+132            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+132-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:108:13-72
+133        <activity
+133-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:109:9-129:20
+134            android:name="com.qq.e.union.demo.NativeExpressADActivity"
+134-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:110:13-52
+135            android:label="@string/title_activity_native_express_ad"
+135-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:111:13-69
+136            android:screenOrientation="portrait"
+136-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:112:13-49
+137            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+137-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:113:13-72
+138            <meta-data
+138-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+139                android:name="id"
+139-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+140                android:value="@string/nativeExpress" />
+140-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+141            <meta-data
+141-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+142                android:name="content"
+142-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+143                android:value="原生广告(模板渲染)接入示例" />
+143-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+144            <meta-data
+144-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+145                android:name="action"
+145-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+146                android:value="gdt.action.NATIVE_EXPRESS_DEMO" />
+146-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+147
+148            <intent-filter>
+148-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:124:13-128:29
+149                <action android:name="gdt.action.NATIVE_EXPRESS_DEMO" />
+149-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:125:17-73
+149-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:125:25-70
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+151-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+152            </intent-filter>
+153        </activity>
+154        <activity
+154-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:130:9-135:57
+155            android:name="com.qq.e.union.demo.NativeExpressDemoActivity"
+155-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:131:13-54
+156            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+156-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:132:13-83
+157            android:label="@string/title_activity_native_express_demo"
+157-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:133:13-71
+158            android:screenOrientation="portrait"
+158-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:134:13-49
+159            android:windowSoftInputMode="stateHidden" />
+159-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:135:13-54
+160        <activity
+160-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:136:9-140:52
+161            android:name="com.qq.e.union.demo.NativeExpressRecyclerViewActivity"
+161-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:137:13-62
+162            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+162-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:138:13-83
+163            android:label="@string/title_activity_native_express_recycler_view"
+163-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:139:13-80
+164            android:screenOrientation="portrait" />
+164-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:140:13-49
+165
+166        <!-- 模板2.0 -->
+167        <activity
+167-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:143:9-163:20
+168            android:name="com.qq.e.union.demo.NativeExpressAd2GuideActivity"
+168-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:144:13-58
+169            android:label="@string/title_activity_native_express_improve_ad"
+169-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:145:13-77
+170            android:screenOrientation="portrait"
+170-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:146:13-49
+171            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+171-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:147:13-72
+172            <meta-data
+172-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+173                android:name="id"
+173-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+174                android:value="@string/nativeExpressImprove" />
+174-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+175            <meta-data
+175-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+176                android:name="content"
+176-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+177                android:value="原生广告(模板2.0)接入示例" />
+177-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
 178            <meta-data
-178-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-179                android:name="id"
-179-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-180                android:value="@string/nativeSelf" />
-180-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-181            <meta-data
-181-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-182                android:name="content"
-182-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-183                android:value="原生广告(自渲染)接入示例" />
-183-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-184            <meta-data
-184-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-185                android:name="action"
-185-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-186                android:value="gdt.action.NATIVE_SELF_DEMO" />
-186-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-187
-188            <intent-filter>
-188-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:165:13-169:29
-189                <action android:name="gdt.action.NATIVE_SELF_DEMO" />
-189-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:166:17-70
-189-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:166:25-67
-190
-191                <category android:name="android.intent.category.DEFAULT" />
-191-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-191-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-192            </intent-filter>
-193        </activity>
-194        <activity
-194-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:171:9-192:20
-195            android:name="com.qq.e.union.demo.MultiProcessNativeADActivity"
-195-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:172:13-57
-196            android:label="@string/title_nativead"
-196-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:173:13-51
-197            android:process=":nativead"
-197-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:174:13-40
-198            android:screenOrientation="portrait"
-198-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:175:13-49
-199            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-199-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:176:13-72
-200            <meta-data
-200-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-201                android:name="id"
-201-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-202                android:value="@string/nativeSelfMp" />
-202-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-203            <meta-data
-203-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-204                android:name="content"
-204-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-205                android:value="原生广告(自渲染)接入示例(多进程)" />
-205-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-206            <meta-data
-206-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-207                android:name="action"
-207-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-208                android:value="gdt.action.NATIVE_SELF_MP_DEMO" />
-208-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-209
-210            <intent-filter>
-210-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:187:13-191:29
-211                <action android:name="gdt.action.NATIVE_SELF_MP_DEMO" />
-211-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:188:17-73
-211-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:188:25-70
-212
-213                <category android:name="android.intent.category.DEFAULT" />
-213-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-213-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-214            </intent-filter>
-215        </activity>
-216        <activity
-216-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:193:9-196:52
-217            android:name="com.qq.e.union.demo.NativeVideoListDemoActivity"
-217-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:194:13-56
-218            android:label="@string/title_activity_gdtnative_video_ad"
-218-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:195:13-70
-219            android:screenOrientation="portrait" />
-219-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:196:13-49
+178-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+179                android:name="action"
+179-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+180                android:value="gdt.action.NATIVE_EXPRESS_2_DEMO" />
+180-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+181
+182            <intent-filter>
+182-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:158:13-162:29
+183                <action android:name="gdt.action.NATIVE_EXPRESS_2_DEMO" />
+183-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:159:17-75
+183-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:159:25-72
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+185-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+186            </intent-filter>
+187        </activity>
+188        <activity
+188-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:165:9-168:82
+189            android:name="com.qq.e.union.demo.NativeExpressAd2SimpleDemoActivity"
+189-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:166:13-63
+190            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+190-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:167:13-83
+191            android:label="@string/title_activity_native_express_recycler_view" />
+191-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:168:13-80
+192        <activity
+192-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:170:9-173:83
+193            android:name="com.qq.e.union.demo.NativeExpressAd2RecyclerViewActivity"
+193-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:171:13-65
+194            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+194-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:172:13-83
+195            android:label="@string/title_activity_native_express_recycler_view" />
+195-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:173:13-80
+196        <!-- 模板2.0 -->
+197
+198        <activity
+198-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:176:9-197:20
+199            android:name="com.qq.e.union.demo.NativeADUnifiedActivity"
+199-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:177:13-52
+200            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+200-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:178:13-83
+201            android:label="@string/title_activity_native_unified_demo"
+201-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:179:13-71
+202            android:screenOrientation="portrait"
+202-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:180:13-49
+203            android:windowSoftInputMode="stateHidden" >
+203-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:181:13-54
+204            <meta-data
+204-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+205                android:name="id"
+205-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+206                android:value="@string/nativeContainer" />
+206-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+207            <meta-data
+207-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+208                android:name="content"
+208-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+209                android:value="自渲染 2.0接入示例" />
+209-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+210            <meta-data
+210-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+211                android:name="action"
+211-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+212                android:value="gdt.action.NATIVE_CONTAINER" />
+212-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+213
+214            <intent-filter>
+214-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:192:13-196:29
+215                <action android:name="gdt.action.NATIVE_CONTAINER" />
+215-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:193:17-70
+215-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:193:25-67
+216
+217                <category android:name="android.intent.category.DEFAULT" />
+217-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+217-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+218            </intent-filter>
+219        </activity>
 220        <activity
-220-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:197:9-200:52
-221            android:name="com.qq.e.union.demo.NativeVideoDemoActivity"
-221-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:198:13-52
-222            android:label="@string/title_activity_native_video_demo"
-222-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:199:13-69
-223            android:screenOrientation="portrait" />
-223-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:200:13-49
+220-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:198:9-201:74
+221            android:name="com.qq.e.union.demo.NativeADUnifiedSampleActivity"
+221-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:199:13-58
+222            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+222-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:200:13-83
+223            android:label="@string/title_activity_native_unified_demo" />
+223-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:201:13-71
 224        <activity
-224-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:201:9-221:20
-225            android:name="com.qq.e.union.demo.NativeVideoADActivity"
-225-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:202:13-50
-226            android:label="@string/title_activity_native_video_ad"
-226-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:203:13-67
-227            android:screenOrientation="portrait"
-227-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:204:13-49
-228            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-228-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:205:13-72
-229            <meta-data
-229-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-230                android:name="id"
-230-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-231                android:value="@string/nativeVideo" />
-231-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-232            <meta-data
-232-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-233                android:name="content"
-233-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-234                android:value="原生视频广告(自渲染)接入示例" />
-234-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-235            <meta-data
-235-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-236                android:name="action"
-236-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-237                android:value="gdt.action.NATIVE_VIDEO_DEMO" />
-237-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-238
-239            <intent-filter>
-239-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:216:13-220:29
-240                <action android:name="gdt.action.NATIVE_VIDEO_DEMO" />
-240-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:217:17-71
-240-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:217:25-68
-241
-242                <category android:name="android.intent.category.DEFAULT" />
-242-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-242-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-243            </intent-filter>
-244        </activity>
-245        <activity
-245-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:222:9-225:52
-246            android:name="com.qq.e.union.demo.NativeVideoRecyclerViewActivity"
-246-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:223:13-60
-247            android:label="@string/title_activity_native_video_recycler_view"
-247-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:224:13-78
-248            android:screenOrientation="portrait" />
-248-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:225:13-49
-249        <activity
-249-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:226:9-230:63
-250            android:name="com.qq.e.union.demo.NativeVideoScrollViewActivity"
-250-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:227:13-58
-251            android:label="@string/title_activity_native_video_scroll_view"
-251-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:228:13-76
-252            android:screenOrientation="portrait"
-252-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:229:13-49
-253            android:theme="@android:style/Theme.NoTitleBar" />
-253-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:230:13-60
-254        <activity
-254-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:231:9-235:63
-255            android:name="com.qq.e.union.demo.NativeVideoPreMovieActivity"
-255-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:232:13-56
-256            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-256-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:233:13-83
-257            android:label="@string/title_activity_native_video_pre_movie"
-257-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:234:13-74
-258            android:theme="@android:style/Theme.NoTitleBar" />
-258-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:235:13-60
-259        <activity
-259-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:236:9-256:20
-260            android:name="com.qq.e.union.demo.NativeExpressADActivity"
-260-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:237:13-52
-261            android:label="@string/title_activity_native_express_ad"
-261-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:238:13-69
-262            android:screenOrientation="portrait"
-262-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:239:13-49
-263            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-263-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:240:13-72
-264            <meta-data
-264-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-265                android:name="id"
-265-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-266                android:value="@string/nativeExpress" />
-266-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-267            <meta-data
-267-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-268                android:name="content"
-268-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-269                android:value="原生广告(模板渲染)接入示例" />
-269-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-270            <meta-data
-270-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-271                android:name="action"
-271-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-272                android:value="gdt.action.NATIVE_EXPRESS_DEMO" />
-272-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-273
-274            <intent-filter>
-274-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:251:13-255:29
-275                <action android:name="gdt.action.NATIVE_EXPRESS_DEMO" />
-275-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:252:17-73
-275-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:252:25-70
-276
-277                <category android:name="android.intent.category.DEFAULT" />
-277-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-277-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-278            </intent-filter>
-279        </activity>
-280        <activity
-280-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:257:9-262:57
-281            android:name="com.qq.e.union.demo.NativeExpressDemoActivity"
-281-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:258:13-54
-282            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-282-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:259:13-83
-283            android:label="@string/title_activity_native_express_demo"
-283-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:260:13-71
-284            android:screenOrientation="portrait"
-284-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:261:13-49
-285            android:windowSoftInputMode="stateHidden" />
-285-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:262:13-54
-286        <activity
-286-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:263:9-267:52
-287            android:name="com.qq.e.union.demo.NativeExpressRecyclerViewActivity"
-287-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:264:13-62
-288            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-288-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:265:13-83
-289            android:label="@string/title_activity_native_express_recycler_view"
-289-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:266:13-80
-290            android:screenOrientation="portrait" />
-290-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:267:13-49
-291        <activity
-291-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:268:9-289:20
-292            android:name="com.qq.e.union.demo.NativeADUnifiedActivity"
-292-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:269:13-52
-293            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-293-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:270:13-83
-294            android:label="@string/title_activity_native_unified_demo"
-294-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:271:13-71
-295            android:screenOrientation="portrait"
-295-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:272:13-49
-296            android:windowSoftInputMode="stateHidden" >
-296-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:273:13-54
-297            <meta-data
-297-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-298                android:name="id"
-298-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-299                android:value="@string/nativeContainer" />
-299-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-300            <meta-data
-300-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-301                android:name="content"
-301-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-302                android:value="自渲染 2.0接入示例" />
-302-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-303            <meta-data
-303-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-304                android:name="action"
-304-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-305                android:value="gdt.action.NATIVE_CONTAINER" />
-305-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-306
-307            <intent-filter>
-307-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:284:13-288:29
-308                <action android:name="gdt.action.NATIVE_CONTAINER" />
-308-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:285:17-70
-308-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:285:25-67
-309
-310                <category android:name="android.intent.category.DEFAULT" />
-310-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-310-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-311            </intent-filter>
-312        </activity>
-313        <activity
-313-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:290:9-293:74
-314            android:name="com.qq.e.union.demo.NativeADUnifiedSampleActivity"
-314-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:291:13-58
-315            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-315-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:292:13-83
-316            android:label="@string/title_activity_native_unified_demo" />
-316-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:293:13-71
-317        <activity
-317-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:294:9-298:52
-318            android:name="com.qq.e.union.demo.NativeADUnifiedListViewActivity"
-318-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:295:13-60
-319            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-319-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:296:13-83
-320            android:label="@string/title_activity_native_unified_demo"
-320-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:297:13-71
-321            android:screenOrientation="portrait" />
-321-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:298:13-49
-322        <activity
-322-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:299:9-303:52
-323            android:name="com.qq.e.union.demo.NativeADUnifiedRecyclerViewActivity"
-323-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:300:13-64
-324            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-324-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:301:13-83
-325            android:label="@string/title_activity_native_unified_demo"
-325-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:302:13-71
-326            android:screenOrientation="portrait" />
-326-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:303:13-49
-327        <activity
-327-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:304:9-307:74
-328            android:name="com.qq.e.union.demo.NativeADUnifiedPreMovieActivity"
-328-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:305:13-60
-329            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-329-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:306:13-83
-330            android:label="@string/title_activity_native_unified_demo" />
-330-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:307:13-71
-331        <activity
-331-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:308:9-313:63
-332            android:name="com.qq.e.union.demo.NativeADUnifiedFullScreenActivity"
-332-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:309:13-62
-333            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-333-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:310:13-83
-334            android:label="@string/title_activity_native_unified_demo"
-334-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:311:13-71
-335            android:screenOrientation="portrait"
-335-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:312:13-49
-336            android:theme="@android:style/Theme.NoTitleBar" />
-336-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:313:13-60
-337        <activity
-337-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:314:9-319:63
-338            android:name="com.qq.e.union.demo.NativeADUnifiedFullScreenFeedActivity"
-338-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:315:13-66
-339            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-339-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:316:13-83
-340            android:label="@string/title_activity_native_unified_demo"
-340-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:317:13-71
-341            android:screenOrientation="portrait"
-341-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:318:13-49
-342            android:theme="@android:style/Theme.NoTitleBar" />
-342-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:319:13-60
-343        <activity
-343-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:320:9-340:20
-344            android:name="com.qq.e.union.demo.ContentADActivity"
-344-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:321:13-46
-345            android:label="@string/title_contentad"
-345-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:322:13-52
-346            android:screenOrientation="portrait"
-346-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:323:13-49
-347            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-347-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:324:13-72
-348            <meta-data
-348-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-349                android:name="id"
-349-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-350                android:value="@string/content" />
-350-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-351            <meta-data
-351-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-352                android:name="content"
-352-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-353                android:value="内容+广告接入示例" />
-353-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-354            <meta-data
-354-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-355                android:name="action"
-355-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-356                android:value="gdt.action.CONTENT_DEMO" />
-356-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-357
-358            <intent-filter>
-358-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:335:13-339:29
-359                <action android:name="gdt.action.CONTENT_DEMO" />
-359-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:336:17-66
-359-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:336:25-63
-360
-361                <category android:name="android.intent.category.DEFAULT" />
-361-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-361-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-362            </intent-filter>
-363        </activity>
-364        <activity
-364-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:341:9-362:20
-365            android:name="com.qq.e.union.demo.RewardVideoActivity"
-365-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:342:13-48
-366            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-366-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:343:13-83
-367            android:label="@string/title_reward_video"
-367-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:344:13-55
-368            android:screenOrientation="portrait"
-368-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:345:13-49
-369            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-369-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:346:13-72
-370            <meta-data
-370-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-371                android:name="id"
-371-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-372                android:value="@string/rewardVideo" />
-372-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-373            <meta-data
-373-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-374                android:name="content"
-374-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-375                android:value="激励视频广告接入示例" />
-375-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-376            <meta-data
-376-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-377                android:name="action"
-377-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-378                android:value="gdt.action.REWARD_VIDEO_DEMO" />
-378-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-379
-380            <intent-filter>
-380-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:357:13-361:29
-381                <action android:name="gdt.action.REWARD_VIDEO_DEMO" />
-381-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:358:17-71
-381-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:358:25-68
-382
-383                <category android:name="android.intent.category.DEFAULT" />
-383-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-383-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-384            </intent-filter>
-385        </activity>
-386        <activity
-386-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:363:9-383:20
-387            android:name="com.qq.e.union.demo.HybridADActivity"
-387-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:364:13-45
-388            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-388-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:365:13-83
-389            android:label="@string/title_hybrid"
-389-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:366:13-49
-390            android:screenOrientation="portrait"
-390-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:367:13-49
-391            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-391-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:368:13-72
-392            <meta-data
-392-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-393                android:name="id"
-393-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-394                android:value="@string/hybrid" />
-394-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-395            <meta-data
-395-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-396                android:name="content"
-396-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-397                android:value="hybrid广告接入示例" />
-397-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-398            <meta-data
-398-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-399                android:name="action"
-399-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-400                android:value="gdt.action.HYBRID_DEMO" />
-400-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-401
-402            <intent-filter>
-402-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:379:13-382:29
-403                <action android:name="gdt.action.HYBRID_DEMO" />
-403-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:380:17-65
-403-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:380:25-62
-404
-405                <category android:name="android.intent.category.DEFAULT" />
-405-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-405-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-406            </intent-filter>
-407        </activity>
-408        <activity
-408-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:384:9-403:20
-409            android:name="com.qq.e.union.demo.UnifiedBannerActivity"
-409-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:385:13-50
-410            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-410-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:386:13-83
-411            android:label="@string/title_activity_unified_banner"
-411-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:387:13-66
-412            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-412-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:388:13-72
-413            <meta-data
-413-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-414                android:name="id"
-414-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-415                android:value="@string/unified_banner" />
-415-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-416            <meta-data
-416-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-417                android:name="content"
-417-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-418                android:value="Banner2.0广告接入示例" />
-418-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-419            <meta-data
-419-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-420                android:name="action"
-420-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-421                android:value="gdt.action.UNIFIED_BANNER_DEMO" />
-421-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-422
-423            <intent-filter>
-423-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:399:13-402:29
-424                <action android:name="gdt.action.UNIFIED_BANNER_DEMO" />
-424-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:400:17-73
-424-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:400:25-70
-425
-426                <category android:name="android.intent.category.DEFAULT" />
-426-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-426-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-427            </intent-filter>
-428        </activity>
-429        <activity
-429-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:404:9-423:20
-430            android:name="com.qq.e.union.demo.UnifiedInterstitialADActivity"
-430-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:405:13-58
-431            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-431-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:406:13-83
-432            android:label="@string/title_activity_unified_interstitial_ad"
-432-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:407:13-75
-433            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-433-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:408:13-72
-434            <meta-data
-434-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:13-94:50
-435                android:name="id"
-435-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-34
-436                android:value="@string/unified_interstitial" />
-436-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:17-47
-437            <meta-data
-437-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:13-97:44
-438                android:name="content"
-438-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-39
-439                android:value="插屏2.0广告接入示例" />
-439-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:17-41
-440            <meta-data
-440-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:13-100:58
-441                android:name="action"
-441-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-38
-442                android:value="gdt.action.UNIFIED_INTERSTITIAL_DEMO" />
-442-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:100:17-55
-443
-444            <intent-filter>
-444-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:419:13-422:29
-445                <action android:name="gdt.action.UNIFIED_INTERSTITIAL_DEMO" />
-445-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:420:17-79
-445-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:420:25-76
-446
-447                <category android:name="android.intent.category.DEFAULT" />
-447-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
-447-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
-448            </intent-filter>
-449        </activity>
-450
-451        <!-- MTG激励视频所需的Activity，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
-452        <activity
-452-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:426:9-429:74
-453            android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
-453-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:427:13-83
-454            android:configChanges="orientation|keyboardHidden|screenSize"
-454-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:428:13-74
-455            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-455-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:429:13-71
-456        <activity
-456-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:430:9-435:75
-457            android:name="com.mintegral.msdk.activity.MTGCommonActivity"
-457-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:431:13-73
-458            android:configChanges="keyboard|orientation"
-458-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:432:13-57
-459            android:exported="true"
-459-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:433:13-36
-460            android:screenOrientation="portrait"
-460-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:434:13-49
-461            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-461-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:435:13-72
-462        <!-- 国内流量版本必需，海外版本可以不添加 -->
-463        <receiver android:name="com.mintegral.msdk.click.AppReceiver" >
-463-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:437:9-442:20
-463-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:437:19-70
-464            <intent-filter>
-464-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:438:13-441:29
-465                <action android:name="android.intent.action.PACKAGE_ADDED" />
-465-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:439:17-78
-465-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:439:25-75
-466
-467                <data android:scheme="package" />
-467-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:440:17-50
-467-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:440:23-47
-468            </intent-filter>
-469        </receiver>
-470        <!-- 国内流量必需，海外版本可以不添加 -->
-471        <service android:name="com.mintegral.msdk.shell.MTGService" >
-471-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:444:9-448:19
-471-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:444:18-68
-472            <intent-filter>
-472-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:445:13-447:29
-473                <action android:name="com.mintegral.msdk.download.action" />
-473-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:446:17-77
-473-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:446:25-74
-474            </intent-filter>
-475        </service>
-476        <!-- 国内流量版本必需，海外版本可以不添加。 -->
-477        <provider
-478            android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
-478-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:451:13-73
-479            android:authorities="com.qq.e.union.demo.mtgFileProvider"
-479-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:452:13-67
-480            android:exported="false"
-480-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:453:13-37
-481            android:grantUriPermissions="true" >
-481-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:454:13-47
-482            <meta-data
-482-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
-483                android:name="android.support.FILE_PROVIDER_PATHS"
-483-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
-484                android:resource="@xml/mtg_provider_paths" />
-484-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
-485        </provider>
-486        <!-- MTG所需的组件结束 -->
-487        <!-- 声明SDK所需要的组件 -->
-488        <service
-488-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:19:9-22:43
-489            android:name="com.qq.e.comm.DownloadService"
-489-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:20:13-57
-490            android:exported="false"
-490-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:21:13-37
-491            android:multiprocess="true" /> <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
-491-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:22:13-40
-492        <activity
-492-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:23:9-26:43
-493            android:name="com.qq.e.ads.ADActivity"
-493-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:24:13-51
-494            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-494-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:25:13-83
-495            android:multiprocess="true" />
-495-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:26:13-40
-496        <activity
-496-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:27:9-31:52
-497            android:name="com.qq.e.ads.PortraitADActivity"
-497-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:28:13-59
-498            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-498-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:29:13-83
-499            android:multiprocess="true"
-499-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:30:13-40
-500            android:screenOrientation="portrait" />
-500-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:31:13-49
-501        <activity
-501-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:32:9-36:53
-502            android:name="com.qq.e.ads.LandscapeADActivity"
-502-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:33:13-60
-503            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-503-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:34:13-83
-504            android:multiprocess="true"
-504-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:35:13-40
-505            android:screenOrientation="landscape" /> <!-- 用于激励视频可选广告的竖屏透明背景activity -->
-505-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:36:13-50
-506        <activity
-506-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:37:9-41:64
-507            android:name="com.qq.e.ads.RewardvideoPortraitADActivity"
-507-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:38:13-70
-508            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-508-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:39:13-83
-509            android:multiprocess="true"
-509-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:40:13-40
-510            android:theme="@android:style/Theme.Translucent" /> <!-- 用于激励视频可选广告的横屏透明背景activity -->
-510-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:41:13-61
-511        <activity
-511-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:42:9-46:64
-512            android:name="com.qq.e.ads.RewardvideoLandscapeADActivity"
-512-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:43:13-71
-513            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-513-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:44:13-83
-514            android:multiprocess="true"
-514-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:45:13-40
-515            android:theme="@android:style/Theme.Translucent" />
-515-->[GDTSDK.tbsNormal.4.191.1061.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/5a31286cd909b169e9c26e680c57ab87/jetified-GDTSDK.tbsNormal.4.191.1061/AndroidManifest.xml:46:13-61
-516        <activity
-516-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:22:9-25:52
-517            android:name="com.kwad.sdk.page.KsAdWebViewActivity"
-517-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:23:13-65
-518            android:configChanges="keyboardHidden|orientation|screenSize"
-518-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:24:13-74
-519            android:screenOrientation="portrait" />
-519-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:25:13-49
-520        <activity
-520-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:26:9-30:80
-521            android:name="com.kwad.sdk.page.VideoWebViewActivity"
-521-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:27:13-66
-522            android:configChanges="keyboardHidden|orientation|screenSize"
-522-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:28:13-74
-523            android:screenOrientation="portrait"
-523-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:29:13-49
-524            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-524-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:30:13-77
-525        <activity
-525-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:31:9-35:80
-526            android:name="com.kwad.sdk.page.KsFullScreenVideoActivity"
-526-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:32:13-71
-527            android:configChanges="keyboardHidden|orientation|screenSize"
-527-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:33:13-74
-528            android:screenOrientation="portrait"
-528-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:34:13-49
-529            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-529-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:35:13-77
-530        <activity
-530-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:36:9-40:80
-531            android:name="com.kwad.sdk.page.KSRewardVideoActivity"
-531-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:37:13-67
-532            android:configChanges="keyboardHidden|orientation|screenSize"
-532-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:38:13-74
-533            android:screenOrientation="portrait"
-533-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:39:13-49
-534            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
-534-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:40:13-77
-535
-536        <provider
-536-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:42:9-50:20
-537            android:name="com.kwad.sdk.widget.AdSdkFileProvider"
-537-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:43:13-65
-538            android:authorities="com.qq.e.union.demo.adFileProvider"
-538-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:44:13-66
-539            android:exported="false"
-539-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:45:13-37
-540            android:grantUriPermissions="true" >
-540-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:46:13-47
-541            <meta-data
-541-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
-542                android:name="android.support.FILE_PROVIDER_PATHS"
-542-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
-543                android:resource="@xml/ksad_file_paths" />
-543-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
-544        </provider> <!-- 下载相关 -->
-545        <receiver
-545-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:53:9-65:20
-546            android:name="com.ksad.download.DownloadReceiver"
-546-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:54:13-62
-547            android:exported="true" >
-547-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:55:13-36
-548            <intent-filter>
-548-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:56:13-58:29
-549                <action android:name="download.intent.action.DOWNLOAD_PAUSE" />
-549-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:17-80
-549-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:25-77
-550            </intent-filter>
-551            <intent-filter>
-551-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:59:13-61:29
-552                <action android:name="download.intent.action.DOWNLOAD_RESUME" />
-552-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:17-81
-552-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:25-78
-553            </intent-filter>
-554            <intent-filter>
-554-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:62:13-64:29
-555                <action android:name="download.intent.action.DOWNLOAD_CANCEL" />
-555-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:17-81
-555-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:25-78
-556            </intent-filter>
-557        </receiver>
-558
-559        <service android:name="com.kwai.filedownloader.services.FileDownloadService$SharedMainProcessService" />
-559-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:9-113
-559-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:18-110
-560        <service
-560-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:68:9-70:49
-561            android:name="com.kwai.filedownloader.services.FileDownloadService$SeparateProcessService"
-561-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:69:13-103
-562            android:process=":filedownloader" />
-562-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:70:13-46
-563        <service
-563-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:71:9-73:40
-564            android:name="com.ksad.download.service.DownloadService"
-564-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:72:13-69
-565            android:exported="false" />
-565-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/7b3277fbcb47d216d8e38d39d746ced0/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:73:13-37
-566        <service
-566-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:23:9-25:40
-567            android:name="leakcanary.internal.HeapAnalyzerService"
-567-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:24:13-67
-568            android:exported="false" />
-568-->[com.squareup.leakcanary:leakcanary-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/ebcbcbe2bb6d93f6c55f86bbc6036e58/jetified-leakcanary-android-2.2/AndroidManifest.xml:25:13-37
-569
-570        <provider
-570-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:29:9-37:20
-571            android:name="leakcanary.internal.LeakCanaryFileProvider"
-571-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:30:13-70
-572            android:authorities="com.squareup.leakcanary.fileprovider.com.qq.e.union.demo"
-572-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:31:13-88
-573            android:exported="false"
-573-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:32:13-37
-574            android:grantUriPermissions="true" >
-574-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:33:13-47
-575            <meta-data
-575-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
-576                android:name="android.support.FILE_PROVIDER_PATHS"
-576-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
-577                android:resource="@xml/leak_canary_file_paths" />
-577-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
-578        </provider>
-579
-580        <activity
-580-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:39:9-44:66
-581            android:name="leakcanary.internal.activity.LeakActivity"
-581-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:40:13-69
-582            android:icon="@mipmap/leak_canary_icon"
-582-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:41:13-52
-583            android:label="@string/leak_canary_display_activity_label"
-583-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:42:13-71
-584            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
-584-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:43:13-76
-585            android:theme="@style/leak_canary_LeakCanary.Base" />
-585-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:44:13-63
-586
-587        <activity-alias
-587-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:46:9-62:26
-588            android:name="leakcanary.internal.activity.LeakLauncherActivity"
-588-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:47:13-77
-589            android:banner="@drawable/leak_canary_tv_icon"
-589-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:48:13-59
-590            android:enabled="@bool/leak_canary_add_launcher_icon"
-590-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:49:13-66
-591            android:icon="@mipmap/leak_canary_icon"
-591-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:50:13-52
-592            android:label="@string/leak_canary_display_activity_label"
-592-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:51:13-71
-593            android:targetActivity="leakcanary.internal.activity.LeakActivity"
-593-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:52:13-79
-594            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
-594-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:53:13-76
-595            android:theme="@style/leak_canary_LeakCanary.Base" >
-595-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:54:13-63
-596            <intent-filter>
-596-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:55:13-61:29
-597                <action android:name="android.intent.action.MAIN" />
-597-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:17-69
-597-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:25-66
-598
-599                <category android:name="android.intent.category.LAUNCHER" />
-599-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:80:17-77
-599-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:80:27-74
-600                <!-- Android TV launcher intent -->
-601                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-601-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:17-86
-601-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:60:27-83
-602            </intent-filter>
-603        </activity-alias>
-604
-605        <activity
-605-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:64:9-70:68
-606            android:name="leakcanary.internal.RequestStoragePermissionActivity"
-606-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:65:13-80
-607            android:excludeFromRecents="true"
-607-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:66:13-46
-608            android:icon="@mipmap/leak_canary_icon"
-608-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:67:13-52
-609            android:label="@string/leak_canary_storage_permission_activity_label"
-609-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:68:13-82
-610            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
-610-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:69:13-76
-611            android:theme="@style/leak_canary_Theme.Transparent" />
-611-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:70:13-65
-612
-613        <receiver android:name="leakcanary.internal.NotificationReceiver" />
-613-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:9-77
-613-->[com.squareup.leakcanary:leakcanary-android-core:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/25b7524734af449da0e94923348f0908/jetified-leakcanary-android-core-2.2/AndroidManifest.xml:72:19-74
-614
-615        <provider
-615-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:8:9-11:40
-616            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
-616-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:9:13-79
-617            android:authorities="com.qq.e.union.demo.leakcanary-installer"
-617-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:10:13-72
-618            android:exported="false" />
-618-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.2] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/9de709b9078b4c4bf28fe71a2fc054b1/jetified-leakcanary-object-watcher-android-2.2/AndroidManifest.xml:11:13-37
-619    </application>
-620
-621</manifest>
+224-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:202:9-206:52
+225            android:name="com.qq.e.union.demo.NativeADUnifiedListViewActivity"
+225-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:203:13-60
+226            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+226-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:204:13-83
+227            android:label="@string/title_activity_native_unified_demo"
+227-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:205:13-71
+228            android:screenOrientation="portrait" />
+228-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:206:13-49
+229        <activity
+229-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:207:9-211:52
+230            android:name="com.qq.e.union.demo.NativeADUnifiedRecyclerViewActivity"
+230-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:208:13-64
+231            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+231-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:209:13-83
+232            android:label="@string/title_activity_native_unified_demo"
+232-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:210:13-71
+233            android:screenOrientation="portrait" />
+233-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:211:13-49
+234        <activity
+234-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:212:9-215:74
+235            android:name="com.qq.e.union.demo.NativeADUnifiedPreMovieActivity"
+235-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:213:13-60
+236            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+236-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:214:13-83
+237            android:label="@string/title_activity_native_unified_demo" />
+237-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:215:13-71
+238        <activity
+238-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:216:9-221:62
+239            android:name="com.qq.e.union.demo.NativeADUnifiedFullScreenActivity"
+239-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:217:13-62
+240            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+240-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:218:13-83
+241            android:label="@string/title_activity_native_unified_demo"
+241-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:219:13-71
+242            android:screenOrientation="portrait"
+242-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:220:13-49
+243            android:theme="@android:style/Theme.NoTitleBar" />
+243-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:221:13-60
+244        <activity
+244-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:222:9-227:62
+245            android:name="com.qq.e.union.demo.NativeADUnifiedFullScreenFeedActivity"
+245-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:223:13-66
+246            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+246-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:224:13-83
+247            android:label="@string/title_activity_native_unified_demo"
+247-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:225:13-71
+248            android:screenOrientation="portrait"
+248-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:226:13-49
+249            android:theme="@android:style/Theme.NoTitleBar" />
+249-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:227:13-60
+250        <activity
+250-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:228:9-249:20
+251            android:name="com.qq.e.union.demo.RewardVideoActivity"
+251-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:229:13-48
+252            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+252-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:230:13-83
+253            android:label="@string/title_reward_video"
+253-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:231:13-55
+254            android:screenOrientation="portrait"
+254-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:232:13-49
+255            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+255-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:233:13-72
+256            <meta-data
+256-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+257                android:name="id"
+257-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+258                android:value="@string/rewardVideo" />
+258-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+259            <meta-data
+259-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+260                android:name="content"
+260-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+261                android:value="激励视频广告接入示例" />
+261-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+262            <meta-data
+262-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+263                android:name="action"
+263-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+264                android:value="gdt.action.REWARD_VIDEO_DEMO" />
+264-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+265
+266            <intent-filter>
+266-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:244:13-248:29
+267                <action android:name="gdt.action.REWARD_VIDEO_DEMO" />
+267-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:245:17-71
+267-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:245:25-68
+268
+269                <category android:name="android.intent.category.DEFAULT" />
+269-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+269-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+270            </intent-filter>
+271        </activity>
+272        <activity
+272-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:250:9-270:20
+273            android:name="com.qq.e.union.demo.HybridADActivity"
+273-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:251:13-45
+274            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+274-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:254:13-83
+275            android:label="@string/title_hybrid"
+275-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:252:13-49
+276            android:screenOrientation="portrait"
+276-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:255:13-49
+277            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+277-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:253:13-72
+278            <meta-data
+278-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+279                android:name="id"
+279-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+280                android:value="@string/hybrid" />
+280-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+281            <meta-data
+281-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+282                android:name="content"
+282-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+283                android:value="hybrid广告接入示例" />
+283-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+284            <meta-data
+284-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+285                android:name="action"
+285-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+286                android:value="gdt.action.HYBRID_DEMO" />
+286-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+287
+288            <intent-filter>
+288-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:266:13-269:29
+289                <action android:name="gdt.action.HYBRID_DEMO" />
+289-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:267:17-65
+289-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:267:25-62
+290
+291                <category android:name="android.intent.category.DEFAULT" />
+291-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+291-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+292            </intent-filter>
+293        </activity>
+294        <activity
+294-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:271:9-290:20
+295            android:name="com.qq.e.union.demo.UnifiedBannerActivity"
+295-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:272:13-50
+296            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+296-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:273:13-83
+297            android:label="@string/title_activity_unified_banner"
+297-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:274:13-66
+298            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+298-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:275:13-72
+299            <meta-data
+299-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+300                android:name="id"
+300-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+301                android:value="@string/unified_banner" />
+301-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+302            <meta-data
+302-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+303                android:name="content"
+303-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+304                android:value="Banner2.0广告接入示例" />
+304-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+305            <meta-data
+305-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+306                android:name="action"
+306-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+307                android:value="gdt.action.UNIFIED_BANNER_DEMO" />
+307-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+308
+309            <intent-filter>
+309-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:286:13-289:29
+310                <action android:name="gdt.action.UNIFIED_BANNER_DEMO" />
+310-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:287:17-73
+310-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:287:25-70
+311
+312                <category android:name="android.intent.category.DEFAULT" />
+312-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+312-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+313            </intent-filter>
+314        </activity>
+315        <activity
+315-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:291:9-310:20
+316            android:name="com.qq.e.union.demo.UnifiedInterstitialADActivity"
+316-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:292:13-58
+317            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+317-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:293:13-83
+318            android:label="@string/title_activity_unified_interstitial_ad"
+318-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:294:13-75
+319            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+319-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:295:13-72
+320            <meta-data
+320-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+321                android:name="id"
+321-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+322                android:value="@string/unified_interstitial" />
+322-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+323            <meta-data
+323-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+324                android:name="content"
+324-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+325                android:value="插屏2.0广告接入示例" />
+325-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+326            <meta-data
+326-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+327                android:name="action"
+327-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+328                android:value="gdt.action.UNIFIED_INTERSTITIAL_DEMO" />
+328-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+329
+330            <intent-filter>
+330-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:306:13-309:29
+331                <action android:name="gdt.action.UNIFIED_INTERSTITIAL_DEMO" />
+331-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:307:17-79
+331-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:307:25-76
+332
+333                <category android:name="android.intent.category.DEFAULT" />
+333-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+333-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+334            </intent-filter>
+335        </activity>
+336        <activity
+336-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:311:9-330:20
+337            android:name="com.qq.e.union.demo.UnifiedInterstitialFullScreenADActivity"
+337-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:312:13-68
+338            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+338-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:313:13-83
+339            android:label="@string/title_activity_unified_interstitial_ad"
+339-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:314:13-75
+340            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+340-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:315:13-72
+341            <meta-data
+341-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:91:13-93:50
+342                android:name="id"
+342-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:92:17-34
+343                android:value="@string/unified_interstitial_fullscreen_video" />
+343-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:93:17-47
+344            <meta-data
+344-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:94:13-96:44
+345                android:name="content"
+345-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:95:17-39
+346                android:value="插屏全屏视频广告接入示例" />
+346-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:96:17-41
+347            <meta-data
+347-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:97:13-99:58
+348                android:name="action"
+348-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:98:17-38
+349                android:value="gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO" />
+349-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:99:17-55
+350
+351            <intent-filter>
+351-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:326:13-329:29
+352                <action android:name="gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO" />
+352-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:327:17-96
+352-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:327:25-93
+353
+354                <category android:name="android.intent.category.DEFAULT" />
+354-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:17-76
+354-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:65:27-73
+355            </intent-filter>
+356        </activity>
+357        <!-- MTG激励视频所需的Activity，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
+358        <activity
+358-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:332:9-335:74
+359            android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+359-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:333:13-83
+360            android:configChanges="orientation|keyboardHidden|screenSize"
+360-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:334:13-74
+361            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+361-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:335:13-71
+362        <activity
+362-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:336:9-341:84
+363            android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+363-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:337:13-73
+364            android:configChanges="keyboard|orientation"
+364-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:338:13-57
+365            android:exported="true"
+365-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:339:13-36
+366            android:screenOrientation="portrait"
+366-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:340:13-49
+367            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+367-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:341:13-72
+368        <!-- 国内流量版本必需，海外版本可以不添加 -->
+369        <receiver android:name="com.mintegral.msdk.click.AppReceiver" >
+369-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:343:9-348:20
+369-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:343:19-70
+370            <intent-filter>
+370-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:344:13-347:29
+371                <action android:name="android.intent.action.PACKAGE_ADDED" />
+371-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:345:17-78
+371-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:345:25-75
+372
+373                <data android:scheme="package" />
+373-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:346:17-50
+373-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:346:23-47
+374            </intent-filter>
+375        </receiver>
+376        <!-- 国内流量必需，海外版本可以不添加 -->
+377        <service android:name="com.mintegral.msdk.shell.MTGService" >
+377-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:350:9-354:19
+377-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:350:18-68
+378            <intent-filter>
+378-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:351:13-353:29
+379                <action android:name="com.mintegral.msdk.download.action" />
+379-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:352:17-77
+379-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:352:25-74
+380            </intent-filter>
+381        </service>
+382        <!-- 国内流量版本必需，海外版本可以不添加。 -->
+383        <provider
+384            android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
+384-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:357:13-73
+385            android:authorities="com.qq.e.union.demo.mtgFileProvider"
+385-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:358:13-67
+386            android:exported="false"
+386-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:359:13-37
+387            android:grantUriPermissions="true" >
+387-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:360:13-47
+388            <meta-data
+388-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
+389                android:name="android.support.FILE_PROVIDER_PATHS"
+389-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
+390                android:resource="@xml/mtg_provider_paths" />
+390-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
+391        </provider>
+392        <!-- MTG所需的组件结束 -->
+393        <!-- 声明SDK所需要的组件 -->
+394        <service
+394-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:19:9-22:43
+395            android:name="com.qq.e.comm.DownloadService"
+395-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:20:13-57
+396            android:exported="false"
+396-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:21:13-37
+397            android:multiprocess="true" /> <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
+397-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:22:13-40
+398        <activity
+398-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:23:9-26:43
+399            android:name="com.qq.e.ads.ADActivity"
+399-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:24:13-51
+400            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+400-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:25:13-83
+401            android:multiprocess="true" />
+401-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:26:13-40
+402        <activity
+402-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:27:9-31:52
+403            android:name="com.qq.e.ads.PortraitADActivity"
+403-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:28:13-59
+404            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+404-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:29:13-83
+405            android:multiprocess="true"
+405-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:30:13-40
+406            android:screenOrientation="portrait" />
+406-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:31:13-49
+407        <activity
+407-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:32:9-36:53
+408            android:name="com.qq.e.ads.LandscapeADActivity"
+408-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:33:13-60
+409            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+409-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:34:13-83
+410            android:multiprocess="true"
+410-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:35:13-40
+411            android:screenOrientation="landscape" /> <!-- 用于激励视频可选广告的竖屏透明背景activity -->
+411-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:36:13-50
+412        <activity
+412-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:37:9-45:20
+413            android:name="com.qq.e.ads.RewardvideoPortraitADActivity"
+413-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:38:13-70
+414            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+414-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:39:13-83
+415            android:multiprocess="true"
+415-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:40:13-40
+416            android:theme="@android:style/Theme.Translucent" >
+416-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:41:13-61
+417            <meta-data
+417-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:42:13-44:40
+418                android:name="android.notch_support"
+418-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:43:17-53
+419                android:value="true" />
+419-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:44:17-37
+420        </activity> <!-- 用于激励视频可选广告的横屏透明背景activity -->
+421        <activity
+421-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:46:9-54:20
+422            android:name="com.qq.e.ads.RewardvideoLandscapeADActivity"
+422-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:47:13-71
+423            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+423-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:48:13-83
+424            android:multiprocess="true"
+424-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:49:13-40
+425            android:theme="@android:style/Theme.Translucent" >
+425-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:50:13-61
+426            <meta-data
+426-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:42:13-44:40
+427                android:name="android.notch_support"
+427-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:43:17-53
+428                android:value="true" />
+428-->[GDTSDK.tbsNormal.4.232.1102.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1471690394b832ef063992473e5073b1/jetified-GDTSDK.tbsNormal.4.232.1102/AndroidManifest.xml:44:17-37
+429        </activity>
+430        <activity
+430-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:22:9-25:52
+431            android:name="com.kwad.sdk.page.KsAdWebViewActivity"
+431-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:23:13-65
+432            android:configChanges="keyboardHidden|orientation|screenSize"
+432-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:24:13-74
+433            android:screenOrientation="portrait" />
+433-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:25:13-49
+434        <activity
+434-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:26:9-30:80
+435            android:name="com.kwad.sdk.page.VideoWebViewActivity"
+435-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:27:13-66
+436            android:configChanges="keyboardHidden|orientation|screenSize"
+436-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:28:13-74
+437            android:screenOrientation="portrait"
+437-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:29:13-49
+438            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+438-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:30:13-77
+439        <activity
+439-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:31:9-35:80
+440            android:name="com.kwad.sdk.page.KsFullScreenVideoActivity"
+440-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:32:13-71
+441            android:configChanges="keyboardHidden|orientation|screenSize"
+441-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:33:13-74
+442            android:screenOrientation="portrait"
+442-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:34:13-49
+443            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+443-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:35:13-77
+444        <activity
+444-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:36:9-40:80
+445            android:name="com.kwad.sdk.page.KSRewardVideoActivity"
+445-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:37:13-67
+446            android:configChanges="keyboardHidden|orientation|screenSize"
+446-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:38:13-74
+447            android:screenOrientation="portrait"
+447-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:39:13-49
+448            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+448-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:40:13-77
+449
+450        <provider
+450-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:42:9-50:20
+451            android:name="com.kwad.sdk.widget.AdSdkFileProvider"
+451-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:43:13-65
+452            android:authorities="com.qq.e.union.demo.adFileProvider"
+452-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:44:13-66
+453            android:exported="false"
+453-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:45:13-37
+454            android:grantUriPermissions="true" >
+454-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:46:13-47
+455            <meta-data
+455-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
+456                android:name="android.support.FILE_PROVIDER_PATHS"
+456-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
+457                android:resource="@xml/ksad_file_paths" />
+457-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
+458        </provider> <!-- 下载相关 -->
+459        <receiver
+459-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:53:9-65:20
+460            android:name="com.ksad.download.DownloadReceiver"
+460-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:54:13-62
+461            android:exported="true" >
+461-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:55:13-36
+462            <intent-filter>
+462-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:56:13-58:29
+463                <action android:name="download.intent.action.DOWNLOAD_PAUSE" />
+463-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:17-80
+463-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:57:25-77
+464            </intent-filter>
+465            <intent-filter>
+465-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:59:13-61:29
+466                <action android:name="download.intent.action.DOWNLOAD_RESUME" />
+466-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:17-81
+466-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:60:25-78
+467            </intent-filter>
+468            <intent-filter>
+468-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:62:13-64:29
+469                <action android:name="download.intent.action.DOWNLOAD_CANCEL" />
+469-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:17-81
+469-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:63:25-78
+470            </intent-filter>
+471        </receiver>
+472
+473        <service android:name="com.kwai.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+473-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:9-113
+473-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:67:18-110
+474        <service
+474-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:68:9-70:49
+475            android:name="com.kwai.filedownloader.services.FileDownloadService$SeparateProcessService"
+475-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:69:13-103
+476            android:process=":filedownloader" />
+476-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:70:13-46
+477        <service
+477-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:71:9-73:40
+478            android:name="com.ksad.download.service.DownloadService"
+478-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:72:13-69
+479            android:exported="false" />
+479-->[ks_adsdk-2.2.4.aar] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/8ef575fb72be052ba7c5d7e4433b43b2/jetified-ks_adsdk-2.2.4/AndroidManifest.xml:73:13-37
+480        <service
+480-->[com.squareup.leakcanary:leakcanary-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f4eb4216dad0d73996e3169b93cab3f8/jetified-leakcanary-android-2.4/AndroidManifest.xml:23:9-25:40
+481            android:name="leakcanary.internal.HeapAnalyzerService"
+481-->[com.squareup.leakcanary:leakcanary-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f4eb4216dad0d73996e3169b93cab3f8/jetified-leakcanary-android-2.4/AndroidManifest.xml:24:13-67
+482            android:exported="false" />
+482-->[com.squareup.leakcanary:leakcanary-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/f4eb4216dad0d73996e3169b93cab3f8/jetified-leakcanary-android-2.4/AndroidManifest.xml:25:13-37
+483
+484        <provider
+484-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:29:9-37:20
+485            android:name="leakcanary.internal.LeakCanaryFileProvider"
+485-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:30:13-70
+486            android:authorities="com.squareup.leakcanary.fileprovider.com.qq.e.union.demo"
+486-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:31:13-88
+487            android:exported="false"
+487-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:32:13-37
+488            android:grantUriPermissions="true" >
+488-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:33:13-47
+489            <meta-data
+489-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:44:13-46:57
+490                android:name="android.support.FILE_PROVIDER_PATHS"
+490-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:45:17-67
+491                android:resource="@xml/leak_canary_file_paths" />
+491-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:46:17-54
+492        </provider>
+493
+494        <activity
+494-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:39:9-44:66
+495            android:name="leakcanary.internal.activity.LeakActivity"
+495-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:40:13-69
+496            android:icon="@mipmap/leak_canary_icon"
+496-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:41:13-52
+497            android:label="@string/leak_canary_display_activity_label"
+497-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:42:13-71
+498            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
+498-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:43:13-76
+499            android:theme="@style/leak_canary_LeakCanary.Base" />
+499-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:44:13-63
+500
+501        <activity-alias
+501-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:46:9-62:26
+502            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+502-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:47:13-77
+503            android:banner="@drawable/leak_canary_tv_icon"
+503-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:48:13-59
+504            android:enabled="@bool/leak_canary_add_launcher_icon"
+504-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:49:13-66
+505            android:icon="@mipmap/leak_canary_icon"
+505-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:50:13-52
+506            android:label="@string/leak_canary_display_activity_label"
+506-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:51:13-71
+507            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+507-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:52:13-79
+508            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
+508-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:53:13-76
+509            android:theme="@style/leak_canary_LeakCanary.Base" >
+509-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:54:13-63
+510            <intent-filter>
+510-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:55:13-61:29
+511                <action android:name="android.intent.action.MAIN" />
+511-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:78:17-69
+511-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:78:25-66
+512
+513                <category android:name="android.intent.category.LAUNCHER" />
+513-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:17-77
+513-->/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/AndroidManifest.xml:79:27-74
+514                <!-- Android TV launcher intent -->
+515                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+515-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:60:17-86
+515-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:60:27-83
+516            </intent-filter>
+517        </activity-alias>
+518
+519        <activity
+519-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:64:9-70:68
+520            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+520-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:65:13-80
+521            android:excludeFromRecents="true"
+521-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:66:13-46
+522            android:icon="@mipmap/leak_canary_icon"
+522-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:67:13-52
+523            android:label="@string/leak_canary_storage_permission_activity_label"
+523-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:68:13-82
+524            android:taskAffinity="com.squareup.leakcanary.com.qq.e.union.demo"
+524-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:69:13-76
+525            android:theme="@style/leak_canary_Theme.Transparent" />
+525-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:70:13-65
+526
+527        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+527-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:72:9-77
+527-->[com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/2106b94b232d0938efcaeb50ad14acf0/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:72:19-74
+528
+529        <provider
+529-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1ef2789a8679ad05f827911fd167c621/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:8:9-12:40
+530            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+530-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1ef2789a8679ad05f827911fd167c621/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:9:13-79
+531            android:authorities="com.qq.e.union.demo.leakcanary-installer"
+531-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1ef2789a8679ad05f827911fd167c621/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:10:13-72
+532            android:enabled="@bool/leak_canary_watcher_auto_install"
+532-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1ef2789a8679ad05f827911fd167c621/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:11:13-69
+533            android:exported="false" />
+533-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/1ef2789a8679ad05f827911fd167c621/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:12:13-37
+534        <provider
+534-->[com.squareup.leakcanary:plumber-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/424039536346d8bf2a8b2ba6e7e033b9/jetified-plumber-android-2.4/AndroidManifest.xml:8:9-12:40
+535            android:name="leakcanary.internal.PlumberInstaller"
+535-->[com.squareup.leakcanary:plumber-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/424039536346d8bf2a8b2ba6e7e033b9/jetified-plumber-android-2.4/AndroidManifest.xml:9:13-64
+536            android:authorities="com.qq.e.union.demo.plumber-installer"
+536-->[com.squareup.leakcanary:plumber-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/424039536346d8bf2a8b2ba6e7e033b9/jetified-plumber-android-2.4/AndroidManifest.xml:10:13-69
+537            android:enabled="@bool/leak_canary_plumber_auto_install"
+537-->[com.squareup.leakcanary:plumber-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/424039536346d8bf2a8b2ba6e7e033b9/jetified-plumber-android-2.4/AndroidManifest.xml:11:13-69
+538            android:exported="false" />
+538-->[com.squareup.leakcanary:plumber-android:2.4] /Users/caikaige/.gradle/caches/transforms-2/files-2.1/424039536346d8bf2a8b2ba6e7e033b9/jetified-plumber-android-2.4/AndroidManifest.xml:12:13-37
+539    </application>
+540
+541</manifest>

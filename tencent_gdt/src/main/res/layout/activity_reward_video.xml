@@ -24,11 +24,11 @@
             android:inputType="number" />
 
         <Spinner
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:id="@+id/id_spinner"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
@@ -36,8 +36,8 @@
         android:id="@+id/volume_on_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="有声播放" />
+        android:text="有声播放"
+        android:checked="true"/>
 
     <Button
         android:id="@+id/load_ad_button"

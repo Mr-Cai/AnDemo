@@ -42,7 +42,7 @@ import java.util.List;
 import java.util.TreeSet;
 import java.util.WeakHashMap;
 
-import static androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE;
+import static android.widget.AbsListView.OnScrollListener.SCROLL_STATE_IDLE;
 
 public class NativeADUnifiedRecyclerViewActivity extends Activity
         implements NativeADUnifiedListener {
@@ -77,7 +77,7 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
             mPlayMute = getIntent().getBooleanExtra(Constants.PLAY_MUTE, true);
         }
 
-        mAdManager = new NativeUnifiedAD(this, Constants.APPID, getPosId(), this);
+        mAdManager = new NativeUnifiedAD(this, getPosId(), this);
         mAdManager.setMinVideoDuration(getMinVideoDuration());
         mAdManager.setMaxVideoDuration(getMaxVideoDuration());
         // 下面设置项为海外流量使用，国内暂不支持
@@ -548,7 +548,7 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
                         for (int i = 0; i < ads.size(); i++) {
                             mAdapter.addAdToPosition(ads.get(i), count + i * AD_DISTANCE + FIRST_AD_POSITION);
                             Log.d(TAG,
-                                    i + ": eCPM = " + ads.get(i).getECPM() + " , eCPMLevel = " + ads.get(i).getECPMLevel() + " , videoDuration = " + ads.get(i).getVideoDuration());
+                                    i + ": eCPMLevel = " + ads.get(i).getECPMLevel() + " , videoDuration = " + ads.get(i).getVideoDuration());
                         }
                     }
                     mAdapter.notifyDataSetChanged();

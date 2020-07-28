@@ -34,6 +34,34 @@
         <item>4010092450274310</item>
         <item>1080999400676301</item>
     </string-array>
+    <array name="native_express_2_ad">
+        <item>左图右文(1280*720)(默认)</item>
+        <item>左文右图(1280*720)</item>
+        <item>上图下文(1280*720)</item>
+        <item>上文下图(1280*720)</item>
+        <item>上图下文-文字浮层(1280*720)</item>
+        <item>上文下图-文字浮层(1280*720)</item>
+        <item>双图双文(1280*720+300*300)</item>
+        <item>单图单文-文字浮层(1280*720)</item>
+        <item>竖版纯图片(1080*1920)</item>
+        <item>横版纯图片(1280*720)</item>
+        <item>三小图双文(228*150)</item>
+        <item>仅视频(1280*720)</item>
+    </array>
+    <string-array name="native_express_2_ad_value">
+        <item>3091718613719724</item>
+        <item>6001012663414795</item>
+        <item>9061615683013706</item>
+        <item>9041417653619707</item>
+        <item>8011310663216718</item>
+        <item>7061917663915779</item>
+        <item>1041112683513870</item>
+        <item>7041311643117823</item>
+        <item>8001816683512814</item>
+        <item>9081114683610806</item>
+        <item>6071418603717887</item>
+        <item>6071516623913891</item>
+    </string-array>
     <array name="native_express_video_ad">
         <item>图文+视频-上图下文(默认)</item>
         <item>仅视频</item>
@@ -378,6 +406,9 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="leak_canary_add_dynamic_shortcut">true</bool>
     <bool name="leak_canary_add_launcher_icon">true</bool>
+    <bool name="leak_canary_allow_in_non_debuggable_build">false</bool>
+    <bool name="leak_canary_plumber_auto_install">true</bool>
+    <bool name="leak_canary_watcher_auto_install">true</bool>
     <bool name="mtrl_btn_textappearance_all_caps">true</bool>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -981,6 +1012,7 @@
     <item name="leak_canary_notification_analyzing_heap" type="id"/>
     <item name="leak_canary_notification_dumping_heap" type="id"/>
     <item name="leak_canary_notification_no_retained_object_on_tap" type="id"/>
+    <item name="leak_canary_notification_on_screen_exit" type="id"/>
     <item name="leak_canary_notification_retained_objects" type="id"/>
     <item name="leak_canary_notification_write_permission" type="id"/>
     <item name="line1" type="id"/>
@@ -1152,10 +1184,10 @@
     <string name="leak_canary_about_message"><![CDATA[This is a dev extension for
   <b>%1$s</b> (<i>%2$s</i>), automatically added by the LeakCanary library.<br><br>
   <a href="https://github.com/square/leakcanary">LeakCanary</a> is a memory leak detection library for Android, created
-  and open source by <a href="https://twitter.com/Piwai">Pierre-Yves Ricau</a> at <a href="https://square.github.io">Square</a>.<br><br>
+  and open sourced by <a href="https://twitter.com/Piwai">Pierre-Yves Ricau</a> at <a href="https://square.github.io">Square</a>.<br><br>
   You can learn more about memory leaks at <a href="https://squ.re/leaks">https://squ.re/leaks</a>.<br><br>
-  We welcome contributions from the community, please do not hesitate to
-  <a href="https://github.com/square/leakcanary/issues">report an issue</a> or open a pull request!<br>
+  We welcome contributions from the community - please do not hesitate to
+  <a href="https://github.com/square/leakcanary/issues">report an issue</a> or open a pull request!<br><br>
 ]]></string>
     <string name="leak_canary_about_title">About LeakCanary %s</string>
     <string name="leak_canary_analysis_deleted_title">Analysis Deleted</string>
@@ -1177,6 +1209,12 @@
     <string name="leak_canary_group_list_time_label">Last leaked %s</string>
     <string name="leak_canary_heap_analysis_list_screen_title">%d Heap Dumps</string>
     <string name="leak_canary_heap_analysis_success_screen_row_time_format">Latest: %s</string>
+    <string name="leak_canary_heap_dump_disabled_build_non_debuggable">the debugger is attached and LeakCanary.Config.dumpHeapWhenDebugging is set to false</string>
+    <string name="leak_canary_heap_dump_disabled_by_app">LeakCanary.Config.dumpHeap is set to false</string>
+    <string name="leak_canary_heap_dump_disabled_running_tests">tests are running</string>
+    <string name="leak_canary_heap_dump_disabled_text">Heap dumping is currently disabled, because <i>%s</i>.</string>
+    <string name="leak_canary_heap_dump_enabled_text">Heap dumping is currently enabled.</string>
+    <string name="leak_canary_heap_dump_not_installed_text">AppWatcher is not installed.</string>
     <string name="leak_canary_heap_dump_screen_title">Heap Dump %s</string>
     <string name="leak_canary_help_title">Tap here to learn more</string>
     <string name="leak_canary_import_from_title">Import From…</string>
@@ -1210,9 +1248,9 @@
     <string name="leak_canary_stackoverflow_share">Share Leak On Stack Overflow</string>
     <string name="leak_canary_storage_permission_activity_label">Storage permission</string>
     <string name="leak_canary_test_class_name" translatable="false">org.junit.Test</string>
-    <string name="leak_canary_toast_heap_dump">LeakCanary is dumping the memory to investigate leaks.</string>
+    <string name="leak_canary_toast_heap_dump">LeakCanary is dumping memory to investigate leaks.</string>
     <string name="leak_canary_tv_analysis_failure">Heap Analysis failed, see details in Logcat</string>
-    <string name="leak_canary_tv_analysis_success">Heap Analysis performed, %1$d application leaks, %2$d library leaks. See details in Logcat</string>
+    <string name="leak_canary_tv_analysis_success">Heap Analysis performed: %1$d application leaks, %2$d library leaks. See details in Logcat</string>
     <string name="leak_canary_tv_toast_retained_objects">%1$d retained objects. Heap dump threshold is %2$d.\nBackground the app to trigger heap dump immediately</string>
     <string name="load_cost">load-cost</string>
     <string name="media_information">Media Information</string>
@@ -1276,6 +1314,7 @@
     <string description="a11y string to indicate this button switches the user to choosing a year [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
     <string name="nativeContainer"/>
     <string name="nativeExpress"/>
+    <string name="nativeExpressImprove"/>
     <string name="nativeSelf"/>
     <string name="nativeSelfMp"/>
     <string name="nativeVideo"/>
@@ -1349,6 +1388,7 @@
     <string name="title_activity_maindemo">广点通：结盟而赢</string>
     <string name="title_activity_native_express_ad">原生广告-模板渲染示例</string>
     <string name="title_activity_native_express_demo">原生广告-模板渲染基本示例</string>
+    <string name="title_activity_native_express_improve_ad">原生广告-模板2.0示例</string>
     <string name="title_activity_native_express_recycler_view">原生广告-模板渲染列表示例</string>
     <string name="title_activity_native_unified_demo">自渲染 2.0接入示例</string>
     <string name="title_activity_native_video_ad">原生视频广告接入示例</string>

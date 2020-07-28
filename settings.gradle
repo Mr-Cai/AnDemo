@@ -1,3 +1,4 @@
+include ':qr_code'
 rootProject.name = 'AnDemo'
 include ':tencent_gdt'
 include ':tencent_ad'
@@ -11,3 +12,4 @@ include ':http_server'
 include ':forecast'
 include ":sound_panel"
 include ':txt_flow'
+include ':coil'

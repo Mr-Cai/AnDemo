@@ -57,6 +57,8 @@ array gdt_native_ad_demo
 array gdt_native_ad_demo_value
 array native_ad_unified_ad
 array native_ad_unified_ad_value
+array native_express_2_ad
+array native_express_2_ad_value
 array native_express_video_ad
 array native_express_video_ad_value
 array native_video_ad
@@ -762,6 +764,9 @@ bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool leak_canary_add_dynamic_shortcut
 bool leak_canary_add_launcher_icon
+bool leak_canary_allow_in_non_debuggable_build
+bool leak_canary_plumber_auto_install
+bool leak_canary_watcher_auto_install
 bool mtrl_btn_textappearance_all_caps
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -1724,12 +1729,10 @@ id actionbar
 id actions
 id activity_chooser_view_content
 id activity_native_express
-id ad_container
 id ad_framelayout
 id ad_info
 id ad_info_container
 id ad_label_play_bar
-id ad_poster
 id add
 id alertTitle
 id all
@@ -1753,6 +1756,7 @@ id btn_cta
 id btn_detail
 id btn_detail_mute
 id btn_download
+id btn_load_ad
 id btn_mute
 id btn_native_call_to_action
 id btn_pause
@@ -1765,7 +1769,6 @@ id buttonDestroy
 id buttonPanel
 id buttonPreloadVideo
 id buttonRefresh
-id button_download
 id cancel_action
 id cancel_button
 id cbMaxVideoDuration
@@ -1787,7 +1790,6 @@ id center_vertical
 id chains
 id change_orientation_button
 id checkBox
-id checkBoxFloatView
 id checkBoxPreloadView
 id checkCustomSkp
 id checkbox
@@ -1804,7 +1806,6 @@ id clip_horizontal
 id clip_vertical
 id closeBanner
 id closeIAD
-id closePPWIAD
 id close_btn
 id close_button
 id collapseActionView
@@ -1812,7 +1813,6 @@ id configs_view
 id confirm_button
 id container
 id content
-id contentADContainer
 id contentContainer
 id contentPanel
 id continue_btn
@@ -1855,9 +1855,11 @@ id enterAlwaysCollapsed
 id etMaxVideoDuration
 id etMinVideoDuration
 id etRefreshInterval
+id et_ad_count
 id et_back
 id et_back_seperator
 id et_close
+id et_height
 id et_seperator
 id et_title
 id et_titleBarColor
@@ -1865,11 +1867,13 @@ id et_titleBarHeight
 id et_titleColor
 id et_titleSize
 id et_url
+id et_width
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id expressRecyclerDemoButton
 id expressSimpleDemoButton
+id express_2_ad_container
 id express_ad_container
 id fade
 id fake_video_view
@@ -1906,7 +1910,6 @@ id img_logo
 id img_poster
 id info
 id interstitial
-id introduction
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1924,6 +1927,7 @@ id kwad_titlebar_title
 id labeled
 id largeLabel
 id layer_title
+id leak_canary_about_heap_dump_text
 id leak_canary_about_text
 id leak_canary_bottom_navigation_bar
 id leak_canary_chip_library_leak
@@ -1950,6 +1954,7 @@ id leak_canary_notification_analysis_result
 id leak_canary_notification_analyzing_heap
 id leak_canary_notification_dumping_heap
 id leak_canary_notification_no_retained_object_on_tap
+id leak_canary_notification_on_screen_exit
 id leak_canary_notification_retained_objects
 id leak_canary_notification_write_permission
 id leak_canary_row_connector
@@ -1957,6 +1962,7 @@ id leak_canary_row_small_text
 id leak_canary_row_text
 id leak_canary_row_title
 id leak_canary_search_button
+id leak_canary_single_leak_trace_row
 id leak_canary_spinner
 id leak_canary_stacktrace
 id leak_canary_time_text
@@ -1965,15 +1971,12 @@ id left
 id line1
 id line3
 id linescroll
-id list
 id listDemoButton
 id listMode
 id list_item
 id listview
-id loadContentAD
 id loadIAD
 id loadIADFullScreen
-id loadNative
 id load_ad_button
 id loading_icon
 id mainVideo
@@ -2055,11 +2058,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id mv_native_mediaView
-id nativeADContainer
-id nativeCategories
 id nativeExpress
-id nativePosId
-id nativePosIdContainer
 id nativeSelf
 id nativeSelfMp
 id nativeVideo
@@ -2069,7 +2068,6 @@ id native_3img_desc
 id native_3img_title
 id native_ad_container
 id navigation_header_container
-id negativeFeedbackNative
 id network_adapter_status
 id network_class_name
 id network_ext
@@ -2086,7 +2084,6 @@ id notification_main_column_container
 id off
 id on
 id oneshot_image
-id operationContainer
 id outline
 id packed
 id parallax
@@ -2127,9 +2124,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scroll_root
 id scrollable
-id scrollview
 id sdk_version_txt
 id search_badge
 id search_bar
@@ -2144,13 +2139,11 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id shortcut
-id showContentAD
 id showCustom
 id showHome
 id showIAD
 id showIADAsPPW
 id showIADFullScreen
-id showNative
 id showTitle
 id show_ad_button
 id show_ad_button_activity
@@ -2210,13 +2203,9 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textWidth
-id text_count_down
 id text_desc
 id text_input_end_icon
 id text_input_start_icon
-id text_load_result
-id text_name
-id text_status
 id text_title
 id textinput_counter
 id textinput_error
@@ -2333,13 +2322,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_banner
-layout activity_gdtcontentad_demo
-layout activity_gdtnative_video_ad
-layout activity_gdtnativead_demo
 layout activity_hybrid
-layout activity_interstitial_ad
 layout activity_mediation_test
+layout activity_native_express_2_ad
+layout activity_native_express_2_reycler_view
+layout activity_native_express_2_simple_demo
 layout activity_native_express_ad
 layout activity_native_express_demo
 layout activity_native_express_recycler_view
@@ -2349,11 +2336,6 @@ layout activity_native_unified_ad_listview
 layout activity_native_unified_ad_premovie
 layout activity_native_unified_ad_recyclerview
 layout activity_native_unified_ad_simple
-layout activity_native_video_ad
-layout activity_native_video_demo
-layout activity_native_video_pre_movie
-layout activity_native_video_recycler_view
-layout activity_native_video_scroll_view
 layout activity_reward_video
 layout activity_sdk_version
 layout activity_splash
@@ -2385,6 +2367,7 @@ layout item_ad
 layout item_ad_unified
 layout item_ad_unified_full_screen_feed
 layout item_data
+layout item_express2_ad
 layout item_express_ad
 layout item_full_screen_video_feed
 layout item_layer
@@ -2423,7 +2406,6 @@ layout leak_canary_leak_screen
 layout leak_canary_list
 layout leak_canary_ref_row
 layout leak_canary_simple_row
-layout listitem_nativevideo
 layout loading_alert
 layout mintegral_jscommon_authoritylayout
 layout mintegral_playercommon_player_view
@@ -2464,7 +2446,6 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
-layout nativelistitem
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -2627,6 +2608,12 @@ string leak_canary_go_to_heap_analysis
 string leak_canary_group_list_time_label
 string leak_canary_heap_analysis_list_screen_title
 string leak_canary_heap_analysis_success_screen_row_time_format
+string leak_canary_heap_dump_disabled_build_non_debuggable
+string leak_canary_heap_dump_disabled_by_app
+string leak_canary_heap_dump_disabled_running_tests
+string leak_canary_heap_dump_disabled_text
+string leak_canary_heap_dump_enabled_text
+string leak_canary_heap_dump_not_installed_text
 string leak_canary_heap_dump_screen_title
 string leak_canary_help_title
 string leak_canary_import_from_title
@@ -2726,6 +2713,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nativeContainer
 string nativeExpress
+string nativeExpressImprove
 string nativeSelf
 string nativeSelfMp
 string nativeVideo
@@ -2799,6 +2787,7 @@ string title_activity_interstitial_ad
 string title_activity_maindemo
 string title_activity_native_express_ad
 string title_activity_native_express_demo
+string title_activity_native_express_improve_ad
 string title_activity_native_express_recycler_view
 string title_activity_native_unified_demo
 string title_activity_native_video_ad

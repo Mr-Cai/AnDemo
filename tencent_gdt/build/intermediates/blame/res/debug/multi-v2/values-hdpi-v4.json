@@ -4,7 +4,7 @@
             "outputFile": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/caikaige/.gradle/caches/transforms-2/files-2.1/169cbd77ea688784084fd082289d7752/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/caikaige/.gradle/caches/transforms-2/files-2.1/bdadcd165ea1b3e080f26e8b867dee27/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

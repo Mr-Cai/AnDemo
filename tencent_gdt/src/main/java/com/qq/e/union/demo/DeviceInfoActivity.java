@@ -17,32 +17,32 @@ import com.qq.e.comm.managers.status.DeviceStatus;
  */
 public class DeviceInfoActivity extends Activity {
 
-    private DeviceStatus deviceStatus;
+  private DeviceStatus deviceStatus;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        deviceStatus = new DeviceStatus(this.getApplicationContext());
-        setContentView(createRootView());
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    deviceStatus = new DeviceStatus(this.getApplicationContext());
+    setContentView(createRootView());
+  }
+
+  private View createRootView() {
+    LinearLayout layout = new LinearLayout(this);
+    layout.setOrientation(LinearLayout.VERTICAL);
+
+    layout.addView(createTextView("IMEI: " + deviceStatus.getDid()));
+    layout.addView(createTextView("Android Id: " + deviceStatus.getUid()));
+    return layout;
+  }
+
+  private TextView createTextView(String text) {
+    TextView textView = new TextView(this);
+    textView.setLayoutParams(new LinearLayout.LayoutParams(
+        LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+      textView.setTextIsSelectable(true);
     }
-
-    private View createRootView() {
-        LinearLayout layout = new LinearLayout(this);
-        layout.setOrientation(LinearLayout.VERTICAL);
-
-        layout.addView(createTextView("IMEI: " + deviceStatus.getDid()));
-        layout.addView(createTextView("Android Id: " + deviceStatus.getUid()));
-        return layout;
-    }
-
-    private TextView createTextView(String text) {
-        TextView textView = new TextView(this);
-        textView.setLayoutParams(new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-            textView.setTextIsSelectable(true);
-        }
-        textView.setText(text);
-        return textView;
-    }
+    textView.setText(text);
+    return textView;
+  }
 }

@@ -12,6 +12,10 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_hybrid.xml"
     },
     {
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_item_express2_ad.xml.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/item_express2_ad.xml"
+    },
+    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_unified_banner.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_unified_banner.xml"
     },
@@ -26,10 +30,6 @@
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_keyboard_arrow_down_black_24dp.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_keyboard_arrow_down_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_gdtcontentad_demo.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_gdtcontentad_demo.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_express_recycler_view.xml.flat",
@@ -72,6 +72,10 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/raw/p1.png"
     },
     {
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_express_2_ad.xml.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_express_2_ad.xml"
+    },
+    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/raw_v4.mp4.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/raw/v4.mp4"
     },
@@ -80,20 +84,8 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/drawable-hdpi/bannerword.png"
     },
     {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_video_demo.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_video_demo.xml"
-    },
-    {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_gdtnative_video_ad.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_gdtnative_video_ad.xml"
-    },
-    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_unified_ad_listview.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_unified_ad_listview.xml"
-    },
-    {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_gdtnativead_demo.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_gdtnativead_demo.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
@@ -140,16 +132,8 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/raw/v3.mp4"
     },
     {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_video_ad.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_video_ad.xml"
-    },
-    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_unified_ad_full_screen.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_unified_ad_full_screen.xml"
-    },
-    {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_interstitial_ad.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_interstitial_ad.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/raw_p5.png.flat",
@@ -168,16 +152,16 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/raw/p3.png"
     },
     {
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_express_2_simple_demo.xml.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_express_2_simple_demo.xml"
+    },
+    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable_shape_bg_call_to_action.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/drawable/shape_bg_call_to_action.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable-ldpi_ic_keyboard_arrow_down_black_24dp.png.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/generated/res/pngs/debug/drawable-ldpi/ic_keyboard_arrow_down_black_24dp.png"
-    },
-    {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_listitem_nativevideo.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/listitem_nativevideo.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_item_layer.xml.flat",
@@ -220,10 +204,6 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/raw/p4.png"
     },
     {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_nativelistitem.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/nativelistitem.xml"
-    },
-    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
@@ -248,10 +228,6 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/item_data.xml"
     },
     {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_banner.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_banner.xml"
-    },
-    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_facebook_native_splash.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/facebook_native_splash.xml"
     },
@@ -268,8 +244,8 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/item_ad_unified_full_screen_feed.xml"
     },
     {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_video_recycler_view.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_video_recycler_view.xml"
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_express_2_reycler_view.xml.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_express_2_reycler_view.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable_background_circle.xml.flat",
@@ -280,16 +256,8 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/drawable-hdpi/gdt_splash_logo.png"
     },
     {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_video_scroll_view.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_video_scroll_view.xml"
-    },
-    {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_item_network.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/item_network.xml"
-    },
-    {
-        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_video_pre_movie.xml.flat",
-        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_video_pre_movie.xml"
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable_shape_bg_countdown.xml.flat",

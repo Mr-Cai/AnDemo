@@ -6,22 +6,22 @@
     <com.qq.e.union.demo.view.FullScreenVideoView
         android:id="@+id/video_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
     <ImageView
         android:id="@+id/cover_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/title"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:padding="8dp"
-        android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

@@ -12,23 +12,23 @@ import android.os.Build
 import android.os.Build.VERSION.SDK_INT
 import android.os.Bundle
 import android.provider.Settings
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import demo.tencent.ad.O.configToolBar
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item.view.*
 
 class MainActivity : AppCompatActivity() {
     private val typeList = ArrayList<TypeAdapter.Item>()
     private var gridCount: Int = 3
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        configToolBar(toolbar, this)
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
         if (SDK_INT >= 23) checkAndRequestPermission()
         if (resources.configuration.orientation == ORIENTATION_LANDSCAPE) {
             gridCount = 6
@@ -40,6 +40,22 @@ class MainActivity : AppCompatActivity() {
         typeList.add(TypeAdapter.Item("原生广告", R.drawable.ic_origin_ads))
         typeList.add(TypeAdapter.Item("闪屏广告", R.drawable.ic_splash_ad))
         gridRecycler.adapter = TypeAdapter(typeList)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate(R.menu.finish, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.nativeRender -> {
+                finish()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
     @TargetApi(Build.VERSION_CODES.M)

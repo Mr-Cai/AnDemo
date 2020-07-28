@@ -5,8 +5,9 @@
     <solid android:color="#3185FC" />
     <!-- android:radius 圆角的半径 -->
     <corners
-        android:bottomLeftRadius="45dp"
-        android:bottomRightRadius="45dp"
         android:topLeftRadius="45dp"
-        android:topRightRadius="45dp" />
+        android:topRightRadius="45dp"
+        android:bottomRightRadius="45dp"
+        android:bottomLeftRadius="45dp"
+        />
 </shape>

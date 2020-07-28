@@ -5,6 +5,7 @@ import android.os.SystemClock;
 import android.text.format.DateUtils;
 import android.util.Log;
 
+
 import com.mintegral.msdk.MIntegralConstans;
 import com.mintegral.msdk.mtgbid.out.BidListennning;
 import com.mintegral.msdk.mtgbid.out.BidManager;
@@ -23,96 +24,94 @@ import org.json.JSONObject;
 
 /**
  * 使用概述:
- * 1.初始化SDK
- * 所需参数:appId,appKey
- * 2.创建BidManager对象并设置监听,在回调方法onSuccessed中获取BidToken
- * 所需参数:posID(具体的广告位id)
- * 3.创建请求加载广告的MTGBidRewardVideoHandler对象,并设置监听。通过loadFromBid(token)发起请求
- * 所需参数:token(步骤二中获取)
- * 4.根据mMTGRewardVideoHandler.setRewardVideoListener中回调,作出相应的逻辑处理。
- * <p>
+ *        1.初始化SDK
+ *          所需参数:appId,appKey
+ *        2.创建BidManager对象并设置监听,在回调方法onSuccessed中获取BidToken
+ *          所需参数:posID(具体的广告位id)
+ *        3.创建请求加载广告的MTGBidRewardVideoHandler对象,并设置监听。通过loadFromBid(token)发起请求
+ *          所需参数:token(步骤二中获取)
+ *        4.根据mMTGRewardVideoHandler.setRewardVideoListener中回调,作出相应的逻辑处理。
+ *
  * 所需依赖:
- * // Mintegral SDK
- * implementation 'com.mintegral.msdk:videojs:10.1.31'
- * implementation 'com.mintegral.msdk:mtgjscommon:10.1.31'
- * implementation 'com.mintegral.msdk:playercommon:10.1.31'
- * implementation 'com.mintegral.msdk:reward:10.1.31'
- * implementation 'com.mintegral.msdk:videocommon:10.1.31'
- * implementation 'com.mintegral.msdk:optimizedata:10.1.31'
- * implementation 'com.mintegral.msdk:common:10.1.31'
- * // 开发者后台创建App勾选APK为YES则加上mtgdownloads依赖
- * implementation 'com.mintegral.msdk:mtgdownloads:10.1.31'
- * //mtgbid
- * implementation 'com.mintegral.msdk:mtgbid:10.1.31'
- * <p>
- * 注:国内应用开发者在mintegral后台配置应用设置时,请在是否投放apk广告选择:是,否则可能获取不到广告资源。
- * <p>
- * manifest配置:
- * mtg所需要的权限
- * <uses-permission android:name="android.permission.INTERNET" />
- * <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
- * 如果国内流量版本SDK ，以下两条权限必须加上
- * <uses-permission android:name="android.permission.READ_PHONE_STATE" />
- * <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
- * <p>
- * MTG激励视频所需的Activity
- * <activity
- * android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
- * android:configChanges="orientation|keyboardHidden|screenSize"
- * android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
- * <activity
- * android:name="com.mintegral.msdk.activity.MTGCommonActivity"
- * android:configChanges="keyboard|orientation"
- * android:exported="true"
- * android:screenOrientation="portrait"
- * android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
- * 国内流量版本必需，海外版本可以不添加
- * <receiver android:name="com.mintegral.msdk.click.AppReceiver">
- * <intent-filter>
- * <action android:name="android.intent.action.PACKAGE_ADDED" />
- * <data android:scheme="package" />
- * </intent-filter>
- * </receiver>
- * 国内流量必需，海外版本可以不添加
- * <service android:name="com.mintegral.msdk.shell.MTGService">
- * <intent-filter>
- * <action android:name="com.mintegral.msdk.download.action" />
- * </intent-filter>
- * </service>
- * 国内流量版本必需，海外版本可以不添加。
- * <provider
- * android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
- * android:authorities="${applicationId}.mtgFileProvider"
- * android:exported="false"
- * android:grantUriPermissions="true">
- * <meta-data
- * android:name="android.support.FILE_PROVIDER_PATHS"
- * android:resource="@xml/mtg_provider_paths" />
- * </provider>
- * <p>
- * XML:(如果targetSDKVersion >= 24，需要适配FileProvider。 国内流量版本必需，海外版本可以不添加)
- * 在xml文件下添加mtg_provider_paths.xml
- * <?xml version="1.0" encoding="utf-8"?>
- * <paths xmlns:android="http://schemas.android.com/apk/res/android">
- * <external-path name="external_files" path="."/>
- * </paths>
- * <p>
- * 混淆配置:
- * -keepattributes Signature
- * -keepattributes *Annotation*
- * -keep class com.mintegral.** {*; }
- * -keep interface com.mintegral.** {*; }
- * -keep class android.support.v4.** { *; }
- * -dontwarn com.mintegral.**
- * -keep class **.R$* { public static final int mintegral*; }
- * -keep class com.alphab.** {*; }
- * -keep interface com.alphab.** {*; }
+ *         // Mintegral SDK
+ *        implementation 'com.mintegral.msdk:videojs:10.1.31'
+ *        implementation 'com.mintegral.msdk:mtgjscommon:10.1.31'
+ *        implementation 'com.mintegral.msdk:playercommon:10.1.31'
+ *        implementation 'com.mintegral.msdk:reward:10.1.31'
+ *        implementation 'com.mintegral.msdk:videocommon:10.1.31'
+ *        implementation 'com.mintegral.msdk:optimizedata:10.1.31'
+ *        implementation 'com.mintegral.msdk:common:10.1.31'
+ *        // 开发者后台创建App勾选APK为YES则加上mtgdownloads依赖
+ *        implementation 'com.mintegral.msdk:mtgdownloads:10.1.31'
+ *        //mtgbid
+ *        implementation 'com.mintegral.msdk:mtgbid:10.1.31'
+ *
+ *        注:国内应用开发者在mintegral后台配置应用设置时,请在是否投放apk广告选择:是,否则可能获取不到广告资源。
+ *
+ *  manifest配置:
+ *        mtg所需要的权限
+ *        <uses-permission android:name="android.permission.INTERNET" />
+ *        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ *        如果国内流量版本SDK ，以下两条权限必须加上
+ *        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+ *        <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+ *
+ *         MTG激励视频所需的Activity
+ *         <activity
+ *             android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+ *             android:configChanges="orientation|keyboardHidden|screenSize"
+ *             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+ *         <activity
+ *             android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+ *             android:configChanges="keyboard|orientation"
+ *             android:exported="true"
+ *             android:screenOrientation="portrait"
+ *             android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+ *         国内流量版本必需，海外版本可以不添加
+ *         <receiver android:name="com.mintegral.msdk.click.AppReceiver">
+ *             <intent-filter>
+ *                 <action android:name="android.intent.action.PACKAGE_ADDED" />
+ *                 <data android:scheme="package" />
+ *             </intent-filter>
+ *         </receiver>
+ *         国内流量必需，海外版本可以不添加
+ *         <service android:name="com.mintegral.msdk.shell.MTGService">
+ *             <intent-filter>
+ *                 <action android:name="com.mintegral.msdk.download.action" />
+ *             </intent-filter>
+ *         </service>
+ *         国内流量版本必需，海外版本可以不添加。
+ *         <provider
+ *             android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
+ *             android:authorities="${applicationId}.mtgFileProvider"
+ *             android:exported="false"
+ *             android:grantUriPermissions="true">
+ *             <meta-data
+ *                 android:name="android.support.FILE_PROVIDER_PATHS"
+ *                 android:resource="@xml/mtg_provider_paths" />
+ *         </provider>
+ *
+ *  XML:(如果targetSDKVersion >= 24，需要适配FileProvider。 国内流量版本必需，海外版本可以不添加)
+ *          在xml文件下添加mtg_provider_paths.xml
+ *          <?xml version="1.0" encoding="utf-8"?>
+ *          <paths xmlns:android="http://schemas.android.com/apk/res/android">
+ *          <external-path name="external_files" path="."/>
+ *          </paths>
+ *
+ *  混淆配置:
+ *          -keepattributes Signature
+ *          -keepattributes *Annotation*
+ *          -keep class com.mintegral.** {*; }
+ *          -keep interface com.mintegral.** {*; }
+ *          -keep class android.support.v4.** { *; }
+ *          -dontwarn com.mintegral.**
+ *          -keep class **.R$* { public static final int mintegral*; }
+ *          -keep class com.alphab.** {*; }
+ *          -keep interface com.alphab.** {*; }
+ *
  */
 
 public class MintRewardAdAdapter extends BaseRewardAd {
-    private static final String KEY_APPID = "appId";
-    private static final String KEY_APP = "appkey";
-    private static final String TAG = MintRewardAdAdapter.class.getSimpleName();
     private String mPosId;
     private Context mContext;
     private ADListener mListener;
@@ -121,6 +120,9 @@ public class MintRewardAdAdapter extends BaseRewardAd {
     private boolean mIsShown;//广告是否展示
     private long mExpireTime;//广告失效时间
     private boolean mIsVolumeOn;//是否静音播放 true:非静音 false:静音播放
+    private static final String KEY_APPID = "appId";
+    private static final String KEY_APP = "appkey";
+    private static final String TAG = MintRewardAdAdapter.class.getSimpleName();
 
     public MintRewardAdAdapter(Context context, String posID, String ext) {
         super(context, posID, ext);
@@ -198,7 +200,7 @@ public class MintRewardAdAdapter extends BaseRewardAd {
         // mBidResponsed.getPrice() 单位:元
         // return 单位:分
         int ecpm = (int) ((Float.valueOf(mBidResponsed.getPrice())) * 100);
-        Log.i(TAG, "ecpm: " + ecpm + " currency: " + mBidResponsed.getCur());
+        Log.i(TAG,"ecpm: "+ecpm+" currency: "+mBidResponsed.getCur());
         return mBidResponsed != null ? ecpm : Constant.VALUE_NO_ECPM;
     }
 
@@ -207,10 +209,10 @@ public class MintRewardAdAdapter extends BaseRewardAd {
         return null;
     }
 
-    @Override
+  @Override
     public void setVolumOn(boolean volumOn) {
-        this.mIsVolumeOn = volumOn;
-    }
+    this.mIsVolumeOn = volumOn;
+  }
 
     /**
      * 显示 Mintegral RewardVideo

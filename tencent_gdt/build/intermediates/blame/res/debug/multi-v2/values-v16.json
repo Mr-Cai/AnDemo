@@ -4,7 +4,17 @@
             "outputFile": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/caikaige/.gradle/caches/transforms-2/files-2.1/169cbd77ea688784084fd082289d7752/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/caikaige/.gradle/caches/transforms-2/files-2.1/9fc82736af3431abb64435e6c795908e/core-1.1.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/caikaige/.gradle/caches/transforms-2/files-2.1/bdadcd165ea1b3e080f26e8b867dee27/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/caikaige/.gradle/caches/transforms-2/files-2.1/0ac9c3f2b509fccc37bdbc516e1d8f96/core-1.1.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

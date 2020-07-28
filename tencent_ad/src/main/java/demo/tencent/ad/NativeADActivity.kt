@@ -26,7 +26,7 @@ class NativeADActivity : AppCompatActivity(), NativeADUnifiedListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ad_native)
-        configToolBar(toolbar, this, "自渲染消息流")
+        configToolBar(toolbar, this)
         loadAd()
         nativeShowBTN.setOnClickListener {
             adData?.destroy()
@@ -229,7 +229,6 @@ class NativeADActivity : AppCompatActivity(), NativeADUnifiedListener {
             setEnableUserControl(false)
             build()
         }
-
 
     companion object {
         private const val MSG_INIT_AD = 0

@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="260dp"
         android:layout_centerInParent="true"
-        android:background="#222"
         android:gravity="center"
-        android:text="假装是个播放器"
+        android:background="#222"
         android:textColor="#fff"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:text="假装是个播放器"/>
 
     <com.qq.e.ads.nativ.widget.NativeAdContainer
         android:id="@+id/native_ad_container"
@@ -25,10 +25,10 @@
         android:visibility="gone">
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#fff"
-            android:orientation="vertical">
+            android:background="#fff">
 
             <RelativeLayout
                 android:id="@+id/ad_info_container"
@@ -42,17 +42,17 @@
                     android:layout_height="64dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp" />
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
 
                 <!-- 原生广告的点击按钮 -->
                 <Button
                     android:id="@+id/btn_download"
                     android:layout_width="60dp"
                     android:layout_height="30dp"
-                    android:layout_alignTop="@id/img_logo"
                     android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/img_logo"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:background="#80000000"
@@ -77,8 +77,8 @@
                     android:id="@+id/text_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/text_title"
                     android:layout_alignBottom="@id/img_logo"
+                    android:layout_below="@id/text_title"
                     android:layout_marginLeft="6dp"
                     android:layout_marginRight="6dp"
                     android:layout_toLeftOf="@id/btn_download"
@@ -99,7 +99,7 @@
                     android:id="@+id/gdt_media_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#000" />
+                    android:background="#000"/>
 
                 <!-- 原生广告的大图 -->
                 <ImageView
@@ -174,12 +174,12 @@
         android:id="@+id/close_button"
         android:layout_width="32dp"
         android:layout_height="32dp"
+        android:background="@drawable/gdt_ic_express_close"
         android:layout_alignTop="@id/fake_video_view"
         android:layout_alignRight="@id/fake_video_view"
-        android:layout_marginTop="2dp"
         android:layout_marginRight="2dp"
-        android:background="@drawable/gdt_ic_express_close"
-        android:visibility="gone" />
+        android:layout_marginTop="2dp"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/load_ad_button"
@@ -187,6 +187,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/fake_video_view"
         android:layout_margin="36dp"
-        android:text="加载广告" />
-
+        android:text="加载广告"/>
+    
 </RelativeLayout>

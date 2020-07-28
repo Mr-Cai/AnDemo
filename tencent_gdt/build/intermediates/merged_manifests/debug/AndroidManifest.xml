@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="30" />
 
     <!-- 相关权限声明 : SDK不强制校验下列权限（即:无下面权限sdk也可正常工作），但建议开发者申请下面权限，尤其是READ_PHONE_STATE权限 -->
     <!-- READ_PHONE_STATE权限用于允许SDK获取用户标识,针对单媒体的用户，允许获取权限的，投放定向广告；不允许获取权限的用户，投放通投广告，媒体可以选择是否把用户标识数据提供给优量汇，并承担相应广告填充和eCPM单价下降损失的结果。 -->
@@ -123,46 +123,6 @@
                 android:value="gdt.action.LAUNCH_DEMO" />
         </activity>
         <activity
-            android:name="com.qq.e.union.demo.BannerActivity"
-            android:label="@string/title_activity_banner"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-            <meta-data
-                android:name="id"
-                android:value="@string/banner" />
-            <meta-data
-                android:name="content"
-                android:value="Banner广告接入示例" />
-            <meta-data
-                android:name="action"
-                android:value="gdt.action.BANNER_DEMO" />
-
-            <intent-filter>
-                <action android:name="gdt.action.BANNER_DEMO" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.qq.e.union.demo.InterstitialADActivity"
-            android:label="@string/title_activity_interstitial_ad"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-            <meta-data
-                android:name="id"
-                android:value="@string/interstitial" />
-            <meta-data
-                android:name="content"
-                android:value="插屏广告接入示例" />
-            <meta-data
-                android:name="action"
-                android:value="gdt.action.INTERSTITIAL_DEMO" />
-
-            <intent-filter>
-                <action android:name="gdt.action.INTERSTITIAL_DEMO" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.qq.e.union.demo.DeviceInfoActivity"
             android:label="@string/title_activity_device_info"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
@@ -170,92 +130,6 @@
             android:name="com.qq.e.union.demo.adapter.test.activity.MediationTestActivity"
             android:label="@string/title_activity_test_mediation"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-        <activity
-            android:name="com.qq.e.union.demo.NativeADActivity"
-            android:label="@string/title_nativead"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-            <meta-data
-                android:name="id"
-                android:value="@string/nativeSelf" />
-            <meta-data
-                android:name="content"
-                android:value="原生广告(自渲染)接入示例" />
-            <meta-data
-                android:name="action"
-                android:value="gdt.action.NATIVE_SELF_DEMO" />
-
-            <intent-filter>
-                <action android:name="gdt.action.NATIVE_SELF_DEMO" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.qq.e.union.demo.MultiProcessNativeADActivity"
-            android:label="@string/title_nativead"
-            android:process=":nativead"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-            <meta-data
-                android:name="id"
-                android:value="@string/nativeSelfMp" />
-            <meta-data
-                android:name="content"
-                android:value="原生广告(自渲染)接入示例(多进程)" />
-            <meta-data
-                android:name="action"
-                android:value="gdt.action.NATIVE_SELF_MP_DEMO" />
-
-            <intent-filter>
-                <action android:name="gdt.action.NATIVE_SELF_MP_DEMO" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.qq.e.union.demo.NativeVideoListDemoActivity"
-            android:label="@string/title_activity_gdtnative_video_ad"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.qq.e.union.demo.NativeVideoDemoActivity"
-            android:label="@string/title_activity_native_video_demo"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.qq.e.union.demo.NativeVideoADActivity"
-            android:label="@string/title_activity_native_video_ad"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-            <meta-data
-                android:name="id"
-                android:value="@string/nativeVideo" />
-            <meta-data
-                android:name="content"
-                android:value="原生视频广告(自渲染)接入示例" />
-            <meta-data
-                android:name="action"
-                android:value="gdt.action.NATIVE_VIDEO_DEMO" />
-
-            <intent-filter>
-                <action android:name="gdt.action.NATIVE_VIDEO_DEMO" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.qq.e.union.demo.NativeVideoRecyclerViewActivity"
-            android:label="@string/title_activity_native_video_recycler_view"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.qq.e.union.demo.NativeVideoScrollViewActivity"
-            android:label="@string/title_activity_native_video_scroll_view"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" />
-        <activity
-            android:name="com.qq.e.union.demo.NativeVideoPreMovieActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:label="@string/title_activity_native_video_pre_movie"
-            android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="com.qq.e.union.demo.NativeExpressADActivity"
             android:label="@string/title_activity_native_express_ad"
@@ -288,6 +162,39 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_native_express_recycler_view"
             android:screenOrientation="portrait" />
+
+        <!-- 模板2.0 -->
+        <activity
+            android:name="com.qq.e.union.demo.NativeExpressAd2GuideActivity"
+            android:label="@string/title_activity_native_express_improve_ad"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+            <meta-data
+                android:name="id"
+                android:value="@string/nativeExpressImprove" />
+            <meta-data
+                android:name="content"
+                android:value="原生广告(模板2.0)接入示例" />
+            <meta-data
+                android:name="action"
+                android:value="gdt.action.NATIVE_EXPRESS_2_DEMO" />
+
+            <intent-filter>
+                <action android:name="gdt.action.NATIVE_EXPRESS_2_DEMO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qq.e.union.demo.NativeExpressAd2SimpleDemoActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_native_express_recycler_view" />
+        <activity
+            android:name="com.qq.e.union.demo.NativeExpressAd2RecyclerViewActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_native_express_recycler_view" />
+        <!-- 模板2.0 -->
+
         <activity
             android:name="com.qq.e.union.demo.NativeADUnifiedActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
@@ -340,27 +247,6 @@
             android:label="@string/title_activity_native_unified_demo"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
-        <activity
-            android:name="com.qq.e.union.demo.ContentADActivity"
-            android:label="@string/title_contentad"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
-            <meta-data
-                android:name="id"
-                android:value="@string/content" />
-            <meta-data
-                android:name="content"
-                android:value="内容+广告接入示例" />
-            <meta-data
-                android:name="action"
-                android:value="gdt.action.CONTENT_DEMO" />
-
-            <intent-filter>
-                <action android:name="gdt.action.CONTENT_DEMO" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity
             android:name="com.qq.e.union.demo.RewardVideoActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
@@ -447,7 +333,27 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.qq.e.union.demo.UnifiedInterstitialFullScreenADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_unified_interstitial_ad"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+            <meta-data
+                android:name="id"
+                android:value="@string/unified_interstitial_fullscreen_video" />
+            <meta-data
+                android:name="content"
+                android:value="插屏全屏视频广告接入示例" />
+            <meta-data
+                android:name="action"
+                android:value="gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO" />
 
+            <intent-filter>
+                <action android:name="gdt.action.UNIFIED_INTERSTITIAL_FULLSCREEN_VIDEO_DEMO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <!-- MTG激励视频所需的Activity，此处配置作用于流量分配功能，关于流量分配功能，详情请咨询商务 -->
         <activity
             android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
@@ -507,12 +413,20 @@
             android:name="com.qq.e.ads.RewardvideoPortraitADActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:multiprocess="true"
-            android:theme="@android:style/Theme.Translucent" /> <!-- 用于激励视频可选广告的横屏透明背景activity -->
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="android.notch_support"
+                android:value="true" />
+        </activity> <!-- 用于激励视频可选广告的横屏透明背景activity -->
         <activity
             android:name="com.qq.e.ads.RewardvideoLandscapeADActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:multiprocess="true"
-            android:theme="@android:style/Theme.Translucent" />
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="android.notch_support"
+                android:value="true" />
+        </activity>
         <activity
             android:name="com.kwad.sdk.page.KsAdWebViewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -615,6 +529,12 @@
         <provider
             android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
             android:authorities="com.qq.e.union.demo.leakcanary-installer"
+            android:enabled="@bool/leak_canary_watcher_auto_install"
+            android:exported="false" />
+        <provider
+            android:name="leakcanary.internal.PlumberInstaller"
+            android:authorities="com.qq.e.union.demo.plumber-installer"
+            android:enabled="@bool/leak_canary_plumber_auto_install"
             android:exported="false" />
     </application>
 

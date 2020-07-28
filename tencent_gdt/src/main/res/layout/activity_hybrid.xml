@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,12 +21,12 @@
             <EditText
                 android:id="@+id/et_titleBarHeight"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:singleLine="true"
                 android:hint="导航栏高度(dp)"
-                android:inputType="number"
-                android:singleLine="true" />
+                android:inputType="number" />
 
         </LinearLayout>
 
@@ -43,14 +43,14 @@
             <EditText
                 android:id="@+id/et_titleBarColor"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:digits="0123456789ABCDEF"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:singleLine="true"
                 android:hint="导航栏颜色(16进制int)"
-                android:inputType="textCapCharacters"
                 android:maxLength="8"
-                android:singleLine="true" />
+                android:digits="0123456789ABCDEF"
+                android:inputType="textCapCharacters" />
         </LinearLayout>
 
         <LinearLayout
@@ -66,11 +66,11 @@
             <EditText
                 android:id="@+id/et_title"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:hint="导航栏title(String)"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:hint="导航栏title(String)" />
 
         </LinearLayout>
 
@@ -87,14 +87,14 @@
             <EditText
                 android:id="@+id/et_titleColor"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:digits="0123456789ABCDEF"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:singleLine="true"
                 android:hint="导航栏title字体颜色(16进制int)"
-                android:inputType="textCapCharacters"
                 android:maxLength="8"
-                android:singleLine="true" />
+                android:digits="0123456789ABCDEF"
+                android:inputType="textCapCharacters" />
         </LinearLayout>
 
         <LinearLayout
@@ -110,12 +110,12 @@
             <EditText
                 android:id="@+id/et_titleSize"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:singleLine="true"
                 android:hint="导航栏title字体大小(sp)"
-                android:inputType="number"
-                android:singleLine="true" />
+                android:inputType="number" />
 
         </LinearLayout>
 
@@ -132,11 +132,11 @@
             <EditText
                 android:id="@+id/et_back"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:hint="导航栏back键icon(String:Drawable资源名称)"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:hint="导航栏back键icon(String:Drawable资源名称)" />
 
         </LinearLayout>
 
@@ -153,11 +153,11 @@
             <EditText
                 android:id="@+id/et_close"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:hint="导航栏close键icon(String:Drawable资源名称)"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:hint="导航栏close键icon(String:Drawable资源名称)" />
         </LinearLayout>
 
         <LinearLayout
@@ -173,14 +173,14 @@
             <EditText
                 android:id="@+id/et_seperator"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:digits="0123456789ABCDEF"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:singleLine="true"
                 android:hint="分割线色值(16进制int)"
-                android:inputType="textCapCharacters"
                 android:maxLength="8"
-                android:singleLine="true" />
+                android:digits="0123456789ABCDEF"
+                android:inputType="textCapCharacters" />
         </LinearLayout>
 
         <LinearLayout
@@ -196,12 +196,12 @@
             <EditText
                 android:id="@+id/et_back_seperator"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:singleLine="true"
                 android:hint="返回键分割线长度(int)"
-                android:inputType="number"
-                android:singleLine="true" />
+                android:inputType="number" />
         </LinearLayout>
 
         <LinearLayout
@@ -214,9 +214,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
-                android:ellipsize="end"
                 android:hint="请输入URL"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:ellipsize="end" />
 
             <Button
                 android:id="@+id/go"
