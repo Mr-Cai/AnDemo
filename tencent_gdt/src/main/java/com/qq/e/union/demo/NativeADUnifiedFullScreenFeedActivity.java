@@ -55,18 +55,20 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
     private static final int MSG_REFRESH_LIST = 1;
     private static final int TYPE_DATA = 0;
     private static final int TYPE_AD = 1;
-    private final NativeADUnifiedFullScreenFeedActivity.H mHandler = new NativeADUnifiedFullScreenFeedActivity.H();
-    private final int[] mVideoIds = new int[]{R.raw.v1, R.raw.v2, R.raw.v3, R.raw.v4, R.raw.v5};
-    private final int[] mImageIds = new int[]{R.raw.p1, R.raw.p2, R.raw.p3, R.raw.p4, R.raw.p5};
     private NativeUnifiedAD mAdManager;
     private List<NativeUnifiedADData> mAds = new ArrayList<>();
     private ItemAdapter mAdapter;
+    private final NativeADUnifiedFullScreenFeedActivity.H mHandler = new NativeADUnifiedFullScreenFeedActivity.H();
     private ViewPagerLayoutManager mLayoutManager;
     private RecyclerView mRecyclerView;
+
     private int mCurrentPage = -1;
     private int mVideoViewCurrentPosition = -1;
     private VideoView mCurrentVideoView;
     private boolean videoIsPaused = false;
+
+    private final int[] mVideoIds = new int[]{R.raw.v1, R.raw.v2, R.raw.v3, R.raw.v4, R.raw.v5};
+    private final int[] mImageIds = new int[]{R.raw.p1, R.raw.p2, R.raw.p3, R.raw.p4, R.raw.p5};
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

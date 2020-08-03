@@ -38,11 +38,7 @@ public class NativeADUnifiedPreMovieActivity extends Activity implements NativeA
   private Button mDownloadButton;
   private RelativeLayout mADInfoContainer;
   private NativeUnifiedADData mAdData;
-<<<<<<< HEAD
-  private final H mHandler = new H();
-=======
   private H mHandler = new H();
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   private static final int MSG_INIT_AD = 0;
   private static final int MSG_VIDEO_START = 1;
   private static final int AD_COUNT = 1;
@@ -196,21 +192,12 @@ public class NativeADUnifiedPreMovieActivity extends Activity implements NativeA
         updateAdAction(mDownloadButton, ad);
       }
     });
-<<<<<<< HEAD
 
     if (ad.getAdPatternType() == AdPatternType.NATIVE_VIDEO) {
       mHandler.sendEmptyMessage(MSG_VIDEO_START);
 
       VideoOption videoOption = NativeADUnifiedSampleActivity.getVideoOption(getIntent());
 
-=======
-
-    if (ad.getAdPatternType() == AdPatternType.NATIVE_VIDEO) {
-      mHandler.sendEmptyMessage(MSG_VIDEO_START);
-
-      VideoOption videoOption = NativeADUnifiedSampleActivity.getVideoOption(getIntent());
-
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
       ad.bindMediaView(mMediaView, videoOption, new NativeADMediaListener() {
             @Override
             public void onVideoInit() {

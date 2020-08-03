@@ -49,11 +49,7 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
   private NativeUnifiedAD mAdManager;
   private List<NativeUnifiedADData> mAds = new ArrayList<>();
 
-<<<<<<< HEAD
-  private final H mHandler = new H();
-=======
   private H mHandler = new H();
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   private static final int AD_COUNT = 3;
   private static final int ITEM_COUNT = 30;
@@ -66,11 +62,7 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
   private int mTotalItemCount = 0;
   private boolean mIsLoading = true;
 
-<<<<<<< HEAD
-  private final WeakHashMap<NativeUnifiedADData, Boolean> mMuteMap = new WeakHashMap<>();
-=======
   private WeakHashMap<NativeUnifiedADData, Boolean> mMuteMap = new WeakHashMap<>();
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -173,7 +165,6 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
       mAds.addAll(ads);
       Message msg = mHandler.obtainMessage(MSG_REFRESH_LIST, ads);
       mHandler.sendMessage(msg);
-<<<<<<< HEAD
     }
   }
 
@@ -213,47 +204,6 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
       mIsLoading = true;
     }
   }
-=======
-    }
-  }
-
-  @Override
-  public void onNoAD(AdError error) {
-    mIsLoading = false;
-    Log.d(TAG, "onNoAd error code: " + error.getErrorCode()
-        + ", error msg: " + error.getErrorMsg());
-  }
-
-  @Override
-  public void onScrollStateChanged(AbsListView view, int scrollState) {
-    if(!mIsLoading && scrollState == SCROLL_STATE_IDLE && mLastVisibleItem == mTotalItemCount){
-
-      /**
-       * 再次拉取广告时，如果视频播放策略和视频广告容器渲染者有变化，需再次调用对应的方法设置 <br/>
-       * 如果没有变化，无需再次设置
-       */
-
-      /**
-       * 此处仅做示例视频播放策略发生了变化，如果视频真的是手工播放，开发者需要提供某种交互机制，用户交互(如点击按钮)后播放视频 <br/>
-       *
-       * 可参考NativeADUnifiedDevRenderContainerActivity的实现
-       *
-       */
-      mAdManager.setVideoPlayPolicy(NativeADUnifiedSampleActivity.getVideoPlayPolicy(getIntent(), this)); // 本次拉回的视频广告，在用户看来是否为自动播放的
-
-      /**
-       * 此处仅做示例视频广告封面的容器发生了变化，如果视频广告容器真的是由开发者渲染的，需要在容器曝光时调用onVideoADExposured <br/>
-       *
-       * 可参考NativeADUnifiedDevRenderContainerActivity的实现
-       *
-       */
-      mAdManager.setVideoADContainerRender(VideoOption.VideoADContainerRender.DEV); // 视频播放前，用户看到的广告容器是由开发者渲染的
-
-      mAdManager.loadData(AD_COUNT);
-      mIsLoading = true;
-    }
-  }
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   @Override
   public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
@@ -262,17 +212,6 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
   }
 
   private class CustomAdapter extends BaseAdapter {
-<<<<<<< HEAD
-
-    private final List<Object> mData;
-    private final Context mContext;
-    private final TreeSet mADSet = new TreeSet();
-
-    private static final int TYPE_DATA = 0;
-    private static final int TYPE_AD = 1;
-    private static final int TYPE_SHOW_SDK_VERSION = 2;
-
-=======
 
     private List<Object> mData;
     private Context mContext;
@@ -282,7 +221,6 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
     private static final int TYPE_AD = 1;
     private static final int TYPE_SHOW_SDK_VERSION = 2;
 
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     public CustomAdapter(Context context, List list) {
       mContext = context;
       mData = list;
@@ -584,11 +522,7 @@ public class NativeADUnifiedListViewActivity extends Activity implements NativeA
   }
 
   class NormalItem {
-<<<<<<< HEAD
-    private final String mTitle;
-=======
     private String mTitle;
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
     public NormalItem(int index){
       this("No." + index + " Normal Data");

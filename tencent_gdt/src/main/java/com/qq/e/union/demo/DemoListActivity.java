@@ -9,7 +9,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,6 +18,8 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.qq.e.union.demo.adapter.test.activity.MediationTestActivity;
 
@@ -36,11 +37,7 @@ public class DemoListActivity extends AppCompatActivity {
    * pair.first: button content
    * pair.second: intent action
    */
-<<<<<<< HEAD
-  private static final Map<String, Pair<String, String>> launcherMap = new HashMap<>();
-=======
   private static Map<String, Pair<String, String>> launcherMap = new HashMap<>();
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   @SuppressLint("NewApi")
   @Override

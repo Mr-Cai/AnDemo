@@ -381,11 +381,7 @@ public class NativeExpressDemoActivity extends Activity implements View.OnClickL
     super.onConfigurationChanged(newConfig);
   }
 
-<<<<<<< HEAD
-  private final NativeExpressMediaListener mediaListener = new NativeExpressMediaListener() {
-=======
   private NativeExpressMediaListener mediaListener = new NativeExpressMediaListener() {
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     @Override
     public void onVideoInit(NativeExpressADView nativeExpressADView) {
       Log.i(TAG, "onVideoInit: "

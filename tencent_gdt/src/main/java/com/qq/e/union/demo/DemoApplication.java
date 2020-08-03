@@ -18,19 +18,6 @@ import com.tencent.bugly.crashreport.CrashReport;
 
 public class DemoApplication extends MultiDexApplication {
 
-<<<<<<< HEAD
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        config(this);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-            String processName = getProcessName(this);
-            String packageName = this.getPackageName();
-            if (!packageName.equals(processName)) {
-                WebView.setDataDirectorySuffix(processName);
-            }
-        }
-=======
   @Override
   public void onCreate() {
     super.onCreate();
@@ -41,7 +28,6 @@ public class DemoApplication extends MultiDexApplication {
       if (!packageName.equals(processName)) {
         WebView.setDataDirectorySuffix(processName);
       }
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     }
   }
 
@@ -49,49 +35,6 @@ public class DemoApplication extends MultiDexApplication {
     try {
       CrashReport.initCrashReport(this, Constants.BuglyAppID, true);
 
-<<<<<<< HEAD
-            // 通过调用此方法初始化 SDK。如果需要在多个进程拉取广告，每个进程都需要初始化 SDK。
-            GDTADManager.getInstance().initWith(context, Constants.APPID);
-
-            GlobalSetting.setChannel(1);
-            GlobalSetting.setEnableMediationTool(true);
-            String packageName = context.getPackageName();
-            //Get all activity classes in the AndroidManifest.xml
-            PackageInfo packageInfo = context.getPackageManager().getPackageInfo(
-                    packageName, PackageManager.GET_ACTIVITIES | PackageManager.GET_META_DATA);
-            if (packageInfo.activities != null) {
-                for (ActivityInfo activity : packageInfo.activities) {
-                    Bundle metaData = activity.metaData;
-                    if (metaData != null && metaData.containsKey("id")
-                            && metaData.containsKey("content") && metaData.containsKey("action")) {
-                        Log.e("gdt", activity.name);
-                        try {
-                            Class.forName(activity.name);
-                        } catch (ClassNotFoundException e) {
-                            continue;
-                        }
-                        String id = metaData.getString("id");
-                        String content = metaData.getString("content");
-                        String action = metaData.getString("action");
-                        DemoListActivity.register(action, id, content);
-                    }
-                }
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private String getProcessName(Context context) {
-        if (context == null) return null;
-        ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
-        for (ActivityManager.RunningAppProcessInfo processInfo : manager.getRunningAppProcesses()) {
-            if (processInfo.pid == android.os.Process.myPid()) {
-                return processInfo.processName;
-            }
-        }
-        return null;
-=======
       // 通过调用此方法初始化 SDK。如果需要在多个进程拉取广告，每个进程都需要初始化 SDK。
       GDTADManager.getInstance().initWith(context, Constants.APPID);
 
@@ -131,7 +74,6 @@ public class DemoApplication extends MultiDexApplication {
       if (processInfo.pid == android.os.Process.myPid()) {
         return processInfo.processName;
       }
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     }
     return null;
   }

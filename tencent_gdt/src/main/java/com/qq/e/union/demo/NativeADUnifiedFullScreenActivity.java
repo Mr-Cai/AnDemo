@@ -37,11 +37,7 @@ public class NativeADUnifiedFullScreenActivity extends Activity implements Nativ
   private Button mDownloadButton;
   private RelativeLayout mADInfoContainer;
   private NativeUnifiedADData mAdData;
-<<<<<<< HEAD
-  private final NativeADUnifiedFullScreenActivity.H mHandler = new NativeADUnifiedFullScreenActivity.H();
-=======
   private NativeADUnifiedFullScreenActivity.H mHandler = new NativeADUnifiedFullScreenActivity.H();
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   private static final int MSG_INIT_AD = 0;
   private static final int MSG_VIDEO_START = 1;
   private static final int MSG_UPDATE_PROGRESS = 2;

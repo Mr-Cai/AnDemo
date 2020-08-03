@@ -35,23 +35,6 @@ import java.util.List;
 
 public class MediationTestActivity extends AppCompatActivity {
 
-<<<<<<< HEAD
-    private static final int MSG_REFRESH_UI = 1;
-    private static final int TYPE_LAYER = 1;
-    private static final int TYPE_NETWORK = 2;
-    private final Handler mHandler = new H(Looper.myLooper());
-    private final List<LayerConfig> mConfigs = new ArrayList<>();
-    private RecyclerView mConfigsView;
-    private ImageView mLoadingIcon;
-
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mediation_test);
-        mConfigsView = findViewById(R.id.configs_view);
-        mLoadingIcon = findViewById(R.id.loading_icon);
-        initDataAsync();
-=======
   private RecyclerView mConfigsView;
   private ImageView mLoadingIcon;
 
@@ -97,7 +80,6 @@ public class MediationTestActivity extends AppCompatActivity {
     String originalData = ConfigReader.getConfig(this);
     if (TextUtils.isEmpty(originalData)) {
       return;
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     }
     try {
       JSONObject originalJson = new JSONObject(originalData);
@@ -147,52 +129,6 @@ public class MediationTestActivity extends AppCompatActivity {
       }
     }
 
-<<<<<<< HEAD
-    private class ConfigsAdapter extends RecyclerView.Adapter<VH> {
-
-        private final List<LayerConfig> mLayerConfigs;
-        private final List<Object> mSortConfigs = new ArrayList<>();
-
-        public ConfigsAdapter(List<LayerConfig> configs) {
-            mLayerConfigs = configs;
-            for (LayerConfig config : mLayerConfigs) {
-                mSortConfigs.add(config);
-                List<NetworkConfig> networkConfigs = config.getNetworkConfigs();
-                if (networkConfigs != null && networkConfigs.size() > 0) {
-                    for (NetworkConfig networkConfig : networkConfigs) {
-                        mSortConfigs.add(networkConfig);
-                    }
-                }
-            }
-        }
-
-        @NonNull
-        @Override
-        public VH onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-            View view = null;
-            if (i == TYPE_NETWORK) {
-                view = LayoutInflater.from(MediationTestActivity.this).inflate(R.layout.item_network, null);
-            } else if (i == TYPE_LAYER) {
-                view = LayoutInflater.from(MediationTestActivity.this).inflate(R.layout.item_layer, null);
-            }
-            return new VH(view, i);
-        }
-
-        @Override
-        public void onBindViewHolder(@NonNull VH vh, int i) {
-            @ViewType int viewType = getItemViewType(i);
-            if (viewType == TYPE_LAYER) {
-                vh.mLayer.setText(((LayerConfig) (mSortConfigs.get(i))).getPosId());
-            } else if (viewType == TYPE_NETWORK) {
-                NetworkConfig networkConfig = (NetworkConfig) mSortConfigs.get(i);
-                vh.mName.setText("渠道 : " + networkConfig.getName());
-                vh.mPosId.setText("PosId : " + networkConfig.getIdentity());
-                vh.mClassName.setText("渠道适配器 : " + networkConfig.getClassName());
-                vh.mExt.setText("其他信息 : " + networkConfig.getExt());
-                vh.mAdapterStatus.setText("适配器状态 : " + networkConfig.getAdapterStatus());
-            }
-        }
-=======
     @NonNull
     @Override
     public VH onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -204,7 +140,6 @@ public class MediationTestActivity extends AppCompatActivity {
       }
       return new VH(view, i);
     }
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
     @Override
     public void onBindViewHolder(@NonNull VH vh, int i) {

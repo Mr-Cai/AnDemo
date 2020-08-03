@@ -12,17 +12,10 @@ public class NetworkConfig {
    * ext : {"x1": "a param"} // App 运营配置额外信息
    */
 
-<<<<<<< HEAD
-  private final String name;
-  private final String identity;
-  private final String className;
-  private final String ext;
-=======
   private String name;
   private String identity;
   private String className;
   private String ext;
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   private String adapterStatus;
 
   public NetworkConfig(JSONObject config) {

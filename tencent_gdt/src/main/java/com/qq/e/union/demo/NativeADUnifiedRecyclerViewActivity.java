@@ -42,7 +42,8 @@ import java.util.List;
 import java.util.TreeSet;
 import java.util.WeakHashMap;
 
-import static android.widget.AbsListView.OnScrollListener.SCROLL_STATE_IDLE;
+import static androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE;
+
 
 public class NativeADUnifiedRecyclerViewActivity extends Activity
     implements NativeADUnifiedListener {
@@ -50,20 +51,12 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
   private static final String TAG = NativeADUnifiedRecyclerViewActivity.class.getSimpleName();
   private AQuery mAQuery;
 
-<<<<<<< HEAD
   private NativeUnifiedAD mAdManager;
   private List<NativeUnifiedADData> mAds = new ArrayList<>();
-=======
-        mAdManager = new NativeUnifiedAD(this, getPosId(), this);
-        mAdManager.setMinVideoDuration(getMinVideoDuration());
-        mAdManager.setMaxVideoDuration(getMaxVideoDuration());
-        // 下面设置项为海外流量使用，国内暂不支持
-        mAdManager.setVastClassName("com.qq.e.union.demo.adapter.vast.unified.ImaNativeDataAdapter");
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   private CustomAdapter mAdapter;
 
-  private final H mHandler = new H();
+  private H mHandler = new H();
 
   private static final int AD_COUNT = 3;
   private static final int ITEM_COUNT = 30;
@@ -78,7 +71,7 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
   private boolean mPlayMute = true;
   private boolean mIsLoading = true;
 
-  private final WeakHashMap<NativeUnifiedADData, Boolean> mMuteMap = new WeakHashMap<>();
+  private WeakHashMap<NativeUnifiedADData, Boolean> mMuteMap = new WeakHashMap<>();
 
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -233,9 +226,9 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
 
   class CustomAdapter extends RecyclerView.Adapter<CustomHolder> {
 
-    private final List<Object> mData;
-    private final Context mContext;
-    private final TreeSet mADSet = new TreeSet();
+    private List<Object> mData;
+    private Context mContext;
+    private TreeSet mADSet = new TreeSet();
 
     public CustomAdapter(Context context, List list) {
       mContext = context;
@@ -531,7 +524,7 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
   }
 
   class NormalItem {
-    private final String mTitle;
+    private String mTitle;
 
     public NormalItem(int index){
       this("No." + index + " Normal Data");
@@ -545,7 +538,6 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
       return mTitle;
     }
 
-<<<<<<< HEAD
   }
 
   private class H extends Handler {
@@ -565,31 +557,6 @@ public class NativeADUnifiedRecyclerViewActivity extends Activity
               mAdapter.addAdToPosition(ads.get(i), count + i * AD_DISTANCE + FIRST_AD_POSITION);
               Log.d(TAG,
                   i + ": eCPMLevel = " + ads.get(i).getECPMLevel() + " , videoDuration = " + ads.get(i).getVideoDuration());
-=======
-    private class H extends Handler {
-        @Override
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-                case MSG_REFRESH_LIST:
-
-                    int count = mAdapter.getItemCount();
-                    for (int i = 0; i < ITEM_COUNT; i++) {
-                        mAdapter.addNormalItem(new NormalItem(count + i));
-                    }
-
-                    List<NativeUnifiedADData> ads = (List<NativeUnifiedADData>) msg.obj;
-                    if (ads != null && ads.size() > 0 && mAdapter != null) {
-                        for (int i = 0; i < ads.size(); i++) {
-                            mAdapter.addAdToPosition(ads.get(i), count + i * AD_DISTANCE + FIRST_AD_POSITION);
-                            Log.d(TAG,
-                                    i + ": eCPMLevel = " + ads.get(i).getECPMLevel() + " , videoDuration = " + ads.get(i).getVideoDuration());
-                        }
-                    }
-                    mAdapter.notifyDataSetChanged();
-                    break;
-
-                default:
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
             }
           }
           mAdapter.notifyDataSetChanged();

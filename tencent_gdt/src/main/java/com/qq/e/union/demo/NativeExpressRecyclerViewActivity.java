@@ -27,12 +27,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-<<<<<<< HEAD
 import static androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE;
-
-=======
-import static android.widget.AbsListView.OnScrollListener.SCROLL_STATE_IDLE;
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
 /**
  * 在消息流中接入原生模板广告的示例
@@ -54,17 +49,10 @@ public class NativeExpressRecyclerViewActivity extends Activity implements
   private RecyclerView mRecyclerView;
   private LinearLayoutManager mLinearLayoutManager;
   private CustomAdapter mAdapter;
-<<<<<<< HEAD
-  private final List<NormalItem> mNormalDataList = new ArrayList<NormalItem>();
-  private NativeExpressAD mADManager;
-  private final List<NativeExpressADView> mAdViewList = new ArrayList<>();
-  private final HashMap<NativeExpressADView, Integer> mAdViewPositionMap = new HashMap<NativeExpressADView, Integer>();
-=======
   private List<NormalItem> mNormalDataList = new ArrayList<NormalItem>();
   private NativeExpressAD mADManager;
   private List<NativeExpressADView> mAdViewList = new ArrayList<>();
   private HashMap<NativeExpressADView, Integer> mAdViewPositionMap = new HashMap<NativeExpressADView, Integer>();
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -130,7 +118,6 @@ public class NativeExpressRecyclerViewActivity extends Activity implements
       // setVideoOption是可选的，开发者可根据需要选择是否配置
       mADManager.setVideoOption(option);
     }
-<<<<<<< HEAD
 
     mADManager.setMinVideoDuration(getMinVideoDuration());
     mADManager.setMaxVideoDuration(getMaxVideoDuration());
@@ -239,116 +226,6 @@ public class NativeExpressRecyclerViewActivity extends Activity implements
   public class NormalItem {
     private String title;
 
-=======
-
-    mADManager.setMinVideoDuration(getMinVideoDuration());
-    mADManager.setMaxVideoDuration(getMaxVideoDuration());
-    /**
-     * 如果广告位支持视频广告，强烈建议在调用loadData请求广告前调用setVideoPlayPolicy，有助于提高视频广告的eCPM值 <br/>
-     * 如果广告位仅支持图文广告，则无需调用
-     */
-
-    /**
-     * 设置本次拉取的视频广告，从用户角度看到的视频播放策略<p/>
-     *
-     * "用户角度"特指用户看到的情况，并非SDK是否自动播放，与自动播放策略AutoPlayPolicy的取值并非一一对应 <br/>
-     *
-     * 如自动播放策略为AutoPlayPolicy.WIFI，但此时用户网络为4G环境，在用户看来就是手工播放的
-     */
-    mADManager.setVideoPlayPolicy(NativeExpressDemoActivity.getVideoPlayPolicy(VideoOption.AutoPlayPolicy.ALWAYS, this));  // 本次拉回的视频广告，在用户看来是否为自动播放的
-    mADManager.loadAD(AD_COUNT);
-  }
-
-  @Override
-  public void onNoAD(AdError adError) {
-    mIsLoading = false;
-    Log.i(
-        TAG,
-        String.format("onNoAD, error code: %d, error msg: %s", adError.getErrorCode(),
-            adError.getErrorMsg()));
-  }
-
-  @Override
-  public void onADLoaded(List<NativeExpressADView> adList) {
-    Log.i(TAG, "onADLoaded: " + adList.size());
-    mIsLoading = false;
-
-    int count = mAdapter.getItemCount();
-    int adCount = mAdViewList.size();
-    for (int i = 0; i < ITEMS_COUNT; ++i) {
-      mNormalDataList.add(new NormalItem("No." + (count + i - adCount) + " Normal " +
-          "Data"));
-      mAdapter.notifyItemInserted(count + i);
-    }
-
-    for (int i = 0; i < adList.size(); i++) {
-      int position = count + FIRST_AD_POSITION + ITEMS_PER_AD * i + i;
-      if (position < mNormalDataList.size()) {
-        NativeExpressADView view = adList.get(i);
-        GDTLogger.i("ad load[" + i + "]: " + getAdInfo(view));
-        if (view.getBoundData().getAdPatternType() == AdPatternType.NATIVE_VIDEO) {
-          view.setMediaListener(mediaListener);
-        }
-        mAdViewPositionMap.put(view, position); // 把每个广告在列表中位置记录下来
-        mAdapter.addADViewToPosition(position, adList.get(i));
-        mAdapter.notifyItemInserted(position);
-        Log.d(TAG,
-            i + ": eCPMLevel = " + view.getBoundData().getECPMLevel() + " , videoDuration = " + view.getBoundData().getVideoDuration());
-      }
-    }
-    mAdViewList.addAll(adList);
-    //mAdapter.notifyDataSetChanged();
-
-  }
-
-  @Override
-  public void onRenderFail(NativeExpressADView adView) {
-    Log.i(TAG, "onRenderFail: " + adView.toString());
-  }
-
-  @Override
-  public void onRenderSuccess(NativeExpressADView adView) {
-    Log.i(TAG, "onRenderSuccess: " + adView.toString() + ", adInfo: " + getAdInfo(adView));
-  }
-
-  @Override
-  public void onADExposure(NativeExpressADView adView) {
-    Log.i(TAG, "onADExposure: " + adView.toString());
-  }
-
-  @Override
-  public void onADClicked(NativeExpressADView adView) {
-    Log.i(TAG, "onADClicked: " + adView.toString());
-  }
-
-  @Override
-  public void onADClosed(NativeExpressADView adView) {
-    Log.i(TAG, "onADClosed: " + adView.toString());
-    if (mAdapter != null) {
-      int removedPosition = mAdViewPositionMap.get(adView);
-      mAdapter.removeADView(removedPosition, adView);
-    }
-  }
-
-  @Override
-  public void onADLeftApplication(NativeExpressADView adView) {
-    Log.i(TAG, "onADLeftApplication: " + adView.toString());
-  }
-
-  @Override
-  public void onADOpenOverlay(NativeExpressADView adView) {
-    Log.i(TAG, "onADOpenOverlay: " + adView.toString());
-  }
-
-  @Override
-  public void onADCloseOverlay(NativeExpressADView adView) {
-    Log.i(TAG, "onADCloseOverlay");
-  }
-
-  public class NormalItem {
-    private String title;
-
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     public NormalItem(String title) {
       this.title = title;
     }
@@ -367,11 +244,7 @@ public class NativeExpressRecyclerViewActivity extends Activity implements
 
     static final int TYPE_DATA = 0;
     static final int TYPE_AD = 1;
-<<<<<<< HEAD
-    private final List<Object> mData;
-=======
     private List<Object> mData;
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
     public CustomAdapter(List list) {
       mData = list;
@@ -477,11 +350,7 @@ public class NativeExpressRecyclerViewActivity extends Activity implements
     return null;
   }
 
-<<<<<<< HEAD
-  private final NativeExpressMediaListener mediaListener = new NativeExpressMediaListener() {
-=======
   private NativeExpressMediaListener mediaListener = new NativeExpressMediaListener() {
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     @Override
     public void onVideoInit(NativeExpressADView nativeExpressADView) {
       Log.i(TAG, "onVideoInit: "

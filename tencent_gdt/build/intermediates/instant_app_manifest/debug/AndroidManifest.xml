@@ -6,11 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-<<<<<<< HEAD
         android:minSdkVersion="22"
-=======
-        android:minSdkVersion="16"
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
         android:targetSdkVersion="30" />
 
     <!-- 相关权限声明 : SDK不强制校验下列权限（即:无下面权限sdk也可正常工作），但建议开发者申请下面权限，尤其是READ_PHONE_STATE权限 -->
@@ -51,6 +47,7 @@
         android:icon="@drawable/gdticon"
         android:label="广点通TBS Demo"
         android:networkSecurityConfig="@xml/network_security_config"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
 

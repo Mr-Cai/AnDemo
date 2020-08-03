@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +8,7 @@
     tools:context="com.qq.e.union.demo.StreamADActivity"
     tools:showIn="@layout/activity_stream_ad">
 
-    <androidx.constraintlayout.ConstraintLayout
+    <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </FrameLayout>
-    </androidx.constraintlayout.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
 
     <EditText
         android:id="@+id/et_url"
@@ -161,4 +161,4 @@
         app:layout_constraintStart_toStartOf="@+id/tb_rose"
         app:layout_constraintTop_toBottomOf="@+id/tb_rose" />-->
 
-</androidx.constraintlayout.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

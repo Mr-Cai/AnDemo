@@ -37,7 +37,7 @@ class DetailFragment : ScopeFragment(), KodeinAware {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val safeArgs = arguments?.let(fun(it: Bundle) = DetailFragmentArgs.fromBundle(it))
-        val date = LocalDateConverter.strToDate(safeArgs.dateString) ?: throw DateNotFond()
+        val date = LocalDateConverter.strToDate(safeArgs?.dateString) ?: throw DateNotFond()
         viewModel = ViewModelProvider(this, detailFactory(date)).get(DetailViewModel::class.java)
         bindUI()
     }

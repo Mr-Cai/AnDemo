@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-#Sat Aug 01 21:47:14 CST 2020
+#Mon Aug 03 19:54:09 CST 2020
 base.1=/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
 path.1=classes.dex
 base.0=/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.1=classes2.dex
-=======
-#Tue Jul 28 21:19:57 CST 2020
-base.0=/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/dex/debug/mergeDexDebug/classes.dex
->>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 renamed.0=classes.dex
 path.0=classes.dex

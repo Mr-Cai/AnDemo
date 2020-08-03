@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash_bg_facebook">
 
-    <androidx.constraintlayout.ConstraintLayout
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -72,5 +72,5 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_native_desc" />
 
-    </androidx.constraintlayout.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
 </com.facebook.ads.NativeAdLayout>
