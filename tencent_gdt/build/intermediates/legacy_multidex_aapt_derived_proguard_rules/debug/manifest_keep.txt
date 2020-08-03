@@ -1,4 +1,0 @@
-# Referenced at /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/merged_manifests/debug/AndroidManifest.xml:42
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/merged_manifests/debug/AndroidManifest.xml:42
--keep class com.qq.e.union.demo.DemoApplication { <init>(); }

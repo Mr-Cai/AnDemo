@@ -1,17 +1,20 @@
 package com.qq.e.union.demo.adapter;
 
 import android.content.Context;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
 public class PosIdArrayAdapter extends ArrayAdapter {
 
     private int selectedPos;
+
+    public void setSelectedPos(int selectedPos) {
+        this.selectedPos = selectedPos;
+    }
 
     public PosIdArrayAdapter(@NonNull Context context, int resource, @NonNull Object[] objects) {
         super(context, resource, objects);
@@ -19,10 +22,6 @@ public class PosIdArrayAdapter extends ArrayAdapter {
 
     public PosIdArrayAdapter(@NonNull Context context, int resource, int textViewResourceId) {
         super(context, resource, textViewResourceId);
-    }
-
-    public void setSelectedPos(int selectedPos) {
-        this.selectedPos = selectedPos;
     }
 
     @Override

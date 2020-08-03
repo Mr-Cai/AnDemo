@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nativeUnifiedAD"
+        android:title="@string/native_unified_ad"
+        android:visible="false" />
+    <item
+        android:id="@+id/nativeUnifiedList"
+        android:title="@string/native_unified_list"
+        android:visible="false" />
+</menu>

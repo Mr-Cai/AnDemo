@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nativeExpressAD"
+        android:title="@string/native_express_ad" />
+    <item
+        android:id="@+id/nativeExpressList"
+        android:title="@string/native_express_list" />
+</menu>

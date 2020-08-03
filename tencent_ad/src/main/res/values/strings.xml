@@ -6,9 +6,13 @@
     <string name="show_reward">显示激励</string>
 
     <string name="show_splash">加载闪屏</string>
-    <string name="native_render">自渲染2.0单独</string>
+    <string name="native_express_ad">原生模板广告单独</string>
+    <string name="native_express_list">原生模板广告列表</string>
+    <string name="native_unified_ad">原生自渲染广告单独</string>
+    <string name="native_unified_list">原生自渲染广告列表</string>
 
     <string name="close">关闭</string>
 
     <string name="versions">腾讯广告SDK版本: %1$s</string>
+    <string name="loading">正在加载广告 …</string>
 </resources>

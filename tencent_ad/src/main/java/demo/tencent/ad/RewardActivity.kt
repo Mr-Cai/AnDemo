@@ -2,6 +2,7 @@ package demo.tencent.ad
 
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -26,7 +27,7 @@ class RewardActivity : AppCompatActivity(), RewardVideoADListener {
     }
 
     private fun loadRewardVideo(isOpenVolume: Boolean = false): RewardVideoAD {
-        rewardVideoAD = RewardVideoAD(this, O.appID, O.rewardID, this, isOpenVolume)
+        rewardVideoAD = RewardVideoAD(this, O.rewardID, this, isOpenVolume)
         return rewardVideoAD
     }
 
@@ -60,7 +61,7 @@ class RewardActivity : AppCompatActivity(), RewardVideoADListener {
     }
 
     override fun onError(error: AdError) {
-        Handler().postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             loadRewardVideo().loadAD()
         }, 2000)
         Log.i(TAG, "onNoAD: 错误详情: ${error.errorMsg}, 错误码: ${error.errorCode}")

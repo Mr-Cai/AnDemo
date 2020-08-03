@@ -25,7 +25,7 @@ class ChooseAreaAdapter(
             bind = convertView.tag as SimpleItemBinding
             convertView
         }
-        bind?.data = dataList[position]
+        bind.data = dataList[position]
         return view
     }
 

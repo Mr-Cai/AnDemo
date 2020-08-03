@@ -26,7 +26,7 @@ fun LinearLayout.showForecast(weather: Weather?) = weather?.let {
     removeAllViews()
     for (forecast in it.forecastList) {
         val view = LayoutInflater.from(context).inflate(R.layout.forecast_item, this, false)
-        DataBindingUtil.bind<ForecastItemBinding>(view)?.forecast = forecast
+        DataBindingUtil.bind<ForecastItemBinding>(view).forecast = forecast
         addView(view)
     }
 }

@@ -2,6 +2,7 @@ package demo.tencent.ad
 
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -33,7 +34,6 @@ class IntersActivity : AppCompatActivity(),
     private fun loadInterAD(): UnifiedInterstitialAD {
         intersAD = UnifiedInterstitialAD(
             this,
-            O.appID,
             O.intersID,
             this
         )
@@ -104,7 +104,7 @@ class IntersActivity : AppCompatActivity(),
             "onNoAD: 错误详情: ${error.errorMsg}, 错误码: ${error.errorCode}",
             Toast.LENGTH_SHORT
         ).show()
-        Handler().postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             loadInterAD().loadAD()
         }, 2000)
         Log.i(TAG, "onNoAD: 错误详情: ${error.errorMsg}, 错误码: ${error.errorCode}")

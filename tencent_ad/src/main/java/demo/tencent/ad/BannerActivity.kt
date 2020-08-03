@@ -3,6 +3,7 @@ package demo.tencent.ad
 import android.graphics.Point
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.widget.FrameLayout
 import android.widget.Toast
@@ -30,7 +31,7 @@ class BannerActivity : AppCompatActivity(), UnifiedBannerADListener {
     }
 
     private fun loadBanner(): UnifiedBannerView {
-        bannerView = UnifiedBannerView(this, O.appID, O.bannerID, this)
+        bannerView = UnifiedBannerView(this, O.bannerID, this)
         containerF.addView(bannerView, bannerParams())
         return bannerView
     }
@@ -41,6 +42,7 @@ class BannerActivity : AppCompatActivity(), UnifiedBannerADListener {
      */
     private fun bannerParams(): FrameLayout.LayoutParams? {
         val screenSize = Point()
+        @Suppress("DEPRECATION")
         windowManager.defaultDisplay.getSize(screenSize)
         return FrameLayout.LayoutParams(screenSize.x, (screenSize.x / 6.4F).roundToInt())
     }
@@ -54,9 +56,6 @@ class BannerActivity : AppCompatActivity(), UnifiedBannerADListener {
     }
 
     override fun onADClosed() {
-        Handler().postDelayed({
-            loadBanner().loadAD()
-        }, 2000)
         Log.i(TAG, "onADClosed: ")
     }
 
@@ -69,7 +68,7 @@ class BannerActivity : AppCompatActivity(), UnifiedBannerADListener {
     }
 
     override fun onNoAD(error: AdError) {
-        Handler().postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             loadBanner().loadAD()
         }, 2000)
         Log.i(TAG, "onNoAD: 错误详情: ${error.errorMsg}, 错误码: ${error.errorCode}")

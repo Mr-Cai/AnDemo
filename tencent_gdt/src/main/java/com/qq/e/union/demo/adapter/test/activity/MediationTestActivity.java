@@ -38,10 +38,10 @@ public class MediationTestActivity extends AppCompatActivity {
     private static final int MSG_REFRESH_UI = 1;
     private static final int TYPE_LAYER = 1;
     private static final int TYPE_NETWORK = 2;
+    private final Handler mHandler = new H(Looper.myLooper());
+    private final List<LayerConfig> mConfigs = new ArrayList<>();
     private RecyclerView mConfigsView;
     private ImageView mLoadingIcon;
-    private Handler mHandler = new H(Looper.myLooper());
-    private List<LayerConfig> mConfigs = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -110,8 +110,8 @@ public class MediationTestActivity extends AppCompatActivity {
 
     private class ConfigsAdapter extends RecyclerView.Adapter<VH> {
 
-        private List<LayerConfig> mLayerConfigs;
-        private List<Object> mSortConfigs = new ArrayList<>();
+        private final List<LayerConfig> mLayerConfigs;
+        private final List<Object> mSortConfigs = new ArrayList<>();
 
         public ConfigsAdapter(List<LayerConfig> configs) {
             mLayerConfigs = configs;

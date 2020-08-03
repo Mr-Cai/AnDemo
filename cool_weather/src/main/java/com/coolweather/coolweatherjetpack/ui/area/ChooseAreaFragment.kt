@@ -37,7 +37,7 @@ class ChooseAreaFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.choose_area, container, false)
         val binding = DataBindingUtil.bind<ChooseAreaBindingImpl>(view)
-        binding?.viewModel = viewModel
+        binding.viewModel = viewModel
         return view
     }
 

@@ -18,10 +18,13 @@ class SplashActivity : AppCompatActivity(), SplashADListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         configToolBar(toolbar, this)
-        splashAD = SplashAD(this, O.appID, O.splashID, this)
+        splashAD = SplashAD(this, O.splashID, this)
         showSplash.setOnClickListener {
             toolbar.visibility = View.GONE
+
+            @Suppress("DEPRECATION")
             window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
             splashAD.run {
                 preLoad()
                 fetchAndShowIn(splashADContainer)
@@ -35,6 +38,7 @@ class SplashActivity : AppCompatActivity(), SplashADListener {
 
     override fun onADDismissed() {
         finish()
+        @Suppress("DEPRECATION")
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         toolbar.visibility = View.VISIBLE
         Log.i(TAG, "onADDismissed: ")

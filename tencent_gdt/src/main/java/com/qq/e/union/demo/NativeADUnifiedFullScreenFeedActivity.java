@@ -55,20 +55,18 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
     private static final int MSG_REFRESH_LIST = 1;
     private static final int TYPE_DATA = 0;
     private static final int TYPE_AD = 1;
+    private final NativeADUnifiedFullScreenFeedActivity.H mHandler = new NativeADUnifiedFullScreenFeedActivity.H();
+    private final int[] mVideoIds = new int[]{R.raw.v1, R.raw.v2, R.raw.v3, R.raw.v4, R.raw.v5};
+    private final int[] mImageIds = new int[]{R.raw.p1, R.raw.p2, R.raw.p3, R.raw.p4, R.raw.p5};
     private NativeUnifiedAD mAdManager;
     private List<NativeUnifiedADData> mAds = new ArrayList<>();
     private ItemAdapter mAdapter;
-    private NativeADUnifiedFullScreenFeedActivity.H mHandler = new NativeADUnifiedFullScreenFeedActivity.H();
     private ViewPagerLayoutManager mLayoutManager;
     private RecyclerView mRecyclerView;
-
     private int mCurrentPage = -1;
     private int mVideoViewCurrentPosition = -1;
     private VideoView mCurrentVideoView;
     private boolean videoIsPaused = false;
-
-    private int[] mVideoIds = new int[]{R.raw.v1, R.raw.v2, R.raw.v3, R.raw.v4, R.raw.v5};
-    private int[] mImageIds = new int[]{R.raw.p1, R.raw.p2, R.raw.p3, R.raw.p4, R.raw.p5};
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -76,7 +74,7 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
         setContentView(R.layout.activity_native_unified_ad_recyclerview);
         initView();
 
-        mAdManager = new NativeUnifiedAD(this, Constants.APPID, getPosId(), this);
+        mAdManager = new NativeUnifiedAD(this, getPosId(), this);
         mAdManager.setMinVideoDuration(getMinVideoDuration());
         mAdManager.setMaxVideoDuration(getMaxVideoDuration());
 
@@ -199,7 +197,10 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
         super.onPause();
         Item item = mAdapter.getItem(mCurrentPage);
         if (item.type == TYPE_DATA) {
-            mCurrentVideoView = mRecyclerView.getLayoutManager().findViewByPosition(mCurrentPage)
+            if (mLayoutManager.findViewByPosition(mCurrentPage) == null) {
+                return;
+            }
+            mCurrentVideoView = mLayoutManager.findViewByPosition(mCurrentPage)
                     .findViewById(R.id.video_view);
             mVideoViewCurrentPosition = mCurrentVideoView.getCurrentPosition();
             mCurrentVideoView.pause();
@@ -222,33 +223,38 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
         View itemView = mRecyclerView.getChildAt(0);
         final VideoView videoView = itemView.findViewById(R.id.video_view);
         final View coverImage = itemView.findViewById(R.id.cover_image);
-        videoView.start();
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            videoView.setOnInfoListener(new MediaPlayer.OnInfoListener() {
+        if (videoView != null) {
+            videoView.start();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                videoView.setOnInfoListener(new MediaPlayer.OnInfoListener() {
+                    @Override
+                    public boolean onInfo(MediaPlayer mp, int what, int extra) {
+                        Log.d(TAG, "onInfo");
+                        mp.setLooping(true);
+                        coverImage.animate().alpha(0).setDuration(200).start();
+                        return false;
+                    }
+                });
+            }
+            videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                 @Override
-                public boolean onInfo(MediaPlayer mp, int what, int extra) {
-                    Log.d(TAG, "onInfo");
-                    mp.setLooping(true);
-                    coverImage.animate().alpha(0).setDuration(200).start();
-                    return false;
+                public void onPrepared(MediaPlayer mp) {
+                    Log.d(TAG, "onPrepared");
                 }
             });
         }
-        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-            @Override
-            public void onPrepared(MediaPlayer mp) {
-                Log.d(TAG, "onPrepared");
-            }
-        });
     }
 
     private void releaseVideo(int index) {
         View itemView = mRecyclerView.getChildAt(index);
-        final View coverImage = itemView.findViewById(R.id.cover_image);
-        final VideoView videoView = itemView.findViewById(R.id.video_view);
-        videoView.stopPlayback();
-        coverImage.animate().alpha(1).start();
+        if (itemView != null) {
+            final View coverImage = itemView.findViewById(R.id.cover_image);
+            final VideoView videoView = itemView.findViewById(R.id.video_view);
+            if (videoView != null) {
+                videoView.stopPlayback();
+            }
+            coverImage.animate().alpha(1).start();
+        }
     }
 
     private interface OnViewPagerListener {
@@ -261,8 +267,8 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
 
     class ItemAdapter extends RecyclerView.Adapter<ItemHolder> {
 
-        private List<Item> mData;
-        private Context mContext;
+        private final List<Item> mData;
+        private final Context mContext;
 
         public ItemAdapter(Context context, List list) {
             mContext = context;
@@ -540,7 +546,7 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
                             mAdapter.addItemToPosition(new Item(ads.get(i)), index);
 
                             Log.d(TAG,
-                                    i + ": eCPM = " + ads.get(i).getECPM() + " , eCPMLevel = " + ads.get(i).getECPMLevel() + " , videoDuration = " + ads.get(i).getVideoDuration());
+                                    i + ": eCPMLevel = " + ads.get(i).getECPMLevel() + " , videoDuration = " + ads.get(i).getVideoDuration());
                         }
                     }
                     mAdapter.notifyDataSetChanged();
@@ -552,12 +558,12 @@ public class NativeADUnifiedFullScreenFeedActivity extends Activity implements N
     }
 
     private class ViewPagerLayoutManager extends LinearLayoutManager {
-        private PagerSnapHelper mPagerSnapHelper;
+        private final PagerSnapHelper mPagerSnapHelper;
         private OnViewPagerListener mOnViewPagerListener;
         private RecyclerView mRecyclerView;
         private int mDeltaY;
 
-        private RecyclerView.OnChildAttachStateChangeListener mChildAttachStateChangeListener = new RecyclerView.OnChildAttachStateChangeListener() {
+        private final RecyclerView.OnChildAttachStateChangeListener mChildAttachStateChangeListener = new RecyclerView.OnChildAttachStateChangeListener() {
             public void onChildViewAttachedToWindow(View view) {
                 if (mOnViewPagerListener != null && getChildCount() == 1) {
                     mOnViewPagerListener.onInitComplete();

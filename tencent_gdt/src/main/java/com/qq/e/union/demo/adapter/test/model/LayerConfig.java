@@ -11,26 +11,26 @@ import java.util.List;
  * posId : 1041 // 三方渠道posId
  */
 public class LayerConfig {
-    private String posId;
-    private List<NetworkConfig> networkConfigs;
+  private final String posId;
+  private final List<NetworkConfig> networkConfigs;
 
-    public LayerConfig(JSONObject layerConfig) {
-        posId = layerConfig.optString("phyPosId");
-        networkConfigs = new ArrayList<>();
-        JSONArray array = layerConfig.optJSONArray("network");
-        if (array != null && array.length() >= 0) {
-            for (int i = 0; i < array.length(); i++) {
-                JSONObject config = array.optJSONObject(i);
-                networkConfigs.add(new NetworkConfig(config));
-            }
-        }
+  public LayerConfig(JSONObject layerConfig) {
+    posId = layerConfig.optString("phyPosId");
+    networkConfigs = new ArrayList<>();
+    JSONArray array = layerConfig.optJSONArray("network");
+    if (array != null && array.length() >= 0) {
+      for (int i = 0; i < array.length(); i++) {
+        JSONObject config = array.optJSONObject(i);
+        networkConfigs.add(new NetworkConfig(config));
+      }
     }
+  }
 
-    public String getPosId() {
-        return posId;
-    }
+  public String getPosId() {
+    return posId;
+  }
 
-    public List<NetworkConfig> getNetworkConfigs() {
-        return networkConfigs;
-    }
+  public List<NetworkConfig> getNetworkConfigs() {
+    return networkConfigs;
+  }
 }

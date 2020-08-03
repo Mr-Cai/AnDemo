@@ -12,8 +12,8 @@ import android.webkit.WebView;
 
 import androidx.multidex.MultiDexApplication;
 
+import com.qq.e.comm.managers.GDTADManager;
 import com.qq.e.comm.managers.setting.GlobalSetting;
-import com.qq.e.comm.util.GDTLogger;
 import com.tencent.bugly.crashreport.CrashReport;
 
 public class DemoApplication extends MultiDexApplication {
@@ -21,7 +21,6 @@ public class DemoApplication extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        initLeakCanary();
         config(this);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             String processName = getProcessName(this);
@@ -35,6 +34,9 @@ public class DemoApplication extends MultiDexApplication {
     void config(Context context) {
         try {
             CrashReport.initCrashReport(this, Constants.BuglyAppID, true);
+
+            // 通过调用此方法初始化 SDK。如果需要在多个进程拉取广告，每个进程都需要初始化 SDK。
+            GDTADManager.getInstance().initWith(context, Constants.APPID);
 
             GlobalSetting.setChannel(1);
             GlobalSetting.setEnableMediationTool(true);
@@ -63,13 +65,6 @@ public class DemoApplication extends MultiDexApplication {
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
-    }
-
-    private void initLeakCanary() {
-        if (!BuildConfig.DEBUG) {
-            return;
-        }
-        GDTLogger.d("initLeakCanary");
     }
 
     private String getProcessName(Context context) {

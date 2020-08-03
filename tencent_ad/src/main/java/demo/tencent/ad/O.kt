@@ -9,12 +9,13 @@ import androidx.appcompat.widget.Toolbar.LayoutParams.WRAP_CONTENT
 
 object O {
     const val TAG = "腾讯广告调试日志"
-    const val appID = "1109716769"
-    const val splashID = "7020785136977336"
-    const val rewardID = "6021002701726334"
-    const val intersID = "2041008945668154"
-    const val bannerID = "9040882216019714"
-    const val nativeID = "8041808915486340"
+    const val appID = "1101152570"
+    const val splashID = "8863364436303842593"
+    const val rewardID = "6040295592058680"
+    const val intersID = "4080298282218338"
+    const val bannerID = "4080052898050840"
+    const val nativeExpressID = "9061615683013706"
+    const val nativeUnifiedID = "4090398440079274"
 
     fun configToolBar(
         toolbar: Toolbar,
@@ -22,7 +23,6 @@ object O {
         customTitle: String = ""
     ) {
         activity.setSupportActionBar(toolbar)
-        activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
         activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
         toolbar.setNavigationOnClickListener {
             activity.onBackPressed()

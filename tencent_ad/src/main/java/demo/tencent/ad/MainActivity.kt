@@ -12,13 +12,12 @@ import android.os.Build
 import android.os.Build.VERSION.SDK_INT
 import android.os.Bundle
 import android.provider.Settings
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import demo.tencent.ad.O.configToolBar
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item.view.*
 
@@ -29,17 +28,36 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        configToolBar(toolbar, this)
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
         if (SDK_INT >= 23) checkAndRequestPermission()
         if (resources.configuration.orientation == ORIENTATION_LANDSCAPE) {
             gridCount = 6
         }
         gridRecycler.layoutManager = GridLayoutManager(this, gridCount)
-        typeList.add(TypeAdapter.Item("激励视频", R.drawable.ic_reward_video))
-        typeList.add(TypeAdapter.Item("插屏广告", R.drawable.ic_interstial_ads))
-        typeList.add(TypeAdapter.Item("横幅广告", R.drawable.ic_banner_ads))
-        typeList.add(TypeAdapter.Item("原生广告", R.drawable.ic_origin_ads))
         typeList.add(TypeAdapter.Item("闪屏广告", R.drawable.ic_splash_ad))
+        typeList.add(TypeAdapter.Item("横幅广告", R.drawable.ic_banner_ads))
+        typeList.add(TypeAdapter.Item("插屏广告", R.drawable.ic_interstial_ads))
+        typeList.add(TypeAdapter.Item("激励视频广告", R.drawable.ic_reward_video))
+        typeList.add(TypeAdapter.Item("原生模板广告", R.drawable.ic_origin_ads))
+        typeList.add(TypeAdapter.Item("原生自渲染广告", R.drawable.ic_ad_render))
         gridRecycler.adapter = TypeAdapter(typeList)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate(R.menu.finish, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.nativeRender -> {
+                finish()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
     @TargetApi(Build.VERSION_CODES.M)
@@ -107,38 +125,44 @@ class MainActivity : AppCompatActivity() {
                     0 -> itemView.context.startActivity(
                         Intent(
                             itemView.context,
-                            RewardActivity::class.java
+                            SplashActivity::class.java
                         )
                     )
                     1 -> itemView.context.startActivity(
                         Intent(
                             itemView.context,
-                            IntersActivity::class.java
+                            BannerActivity::class.java
                         )
                     )
                     2 -> itemView.context.startActivity(
                         Intent(
                             itemView.context,
-                            BannerActivity::class.java
+                            IntersActivity::class.java
                         )
                     )
                     3 -> itemView.context.startActivity(
                         Intent(
                             itemView.context,
-                            NativeRecyclerActivity::class.java
+                            RewardActivity::class.java
                         )
                     )
                     4 -> itemView.context.startActivity(
                         Intent(
                             itemView.context,
-                            SplashActivity::class.java
+                            NativeExpressActivity::class.java
+                        )
+                    )
+                    5 -> itemView.context.startActivity(
+                        Intent(
+                            itemView.context,
+                            NativeUnifiedActivity::class.java
                         )
                     )
                 }
             }
         }
 
-        inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+        class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
         data class Item(val name: String, val icon: Int)
     }

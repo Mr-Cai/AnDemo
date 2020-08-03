@@ -58,6 +58,36 @@
         <item>2060593460476272</item>
     </string-array>
 
+    <array name="native_express_2_ad">
+        <item>左图右文(1280*720)(默认)</item>
+        <item>左文右图(1280*720)</item>
+        <item>上图下文(1280*720)</item>
+        <item>上文下图(1280*720)</item>
+        <item>上图下文-文字浮层(1280*720)</item>
+        <item>上文下图-文字浮层(1280*720)</item>
+        <item>双图双文(1280*720+300*300)</item>
+        <item>单图单文-文字浮层(1280*720)</item>
+        <item>竖版纯图片(1080*1920)</item>
+        <item>横版纯图片(1280*720)</item>
+        <item>三小图双文(228*150)</item>
+        <item>仅视频(1280*720)</item>
+    </array>
+
+    <string-array name="native_express_2_ad_value">
+        <item>3091718613719724</item>
+        <item>6001012663414795</item>
+        <item>9061615683013706</item>
+        <item>9041417653619707</item>
+        <item>8011310663216718</item>
+        <item>7061917663915779</item>
+        <item>1041112683513870</item>
+        <item>7041311643117823</item>
+        <item>8001816683512814</item>
+        <item>9081114683610806</item>
+        <item>6071418603717887</item>
+        <item>6071516623913891</item>
+    </string-array>
+
     <array name="native_ad_unified_ad">
         <item>图文视频-1280 * 720 (默认)</item>
         <item>只出横版视频</item>
