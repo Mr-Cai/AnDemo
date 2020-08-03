@@ -28,6 +28,13 @@
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_mediation_test.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_keyboard_arrow_down_black_24dp.xml.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_keyboard_arrow_down_black_24dp.xml"
+    },
+    {
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_express_recycler_view.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_express_recycler_view.xml"
     },
@@ -142,10 +149,21 @@
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_activity_native_express_2_simple_demo.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/layout/activity_native_express_2_simple_demo.xml"
+<<<<<<< HEAD
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable_shape_bg_call_to_action.xml.flat",
         "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/drawable/shape_bg_call_to_action.xml"
+=======
+    },
+    {
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable_shape_bg_call_to_action.xml.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/src/main/res/drawable/shape_bg_call_to_action.xml"
+    },
+    {
+        "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/drawable-ldpi_ic_keyboard_arrow_down_black_24dp.png.flat",
+        "source": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/generated/res/pngs/debug/drawable-ldpi/ic_keyboard_arrow_down_black_24dp.png"
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     },
     {
         "merged": "/Users/caikaige/Documents/AndroidPro/AnDemo/tencent_gdt/build/intermediates/res/merged/debug/layout_item_layer.xml.flat",

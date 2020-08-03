@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,8 +13,6 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-
-import androidx.annotation.Nullable;
 
 import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxStatus;
@@ -39,7 +38,11 @@ public class NativeADUnifiedPreMovieActivity extends Activity implements NativeA
   private Button mDownloadButton;
   private RelativeLayout mADInfoContainer;
   private NativeUnifiedADData mAdData;
+<<<<<<< HEAD
   private final H mHandler = new H();
+=======
+  private H mHandler = new H();
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   private static final int MSG_INIT_AD = 0;
   private static final int MSG_VIDEO_START = 1;
   private static final int AD_COUNT = 1;
@@ -193,12 +196,21 @@ public class NativeADUnifiedPreMovieActivity extends Activity implements NativeA
         updateAdAction(mDownloadButton, ad);
       }
     });
+<<<<<<< HEAD
 
     if (ad.getAdPatternType() == AdPatternType.NATIVE_VIDEO) {
       mHandler.sendEmptyMessage(MSG_VIDEO_START);
 
       VideoOption videoOption = NativeADUnifiedSampleActivity.getVideoOption(getIntent());
 
+=======
+
+    if (ad.getAdPatternType() == AdPatternType.NATIVE_VIDEO) {
+      mHandler.sendEmptyMessage(MSG_VIDEO_START);
+
+      VideoOption videoOption = NativeADUnifiedSampleActivity.getVideoOption(getIntent());
+
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
       ad.bindMediaView(mMediaView, videoOption, new NativeADMediaListener() {
             @Override
             public void onVideoInit() {

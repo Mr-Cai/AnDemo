@@ -7,7 +7,11 @@ android {
 
     defaultConfig {
         applicationId "com.txt.flow"
+<<<<<<< HEAD
         minSdkVersion 22
+=======
+        minSdkVersion 16
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"

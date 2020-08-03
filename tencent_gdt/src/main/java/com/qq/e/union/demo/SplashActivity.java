@@ -59,12 +59,20 @@ public class SplashActivity extends Activity implements SplashADListener,View.On
    * 给出的延时逻辑是从拉取广告开始算开屏最少持续多久，仅供参考，开发者可自定义延时逻辑，如果开发者采用demo
    * 中给出的延时逻辑，也建议开发者考虑自定义minSplashTimeWhenNoAD的值（单位ms）
    **/
+<<<<<<< HEAD
   private final int minSplashTimeWhenNoAD = 2000;
+=======
+  private int minSplashTimeWhenNoAD = 2000;
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   /**
    * 记录拉取广告的时间
    */
   private long fetchSplashADTime = 0;
+<<<<<<< HEAD
   private final Handler handler = new Handler(Looper.getMainLooper());
+=======
+  private Handler handler = new Handler(Looper.getMainLooper());
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {

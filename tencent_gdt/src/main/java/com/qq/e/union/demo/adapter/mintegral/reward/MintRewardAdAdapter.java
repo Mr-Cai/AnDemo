@@ -112,8 +112,13 @@ import org.json.JSONObject;
  */
 
 public class MintRewardAdAdapter extends BaseRewardAd {
+<<<<<<< HEAD
     private final String mPosId;
     private final Context mContext;
+=======
+    private String mPosId;
+    private Context mContext;
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
     private ADListener mListener;
     private MTGBidRewardVideoHandler mMTGRewardVideoHandler;
     private BidResponsed mBidResponsed;

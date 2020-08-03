@@ -24,7 +24,6 @@ import kotlinx.android.synthetic.main.item.view.*
 class MainActivity : AppCompatActivity() {
     private val typeList = ArrayList<TypeAdapter.Item>()
     private var gridCount: Int = 3
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

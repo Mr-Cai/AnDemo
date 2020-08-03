@@ -35,6 +35,7 @@ import java.util.List;
 
 public class MediationTestActivity extends AppCompatActivity {
 
+<<<<<<< HEAD
     private static final int MSG_REFRESH_UI = 1;
     private static final int TYPE_LAYER = 1;
     private static final int TYPE_NETWORK = 2;
@@ -50,64 +51,103 @@ public class MediationTestActivity extends AppCompatActivity {
         mConfigsView = findViewById(R.id.configs_view);
         mLoadingIcon = findViewById(R.id.loading_icon);
         initDataAsync();
+=======
+  private RecyclerView mConfigsView;
+  private ImageView mLoadingIcon;
+
+  private Handler mHandler = new H(Looper.myLooper());
+
+  private List<LayerConfig> mConfigs = new ArrayList<>();
+
+  private static final int MSG_REFRESH_UI = 1;
+  private static final int TYPE_LAYER = 1;
+  private static final int TYPE_NETWORK = 2;
+
+  @Retention(RetentionPolicy.SOURCE)
+  @IntDef({TYPE_LAYER, TYPE_NETWORK})
+  @interface ViewType {
+  }
+
+  @Override
+  protected void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_mediation_test);
+    mConfigsView = findViewById(R.id.configs_view);
+    mLoadingIcon = findViewById(R.id.loading_icon);
+    initDataAsync();
+  }
+
+  @Override
+  protected void onDestroy() {
+    super.onDestroy();
+    mHandler.removeCallbacksAndMessages(null);
+  }
+
+  public void initDataAsync() {
+    new Thread(new Runnable() {
+      @Override
+      public void run() {
+        getLocalConfigs();
+        mHandler.sendEmptyMessage(MSG_REFRESH_UI);
+      }
+    }).start();
+  }
+
+  private void getLocalConfigs() {
+    String originalData = ConfigReader.getConfig(this);
+    if (TextUtils.isEmpty(originalData)) {
+      return;
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
+    }
+    try {
+      JSONObject originalJson = new JSONObject(originalData);
+      JSONArray layerConfigs = originalJson.optJSONArray("layerConfigs");
+      for (int i = 0; i < layerConfigs.length(); i++) {
+        JSONObject layer = layerConfigs.getJSONObject(i);
+        mConfigs.add(new LayerConfig(layer));
+      }
+    } catch (JSONException e) {
+      e.printStackTrace();
+    }
+  }
+
+  private class H extends Handler {
+
+    H(Looper looper) {
+      super(looper);
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mHandler.removeCallbacksAndMessages(null);
+    public void handleMessage(Message msg) {
+      super.handleMessage(msg);
+      if (msg.what == MSG_REFRESH_UI) {
+        mLoadingIcon.setVisibility(View.GONE);
+        mConfigsView.setLayoutManager(new LinearLayoutManager(MediationTestActivity.this));
+        mConfigsView.setAdapter(new ConfigsAdapter(mConfigs));
+        mConfigsView.addItemDecoration(new DividerItemDecoration(MediationTestActivity.this, DividerItemDecoration.VERTICAL));
+      }
     }
+  }
 
-    public void initDataAsync() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                getLocalConfigs();
-                mHandler.sendEmptyMessage(MSG_REFRESH_UI);
-            }
-        }).start();
-    }
+  private class ConfigsAdapter extends RecyclerView.Adapter<VH> {
 
-    private void getLocalConfigs() {
-        String originalData = ConfigReader.getConfig(this);
-        if (TextUtils.isEmpty(originalData)) {
-            return;
+    private List<LayerConfig> mLayerConfigs;
+    private List<Object> mSortConfigs = new ArrayList<>();
+
+    public ConfigsAdapter(List<LayerConfig> configs) {
+      mLayerConfigs = configs;
+      for (LayerConfig config : mLayerConfigs) {
+        mSortConfigs.add(config);
+        List<NetworkConfig> networkConfigs = config.getNetworkConfigs();
+        if (networkConfigs != null && networkConfigs.size() > 0) {
+          for (NetworkConfig networkConfig : networkConfigs) {
+            mSortConfigs.add(networkConfig);
+          }
         }
-        try {
-            JSONObject originalJson = new JSONObject(originalData);
-            JSONArray layerConfigs = originalJson.optJSONArray("layerConfigs");
-            for (int i = 0; i < layerConfigs.length(); i++) {
-                JSONObject layer = layerConfigs.getJSONObject(i);
-                mConfigs.add(new LayerConfig(layer));
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+      }
     }
 
-    @Retention(RetentionPolicy.SOURCE)
-    @IntDef({TYPE_LAYER, TYPE_NETWORK})
-    @interface ViewType {
-    }
-
-    private class H extends Handler {
-
-        H(Looper looper) {
-            super(looper);
-        }
-
-        @Override
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-            if (msg.what == MSG_REFRESH_UI) {
-                mLoadingIcon.setVisibility(View.GONE);
-                mConfigsView.setLayoutManager(new LinearLayoutManager(MediationTestActivity.this));
-                mConfigsView.setAdapter(new ConfigsAdapter(mConfigs));
-                mConfigsView.addItemDecoration(new DividerItemDecoration(MediationTestActivity.this, DividerItemDecoration.VERTICAL));
-            }
-        }
-    }
-
+<<<<<<< HEAD
     private class ConfigsAdapter extends RecyclerView.Adapter<VH> {
 
         private final List<LayerConfig> mLayerConfigs;
@@ -152,47 +192,74 @@ public class MediationTestActivity extends AppCompatActivity {
                 vh.mAdapterStatus.setText("适配器状态 : " + networkConfig.getAdapterStatus());
             }
         }
+=======
+    @NonNull
+    @Override
+    public VH onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+      View view = null;
+      if (i == TYPE_NETWORK) {
+        view = LayoutInflater.from(MediationTestActivity.this).inflate(R.layout.item_network, null);
+      } else if (i == TYPE_LAYER) {
+        view = LayoutInflater.from(MediationTestActivity.this).inflate(R.layout.item_layer, null);
+      }
+      return new VH(view, i);
+    }
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
-        @Override
-        public int getItemCount() {
-            return mSortConfigs.size();
-        }
-
-        @Override
-        public @ViewType
-        int getItemViewType(int i) {
-            Object config = mSortConfigs.get(i);
-            @ViewType int type = TYPE_LAYER;
-            if (config instanceof NetworkConfig) {
-                type = TYPE_NETWORK;
-            }
-            return type;
-        }
+    @Override
+    public void onBindViewHolder(@NonNull VH vh, int i) {
+      @ViewType int viewType = getItemViewType(i);
+      if (viewType == TYPE_LAYER) {
+        vh.mLayer.setText(((LayerConfig) (mSortConfigs.get(i))).getPosId());
+      } else if (viewType == TYPE_NETWORK) {
+        NetworkConfig networkConfig = (NetworkConfig) mSortConfigs.get(i);
+        vh.mName.setText("渠道 : " + networkConfig.getName());
+        vh.mPosId.setText("PosId : " + networkConfig.getIdentity());
+        vh.mClassName.setText("渠道适配器 : " + networkConfig.getClassName());
+        vh.mExt.setText("其他信息 : " + networkConfig.getExt());
+        vh.mAdapterStatus.setText("适配器状态 : " + networkConfig.getAdapterStatus());
+      }
     }
 
-    private class VH extends RecyclerView.ViewHolder {
-
-        public TextView mLayer;
-        public TextView mName;
-        public TextView mPosId;
-        public TextView mExt;
-        public TextView mClassName;
-        public TextView mAdapterStatus;
-
-        public VH(@NonNull View itemView, @ViewType int viewType) {
-            super(itemView);
-            switch (viewType) {
-                case TYPE_LAYER:
-                    mLayer = itemView.findViewById(R.id.layer_title);
-                    break;
-                case TYPE_NETWORK:
-                    mName = itemView.findViewById(R.id.network_name);
-                    mPosId = itemView.findViewById(R.id.network_posid);
-                    mExt = itemView.findViewById(R.id.network_ext);
-                    mClassName = itemView.findViewById(R.id.network_class_name);
-                    mAdapterStatus = itemView.findViewById(R.id.network_adapter_status);
-                    break;
-            }
-        }
+    @Override
+    public int getItemCount() {
+      return mSortConfigs.size();
     }
+
+    @Override
+    public @ViewType int getItemViewType(int i) {
+      Object config = mSortConfigs.get(i);
+      @ViewType int type = TYPE_LAYER;
+      if (config instanceof NetworkConfig) {
+        type = TYPE_NETWORK;
+      }
+      return type;
+    }
+  }
+
+  private class VH extends RecyclerView.ViewHolder {
+
+    public TextView mLayer;
+    public TextView mName;
+    public TextView mPosId;
+    public TextView mExt;
+    public TextView mClassName;
+    public TextView mAdapterStatus;
+
+    public VH(@NonNull View itemView, @ViewType int viewType) {
+      super(itemView);
+      switch (viewType) {
+        case TYPE_LAYER:
+          mLayer = itemView.findViewById(R.id.layer_title);
+          break;
+        case TYPE_NETWORK:
+          mName = itemView.findViewById(R.id.network_name);
+          mPosId = itemView.findViewById(R.id.network_posid);
+          mExt = itemView.findViewById(R.id.network_ext);
+          mClassName = itemView.findViewById(R.id.network_class_name);
+          mAdapterStatus = itemView.findViewById(R.id.network_adapter_status);
+          break;
+      }
+    }
+  }
 }

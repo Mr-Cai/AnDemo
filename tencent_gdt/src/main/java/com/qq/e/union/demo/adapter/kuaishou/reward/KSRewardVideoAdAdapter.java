@@ -36,11 +36,19 @@ import java.util.List;
 public class KSRewardVideoAdAdapter extends BaseRewardAd {
 
   private KsRewardVideoAd mRewardVideoAd;
+<<<<<<< HEAD
   private final Activity mActivity;
   private ADListener mListener;
   private boolean mIsShown;
   private long mExpireTime;
   private final int mPosId;
+=======
+  private Activity mActivity;
+  private ADListener mListener;
+  private boolean mIsShown;
+  private long mExpireTime;
+  private int mPosId;
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   private boolean mIsLoadOvertime; // 快手SDK拉广告很慢，这里加一个超时限制，超过10s后就不触发回调了，因为默认配置超时时机是10s。开发者可自行调整，
   private boolean mIsShowLandscape;
 

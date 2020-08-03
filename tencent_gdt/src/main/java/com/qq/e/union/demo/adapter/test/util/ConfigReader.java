@@ -8,7 +8,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 
 public class ConfigReader {
   private static final String TAG = ConfigReader.class.getSimpleName();
@@ -27,7 +26,11 @@ public class ConfigReader {
 
     BufferedReader br = null;
     try {
+<<<<<<< HEAD
       InputStreamReader reader = new InputStreamReader(new FileInputStream(configFile), StandardCharsets.UTF_8);
+=======
+      InputStreamReader reader = new InputStreamReader(new FileInputStream(configFile), "UTF-8");
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
       br = new BufferedReader(reader);
       String line = null;
       StringBuilder sb = new StringBuilder();

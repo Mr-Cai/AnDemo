@@ -9,6 +9,7 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -18,8 +19,6 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-
-import androidx.annotation.Nullable;
 
 import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxStatus;
@@ -48,7 +47,11 @@ public class NativeADUnifiedSampleActivity extends Activity implements NativeADU
   private Button mCTAButton;
   private RelativeLayout mADInfoContainer;
   private NativeUnifiedADData mAdData;
+<<<<<<< HEAD
   private final H mHandler = new H();
+=======
+  private H mHandler = new H();
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   private static final int MSG_INIT_AD = 0;
   private static final int MSG_VIDEO_START = 1;
   private static final int AD_COUNT = 1;
@@ -174,11 +177,19 @@ public class NativeADUnifiedSampleActivity extends Activity implements NativeADU
     if(mAdData != null) {
       mAdData.destroy();
       mAdData = null;
+<<<<<<< HEAD
     }
     mPreloadVideo = preloadVideo;
     if(mAdManager != null) {
       mAdManager.loadData(AD_COUNT);
     }
+=======
+    }
+    mPreloadVideo = preloadVideo;
+    if(mAdManager != null) {
+      mAdManager.loadData(AD_COUNT);
+    }
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
   }
 
   private void initAd(final NativeUnifiedADData ad) {
@@ -206,6 +217,7 @@ public class NativeADUnifiedSampleActivity extends Activity implements NativeADU
       showAd(ad);
     }
   }
+<<<<<<< HEAD
 
   private void showAd(final NativeUnifiedADData ad) {
     renderAdUi(ad);
@@ -219,6 +231,21 @@ public class NativeADUnifiedSampleActivity extends Activity implements NativeADU
       // 视频广告，注册mMediaView的点击事件
       mHandler.sendEmptyMessage(MSG_VIDEO_START);
 
+=======
+
+  private void showAd(final NativeUnifiedADData ad) {
+    renderAdUi(ad);
+
+    List<View> clickableViews = new ArrayList<>();
+    // 所有广告类型，注册mDownloadButton的点击事件
+    clickableViews.add(mDownloadButton);
+
+    ad.bindAdToView(this, mContainer, null, clickableViews);
+    if (ad.getAdPatternType() == AdPatternType.NATIVE_VIDEO) {
+      // 视频广告，注册mMediaView的点击事件
+      mHandler.sendEmptyMessage(MSG_VIDEO_START);
+
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
       VideoOption videoOption = getVideoOption(getIntent());
       ad.bindMediaView(mMediaView, videoOption, new NativeADMediaListener() {
             @Override

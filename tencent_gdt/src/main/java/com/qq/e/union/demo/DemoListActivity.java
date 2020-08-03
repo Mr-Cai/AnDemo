@@ -36,7 +36,11 @@ public class DemoListActivity extends AppCompatActivity {
    * pair.first: button content
    * pair.second: intent action
    */
+<<<<<<< HEAD
   private static final Map<String, Pair<String, String>> launcherMap = new HashMap<>();
+=======
+  private static Map<String, Pair<String, String>> launcherMap = new HashMap<>();
+>>>>>>> 317cf34fed5d7c1141d569e91395ed6661807d05
 
   @SuppressLint("NewApi")
   @Override
